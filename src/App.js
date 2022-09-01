@@ -1,14 +1,10 @@
 import './App.css';
-import AllServices from './Components/AllServices/AllServices';
-import Header from './Components/Shared/Header/Header';
-import Slider from './Components/Shared/Slider/Slider';
+import Home from './Components/Home/Home';
 
 function App() {
   return (
     <div >
-      <Header />
-      {/* <Slider /> */}
-      <AllServices />
+      <Home />
     </div>
   );
 }

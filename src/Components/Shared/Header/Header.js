@@ -12,7 +12,7 @@ const Header = () => {
         <>
             <Navbar bg="light" expand="lg" sticky="top" style={{ borderBottom: '1px solid lightgray' }}>
                 <Container fluid>
-                    <Navbar.Brand href="#" className='mx-5 logo-title' style={{ fontSize: '30px', color: 'blue', fontWeight: 'bold' }} >dvantagepoint</Navbar.Brand>
+                    <Navbar.Brand href="#" className='mx-5 logo-title' style={{ fontSize: '30px', color: '#0d6efd', fontWeight: 'bold' }} >dvantagepoint</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
                     <Navbar.Collapse id="basic-navbar-nav">
