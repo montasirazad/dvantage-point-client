@@ -6,12 +6,16 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import GoogleIcon from '@mui/icons-material/Google';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import EmailIcon from '@mui/icons-material/Email';
+import PlaceIcon from '@mui/icons-material/Place';
+
 
 const Footer = () => {
     return (
         <div >
 
-            <footer className="text-center text-lg-start bg-white text-muted">
+            <footer className="text-center text-lg-start bg-white text-dark border-top mt-5">
 
                 <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 
@@ -21,22 +25,22 @@ const Footer = () => {
 
                     <div>
                         <a href="" className="me-4 link-secondary">
-                            < FacebookIcon sx={{ fontSize: 40 }} color="primary"/>
+                            < FacebookIcon sx={{ fontSize: 40 }} color="primary" />
                         </a>
                         <a href="" className="me-4 link-secondary">
-                            <InstagramIcon sx={{ fontSize: 40 }} />
+                            <InstagramIcon sx={{ fontSize: 40, color: "#795548" }} />
                         </a>
                         <a href="" className="me-4 link-secondary">
-                            <TwitterIcon sx={{ fontSize: 40 }} />
+                            <TwitterIcon sx={{ fontSize: 40, color: '#00b0ff' }} />
                         </a>
                         <a href="" className="me-4 link-secondary">
-                            <GoogleIcon sx={{ fontSize: 40 }} />
+                            <GoogleIcon sx={{ fontSize: 40, color: "#2962ff" }} />
                         </a>
                         <a href="" className="me-4 link-secondary">
-                            <LinkedInIcon sx={{ fontSize: 40 }} />
+                            <LinkedInIcon sx={{ fontSize: 40 }} color="primary" />
                         </a>
                         <a href="" className="me-4 link-secondary">
-                            <GitHubIcon sx={{ fontSize: 40 }} />
+                            <GitHubIcon sx={{ fontSize: 40, color: "#000000" }} />
                         </a>
                     </div>
 
@@ -99,13 +103,13 @@ const Footer = () => {
                             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
                                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-                                <p><i className="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+                                <p><PlaceIcon />  New York, NY 10012, US</p>
                                 <p>
-                                    <i className="fas fa-envelope me-3 text-secondary"></i>
+                                    <EmailIcon />
                                     info@example.com
                                 </p>
-                                <p><i className="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
-                                <p><i className="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+                                <p> <LocalPhoneIcon /> + 01 234 567 88</p>
+                                <p><LocalPhoneIcon /> + 01 234 567 89</p>
                             </div>
 
                         </div>
