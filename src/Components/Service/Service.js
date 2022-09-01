@@ -14,6 +14,7 @@ const Service = (props) => {
                 width: '18rem', height: '350px',
                 margin: '15px',
                 boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px", position: 'relative'
+                
             }}>
                 <Card.Img variant="top" src="holder.js/100px180" />
                 <Card.Body>
@@ -23,7 +24,7 @@ const Service = (props) => {
                         bulk of the card's content.
                     </Card.Text>
                     <Button variant="primary" style={{ position: 'absolute', bottom: '10px' }}>
-                        Read More
+                        Learn More
                         <FontAwesomeIcon className='mx-1' icon={faArrowAltCircleRight} />
                     </Button>
                 </Card.Body>
