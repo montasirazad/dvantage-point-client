@@ -25,14 +25,14 @@ const Header = () => {
                             <Nav.Link href="#action1" className='header mx-3'  >HOME</Nav.Link>
                             <Nav.Link href="#action2" className='header mx-3'>ABOUT</Nav.Link>
                             <NavDropdown title="SERVICES" className='header mx-3' id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action3" className='header mx-1'>Augmented Capacity Planning and Benchmarking </NavDropdown.Item>
-                                <NavDropdown.Item href="#action4" className='header mx-1'>Cloud Engineering </NavDropdown.Item>
+                                <NavDropdown.Item href="#action3" className='header '>Augmented Capacity Planning and Benchmarking </NavDropdown.Item>
+                                <NavDropdown.Item href="#action4" className='header'>Cloud Engineering </NavDropdown.Item>
                                 {/* <NavDropdown.Divider /> */}
-                                <NavDropdown.Item href="#action5" className='header mx-1'>fsMon </NavDropdown.Item>
-                                <NavDropdown.Item href="#action6" className='header mx-1'>PRx-2</NavDropdown.Item>
-                                <NavDropdown.Item href="#action7" className='header mx-1'>xRobo</NavDropdown.Item>
-                                <NavDropdown.Item href="#action8" className='header mx-1'>next item 1</NavDropdown.Item>
-                                <NavDropdown.Item href="#action9" className='header mx-1'>next item 2</NavDropdown.Item>
+                                <NavDropdown.Item href="#action5" className='header'>fsMon </NavDropdown.Item>
+                                <NavDropdown.Item href="#action6" className='header'>PRx-2</NavDropdown.Item>
+                                <NavDropdown.Item href="#action7" className='header'>xRobo</NavDropdown.Item>
+                                <NavDropdown.Item href="#action8" className='header '>next item 1</NavDropdown.Item>
+                                <NavDropdown.Item href="#action9" className='header'>next item 2</NavDropdown.Item>
                             </NavDropdown>
 
                         </Nav>
