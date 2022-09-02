@@ -36,7 +36,7 @@ const ContactForm = () => {
                     <label htmlFor="inputCity" className="form-label">City</label>
                     <input type="text" className="form-control" id="inputCity" />
                 </div>
-                <br />
+                 
                 <div className="col-md-2">
                     <label htmlFor="inputZip" className="form-label">Zip</label>
                     <input type="text" className="form-control" id="inputZip" />
