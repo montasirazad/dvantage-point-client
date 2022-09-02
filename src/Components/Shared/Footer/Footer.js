@@ -1,14 +1,13 @@
+import EmailIcon from '@mui/icons-material/Email';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import PlaceIcon from '@mui/icons-material/Place';
+import TwitterIcon from '@mui/icons-material/Twitter';
 import React from 'react';
 import './Footer.css';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import GoogleIcon from '@mui/icons-material/Google';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import EmailIcon from '@mui/icons-material/Email';
-import PlaceIcon from '@mui/icons-material/Place';
 
 
 const Footer = () => {
@@ -121,11 +120,11 @@ const Footer = () => {
 
 
 
-                <div className="text-center p-4" style={{ backgroundColor: ' #45637d', color: 'white' }}>
+                <div className="text-center p-2" style={{ backgroundColor: '#000000', color: 'white' }}> 
                     © {new Date().getFullYear()} dvantagepoint
 
                 </div>
-
+                {/*bg-color #45637d */}
             </footer>
 
         </div>

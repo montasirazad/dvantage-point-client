@@ -1,5 +1,6 @@
 import React from 'react';
 import Service from '../Service/Service';
+import './AllServices.css';
 
 const servicesData = [
     {
@@ -84,15 +85,16 @@ const servicesData = [
 const AllServices = () => {
 
     return (
-        <>
-            <h1 className='text-center'>Our Services</h1>
-            <div className='d-flex align-item-center justify-content-center flex-wrap'>
+        <div className='allService-div'>
+            <br />
+            <h1 className='text-center text-white my-5'>Our Services</h1>
+            <div className='d-flex align-item-center justify-content-center flex-wrap servicesDiv'>
 
                 {
                     servicesData.map(service => <Service key={service.id} service={service}></Service>)
                 }
             </div>
-        </>
+        </div>
     );
 };
 

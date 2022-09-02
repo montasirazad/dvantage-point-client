@@ -16,11 +16,11 @@ const Service = (props) => {
                 boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px", position: 'relative'
 
             }}>
-                <Card.Img variant="top" style={{ width: '243px', height: '160px' }} src={img} />
+                <Card.Img className='cardImg' variant="top" style={{ width: '243px', height: '160px' }} src={img} />
 
                 <Card.Body>
 
-                    <Card.Title>{name}</Card.Title>
+                    <Card.Title className='title'>{name}</Card.Title>
 
                     <Card.Text className='text-primary service-detail'>
                         {description}
