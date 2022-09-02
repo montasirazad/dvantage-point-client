@@ -1,0 +1,19 @@
+.card-body {
+    height: 450px;
+    font-size: small;
+    
+    
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .service-detail {
+        display: none;
+
+    }
+
+    .card-body {
+        height: 350px;
+    }
+}

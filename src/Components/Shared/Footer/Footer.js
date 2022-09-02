@@ -24,22 +24,22 @@ const Footer = () => {
                     </div> */}
 
                     <div  >
-                        <a href="" className="me-4 link-secondary">
+                        <a href="https://www.facebook.com/" target='blank' className="me-4 link-secondary">
                             < FacebookIcon sx={{ fontSize: 40 }} color="primary" />
                         </a>
-                        <a href="" className="me-4 link-secondary">
+                        <a href="https://www.instagram.com/" target='blank' className="me-4 link-secondary">
                             <InstagramIcon sx={{ fontSize: 40, color: "#795548" }} />
                         </a>
-                        <a href="" className="me-4 link-secondary">
+                        <a href="https://twitter.com/tweeter" target='blank' className="me-4 link-secondary">
                             <TwitterIcon sx={{ fontSize: 40, color: '#00b0ff' }} />
                         </a>
-                        <a href="" className="me-4 link-secondary">
+                        {/* <a href="" className="me-4 link-secondary">
                             <GoogleIcon sx={{ fontSize: 40, color: "#2962ff" }} />
-                        </a>
-                        <a href="" className="me-4 link-secondary">
+                        </a> */}
+                        <a href="https://bd.linkedin.com/" target='blank' className="me-4 link-secondary">
                             <LinkedInIcon sx={{ fontSize: 40 }} color="primary" />
                         </a>
-                        <a href="" className="me-4 link-secondary">
+                        <a href="https://github.com/"  target='blank' className="me-4 link-secondary">
                             <GitHubIcon sx={{ fontSize: 40, color: "#000000" }} />
                         </a>
                     </div>

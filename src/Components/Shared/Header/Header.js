@@ -6,6 +6,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Header.css';
+import { HashLink } from 'react-router-hash-link';
+
 
 const Header = () => {
     return (
@@ -23,7 +25,7 @@ const Header = () => {
                             size='lg'
                         >
                             <Nav.Link href="#action1" className='header mx-3'  >HOME</Nav.Link>
-                            <Nav.Link href="#action2" className='header mx-3'>ABOUT</Nav.Link>
+                            <Nav.Link as={HashLink} to='#about' className='header mx-3'>ABOUT</Nav.Link>
                             <NavDropdown title="SERVICES" className='header mx-3' id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action3" className='header '>Augmented Capacity Planning and Benchmarking </NavDropdown.Item>
                                 <NavDropdown.Item href="#action4" className='header'>Cloud Engineering </NavDropdown.Item>
