@@ -24,7 +24,9 @@ const Footer = () => {
                     </div> */}
 
                     <div  >
-                        <a href="https://www.facebook.com/" target='blank' className="me-4 link-secondary">
+                        <a href="https://www.facebook.com/Dvantagepoint-Limited-106835074561699"
+                            target='blank' className="me-4 link-secondary">
+
                             < FacebookIcon sx={{ fontSize: 40 }} color="primary" />
                         </a>
                         <a href="https://www.instagram.com/" target='blank' className="me-4 link-secondary">
@@ -39,7 +41,7 @@ const Footer = () => {
                         <a href="https://bd.linkedin.com/" target='blank' className="me-4 link-secondary">
                             <LinkedInIcon sx={{ fontSize: 40 }} color="primary" />
                         </a>
-                        <a href="https://github.com/"  target='blank' className="me-4 link-secondary">
+                        <a href="https://github.com/" target='blank' className="me-4 link-secondary">
                             <GitHubIcon sx={{ fontSize: 40, color: "#000000" }} />
                         </a>
                     </div>
