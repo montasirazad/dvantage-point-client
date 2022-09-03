@@ -1,14 +1,14 @@
+import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons/faArrowAltCircleRight';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons/faArrowAltCircleRight';
-import './Service.css';
 import { Link } from 'react-router-dom';
+import './Service.css';
 
 
 const Service = (props) => {
-    const { name, description, img,id } = props.service
+    const { name, description, img } = props.service
     return (
         <div>
             <Card className='card-body' style={{

@@ -12,7 +12,7 @@ import { HashLink } from 'react-router-hash-link';
 const Header = () => {
     return (
         <>
-            <Navbar className='col-sm-12' bg="light" expand="lg" sticky="top" style={{ borderBottom: '1px solid lightgray' }}>
+            <Navbar className='col-sm-12 container-fluid' bg="light" expand="lg" sticky="top" style={{ borderBottom: '1px solid lightgray' }}>
                 <Container fluid>
                     <Navbar.Brand href="#" className='mx-5 logo-title' style={{ fontSize: '30px', color: '#0d6efd', fontWeight: 'bold' }} >dvantagepoint</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

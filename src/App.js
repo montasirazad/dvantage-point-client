@@ -1,6 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import About from './Components/About/About';
 import Home from './Components/Home/Home';
 import FsMon from './Components/LearnMore/FsMon/FsMon';
 import LearnMore from './Components/LearnMore/LearnMore';
@@ -9,7 +8,7 @@ import Header from './Components/Shared/Header/Header';
 
 function App() {
   return (
-    <div >
+    <div>
       <Header />
 
       <Routes>

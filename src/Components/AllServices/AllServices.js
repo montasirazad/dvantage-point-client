@@ -1,5 +1,4 @@
 import React from 'react';
-import LearnMore from '../LearnMore/LearnMore';
 import Service from '../Service/Service';
 import './AllServices.css';
 
@@ -86,7 +85,7 @@ const servicesData = [
 const AllServices = () => {
 
     return (
-        <div className='allService-div'>
+        <div className='allService-div container-fluid'>
             <br />
             <h1 className='text-center text-white my-5'>Our Services</h1>
             <div className='d-flex align-item-center justify-content-center flex-wrap servicesDiv'>
