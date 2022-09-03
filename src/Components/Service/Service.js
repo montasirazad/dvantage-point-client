@@ -4,10 +4,11 @@ import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons/faArrowAltCircleRight';
 import './Service.css';
+import { Link } from 'react-router-dom';
 
 
 const Service = (props) => {
-    const { name, description, img } = props.service
+    const { name, description, img,id } = props.service
     return (
         <div>
             <Card className='card-body' style={{
@@ -22,14 +23,16 @@ const Service = (props) => {
 
                     <Card.Title className='title'>{name}</Card.Title>
 
-                    <Card.Text className='text-primary service-detail'>
+                    <Card.Text className='text-dark service-detail'>
                         {description}
                     </Card.Text>
 
-                    <Button variant="primary" style={{ position: 'absolute', bottom: '10px' }}>
-                        Learn More
-                        <FontAwesomeIcon className='mx-1' icon={faArrowAltCircleRight} />
-                    </Button>
+                    <Link to={`/learn-more/${name}`}>
+                        <Button variant="primary" style={{ position: 'absolute', bottom: '10px' }}>
+                            Learn More
+                            <FontAwesomeIcon className='mx-1' icon={faArrowAltCircleRight} />
+                        </Button>
+                    </Link>
                 </Card.Body>
 
             </Card>

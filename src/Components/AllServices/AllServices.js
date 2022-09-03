@@ -1,4 +1,5 @@
 import React from 'react';
+import LearnMore from '../LearnMore/LearnMore';
 import Service from '../Service/Service';
 import './AllServices.css';
 
@@ -93,6 +94,8 @@ const AllServices = () => {
                 {
                     servicesData.map(service => <Service key={service.id} service={service}></Service>)
                 }
+
+                
             </div>
         </div>
     );
