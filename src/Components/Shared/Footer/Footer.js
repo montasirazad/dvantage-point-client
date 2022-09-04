@@ -107,7 +107,7 @@ const Footer = () => {
                                 <p><PlaceIcon />  New York, NY 10012, US</p>
                                 <p>
                                     <EmailIcon />
-                                    info@example.com
+                                    info@dvantagepoint.com
                                 </p>
                                 <p> <LocalPhoneIcon /> + 01 234 567 88</p>
                                 <p><LocalPhoneIcon /> + 01 234 567 89</p>

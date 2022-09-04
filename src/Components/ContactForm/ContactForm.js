@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactForm = () => {
     return (
-        <div className='my-4 p-4'>
+        <div className='my-4 p-4 container-fluid'>
             <form className="row g-3">
                 <div className="col-md-6">
                     <label htmlFor="inputEmail4" className="form-label">Your name</label>

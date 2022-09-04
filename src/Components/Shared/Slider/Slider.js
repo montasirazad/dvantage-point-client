@@ -2,6 +2,7 @@ import React from 'react';
 import pic1 from '../../../images/pic-1.jpg';
 import pic2 from '../../../images/pic-2.png';
 import pic3 from '../../../images/pic-3.jpg';
+import circuitGif from '../../../images/circuit-mesh.mp4';
 
 const Slider = () => {
     return (
@@ -15,7 +16,10 @@ const Slider = () => {
 
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={pic1} className="d-block w-100" alt="..." />
+                        <video src={circuitGif} className="d-block w-100"
+                            autoPlay muted loop type="video/mp4"></video>
+
+                        {/* <img src={pic1} className="d-block w-100" alt="..." /> */}
                         <div className="carousel-caption d-none d-md-block">
                             <h5>First slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
