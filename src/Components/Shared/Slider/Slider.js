@@ -23,7 +23,7 @@ const Slider = () => {
                         {/* <img src={pic1} className="d-block w-100" alt="..." /> */}
                         <div className="carousel-caption d-none d-md-block">
                             <h5></h5>
-                            <p>dvantgaepoint is an information technology and services company providing
+                            <p >dvantgaepoint is an information technology and services company providing
                                 solution engineering and consultancy services to clients from Telecommunications,
                                 Fintech, Riders and Online media verticals. We are small but focused group of
                                 globally connected diversified and experienced IT & software professionals from

@@ -20,93 +20,98 @@ const About = () => {
             <div className="d-grid align-content-center justify-content-center text-center ">
 
                 <CloudDoneTwoToneIcon sx={{
-                    fontSize: '50px',
+
                     color: '#4fc3f7',
                     width: '250px',
-                    height: '150px',
-                    borderRadius: '5px',
-                    boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-                    marginBottom: '15px'
-                }} />
-                <h5>Cloud Service</h5>
-
-            </div>
-
-            <div className="d-grid align-content-center justify-content-center ">
-
-                <CodeIcon sx={{
-                    color: '#f44336',
-                    width: '150px',
                     height: '100px',
                     borderRadius: '5px',
                     boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
                     marginBottom: '15px'
                 }} />
+                <p>Cloud Service</p>
+
+            </div>
+
+            <div className="d-grid align-content-center justify-content-center text-center ">
+
+                <CodeIcon sx={{
+
+                    color: '#4fc3f7',
+                    width: '250px',
+                    height: '100px',
+                    borderRadius: '5px',
+                    boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
+                    marginBottom: '15px'
+                }} />
+                <p>Software</p>
+
 
 
             </div>
 
-            <div className="d-grid align-content-center justify-content-center ">
+            <div className="d-grid align-content-center justify-content-center text-center ">
 
 
                 <PsychologyIcon sx={{
-                    fontSize: '40px',
-                    color: '#0288d1',
-                    width: '200px',
+
+                    color: '#4fc3f7',
+                    width: '250px',
                     height: '100px',
                     borderRadius: '5px',
                     boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
                     marginBottom: '15px'
                 }} />
+                <p>Expert Professionals</p>
+
 
 
             </div>
 
-            <div className="d-grid align-content-center justify-content-center ">
+            <div className="d-grid align-content-center justify-content-center text-center ">
 
 
                 <TipsAndUpdatesTwoToneIcon sx={{
-                    fontSize: '20px',
-                    color: '#ffeb3b',
-                    width: '200px',
+
+                    color: '#4fc3f7',
+                    width: '250px',
                     height: '100px',
                     borderRadius: '5px',
                     boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-                    marginBottom: '15px',
-                    backgroundColor:"#33eaff"
+                    marginBottom: '15px'
                 }} />
-
+                <p> idea </p>
 
             </div>
 
-            <div className="d-grid align-content-center justify-content-center ">
+            <div className="d-grid align-content-center justify-content-center text-center ">
 
 
                 <LanguageTwoToneIcon sx={{
-                    fontSize: '40px',
-                    color: '#834bff',
-                    width: '200px',
+
+                    color: '#4fc3f7',
+                    width: '250px',
                     height: '100px',
                     borderRadius: '5px',
                     boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
                     marginBottom: '15px'
                 }} />
-
+                <p>Across the World</p>
 
             </div>
 
-            <div className="d-grid align-content-center justify-content-center ">
+            <div className="d-grid align-content-center justify-content-center text-center ">
 
 
                 <TouchAppTwoToneIcon sx={{
-                    fontSize: '40px',
-                    color: '#e91e63',
-                    width: '200px',
+
+                    color: '#4fc3f7',
+                    width: '250px',
                     height: '100px',
                     borderRadius: '5px',
                     boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
                     marginBottom: '15px'
                 }} />
+                <p>All in One Solution</p>
 
 
             </div>
