@@ -3,7 +3,7 @@ import React from 'react';
 const SterLn = () => {
     return (
         <div>
-            <h1>streLn</h1>
+            <h1>streLn components</h1>
         </div>
     );
 };

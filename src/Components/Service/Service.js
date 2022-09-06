@@ -8,7 +8,7 @@ import './Service.css';
 
 
 const Service = (props) => {
-    const { name, description, img } = props.service
+    const { name, description, img,url } = props.service
     return (
         <div>
             <Card className='card-body' style={{
@@ -27,7 +27,7 @@ const Service = (props) => {
                         {description}
                     </Card.Text>
 
-                    <Link to={`/learn-more/${name}`}>
+                    <Link to={`/learn-more/${url}`}>
                         <Button variant="primary" style={{ position: 'absolute', bottom: '10px' }}>
                             Learn More
                             <FontAwesomeIcon className='mx-1' icon={faArrowAltCircleRight} />
