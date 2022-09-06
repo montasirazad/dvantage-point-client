@@ -1,5 +1,5 @@
 import React from 'react';
-import About from '../About/About';
+import AboutIcons from '../AboutIcons/AboutIcons';
 import AboutVideo from '../AboutVideo/AboutVideo';
 import AllServices from '../AllServices/AllServices';
 import ContactForm from '../ContactForm/ContactForm';
@@ -9,9 +9,9 @@ import Slider from '../Shared/Slider/Slider';
 const Home = () => {
     return (
         <div>
-           
+
             <Slider />
-            <About />
+            <AboutIcons />
             <AboutVideo />
             <AllServices />
             <ContactForm />
