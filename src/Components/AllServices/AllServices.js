@@ -13,6 +13,11 @@ const servicesData = [
         id: 2,
         name: 'Cloud Engineering',
         img: `https://image.shutterstock.com/image-vector/coming-soon-grunge-rubber-stamp-260nw-196970096.jpg`,
+        description: `Starting from on demand IT resource management, 
+        growing and shrinking infrastructure capacity to meet 
+        customer demand, cloud computing has extended its territory 
+        to BIG data, Artificial Intelligence, NLP, Blockchain, Internet of Things, 
+        5G & Edge Network, Augmented Reality, and many more. `,
         url: 'cloud-engineering'
     },
     {
@@ -45,7 +50,7 @@ const servicesData = [
         id: 5,
         name: 'Monitoring is your intimate doctor',
         img: `https://image.shutterstock.com/image-vector/coming-soon-grunge-rubber-stamp-260nw-196970096.jpg`,
-        url:'monitoring'
+        url: 'monitoring'
     },
     {
         id: 6,
@@ -55,13 +60,13 @@ const servicesData = [
         pushing reliability engineering is the focus in each of 
         the engaged tollgates from concept to production-light of your 
         IT infrastructure and software projects, where you got better needs in your focus heatmap.`,
-        url:'PRx2'
+        url: 'PRx2'
     },
     {
         id: 7,
         name: 'Relationship among Ds and 9s',
         img: `https://image.shutterstock.com/image-vector/coming-soon-grunge-rubber-stamp-260nw-196970096.jpg`,
-        url:'relationship-among-Ds-and-9s'
+        url: 'relationship-among-Ds-and-9s'
     },
     {
         id: 8,
@@ -71,7 +76,7 @@ const servicesData = [
         scanning of platform and applications with wide range of 
         supported configurations, assisting workloads to maintain
          atomicity and immutability.`,
-         url:'vScan'
+        url: 'vScan'
     },
     {
         id: 9,
@@ -81,7 +86,7 @@ const servicesData = [
          & non-functional testing, creating more reliable space 
          for quality assurance and making deployments secured, 
          agile and resilient. `,
-         url:'xRobo'
+        url: 'xRobo'
     },
     {
         id: 10,
@@ -89,7 +94,7 @@ const servicesData = [
         img: `https://image.shutterstock.com/image-vector/coming-soon-grunge-rubber-stamp-260nw-196970096.jpg`,
         description: `Adaptable unit & integration testing product, supported with a
          wide range of protocols and platforms in use by current IT verticals.`,
-         url:'dFitness'
+        url: 'dFitness'
     }
 ]
 
