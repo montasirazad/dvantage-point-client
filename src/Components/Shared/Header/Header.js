@@ -1,13 +1,11 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import './Header.css';
 import { HashLink } from 'react-router-hash-link';
-import dvpLogo from '../../../images/dvp_logo.png'
+import dvpLogo from '../../../images/dvp_logo.png';
+import './Header.css';
 
 
 const Header = () => {
@@ -42,16 +40,6 @@ const Header = () => {
                             </NavDropdown>
                             <Nav.Link as={HashLink} to='#blog' className='header mx-5'>BLOG</Nav.Link>
                         </Nav>
-
-                        {/* <Form className="d-flex submit-area">
-                            <Form.Control
-                                type="search"
-                                placeholder="Search"
-                                className="me-2"
-                                aria-label="Search"
-                            />
-                            <Button variant="outline-success">Search</Button>
-                        </Form> */}
 
                     </Navbar.Collapse>
                 </Container>
