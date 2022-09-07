@@ -15,7 +15,7 @@ const Header = () => {
                 <Container fluid>
                     <Navbar.Brand href="#" className='mx-5 logo-title'
                         >
-                            <img style={{width:'240px' }}  src={dvpLogo} alt="" />
+                            <img style={{width:'180px' }}  src={dvpLogo} alt="" />
                         </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
@@ -28,8 +28,8 @@ const Header = () => {
                         >
                             <Nav.Link href="#action1" className='header mx-3'  >HOME</Nav.Link>
                             <Nav.Link as={HashLink} to='#about' className='header mx-3'>ABOUT</Nav.Link>
-                            <NavDropdown title="PRODUCT AND SERVICES" className='header' id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action3" className='header '>Augmented Capacity Planning and Benchmarking </NavDropdown.Item>
+                            <NavDropdown title="PRODUCT & SERVICES" className='header' id="basic-nav-dropdown">
+                                <NavDropdown.Item href="#action3" className='header '>Augmented Capacity Planning & Benchmarking </NavDropdown.Item>
                                 <NavDropdown.Item href="#action4" className='header'>Cloud Engineering </NavDropdown.Item>
                                 {/* <NavDropdown.Divider /> */}
                                 <NavDropdown.Item href="#action5" className='header'>fsMon </NavDropdown.Item>
@@ -38,7 +38,7 @@ const Header = () => {
                                 <NavDropdown.Item href="#action8" className='header '>next item 1</NavDropdown.Item>
                                 <NavDropdown.Item href="#action9" className='header'>next item 2</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link as={HashLink} to='#blog' className='header mx-5'>BLOG</Nav.Link>
+                            <Nav.Link as={HashLink} to='#blog' className='header mx-3'>BLOG</Nav.Link>
                         </Nav>
 
                     </Navbar.Collapse>
