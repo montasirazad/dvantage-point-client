@@ -8,11 +8,11 @@ const CloudEngineering = () => {
             <h1> CloudEngineering components</h1>
 
             <div >
-                <img src={pic1} alt="" />
+                <img className='w-50' src={pic1} alt="" />
             </div>
 
             <div>
-                <img src={pic2} alt="" />
+                <img className='w-50' src={pic2} alt="" />
             </div>
 
             <p>Starting from on demand IT resource management,

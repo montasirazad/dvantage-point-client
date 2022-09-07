@@ -30,7 +30,8 @@ const Slider = () => {
                                 Canada, Germany, China and Bangladesh. </p>
                         </div>
                     </div>
-                    <div className="carousel-item">
+
+                    {/* <div className="carousel-item">
                         <img src={bgGif} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
@@ -41,15 +42,16 @@ const Slider = () => {
                                 engineering and assist in fostering your photons
                             </p>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div className="carousel-item">
+                    {/* <div className="carousel-item">
                         <img src={pic3} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>
                         </div>
-                    </div>
+                    </div> */}
+
                 </div>
 
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">

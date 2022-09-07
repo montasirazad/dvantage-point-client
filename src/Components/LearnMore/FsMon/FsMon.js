@@ -7,22 +7,34 @@ const FsMon = () => {
     return (
         <div >
             <h1>Fsmon testing compo</h1>
+
+
+
             <div className='text-center'>
                 <img className='img-fluid w-75' src={pic1} alt="" /> <br /> <br />
                 <img className='img-fluid w-50' src={pic2} alt="" />
+            </div>
+
+
+            <div className='p-3'>
+
+                <article>
+                    <p className='lh-base'>
+                        Objectively, siloed surveillance of distributed workloads
+                        in a hybrid eco-system of private datacenter and public
+                        clouds does not work much, while you are targeting to visualize the photons.
+                    </p>
+                </article>
+
+
+
 
                 <p className='lh-base'>
-                    Objectively, siloed surveillance of distributed workloads
-                    in a hybrid eco-system of private datacenter and public
-                    clouds does not work much, while you are targeting to visualize the photons.
-                </p>
-
-                <p className=''>
                     fsMon is a full stack monitoring system, got its own diversity
                     when it comes to coverage. Starting from performance monitoring,
                     to faults, from security to audit and advanced analytics or intelligence,
                     all under one umbrella. Making surveillance on one screen is the target
-                    for all business-critical software and applications, deployed in public
+                    for all business-critical software and applications, deployed in public 
                     clouds as well as in private data centers.
                 </p>
 

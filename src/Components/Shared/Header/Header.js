@@ -21,12 +21,12 @@ const Header = () => {
                         <Nav
                             className="ms-auto my-2 mx-5  my-lg-0 "
                             style={{ maxHeight: '100px' }}
-                            // navbarScroll
+                            navbarScroll
                             size='lg'
                         >
                             <Nav.Link href="#action1" className='header mx-3'  >HOME</Nav.Link>
                             <Nav.Link as={HashLink} to='#about' className='header mx-3'>ABOUT</Nav.Link>
-                            <NavDropdown title="SERVICES" className='header mx-3' id="basic-nav-dropdown">
+                            <NavDropdown title="PRODUCT AND SERVICES" className='header'  id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action3" className='header '>Augmented Capacity Planning and Benchmarking </NavDropdown.Item>
                                 <NavDropdown.Item href="#action4" className='header'>Cloud Engineering </NavDropdown.Item>
                                 {/* <NavDropdown.Divider /> */}
@@ -36,10 +36,10 @@ const Header = () => {
                                 <NavDropdown.Item href="#action8" className='header '>next item 1</NavDropdown.Item>
                                 <NavDropdown.Item href="#action9" className='header'>next item 2</NavDropdown.Item>
                             </NavDropdown>
-
+                            <Nav.Link as={HashLink} to='#blog' className='header mx-5'>BLOG</Nav.Link>
                         </Nav>
 
-                        <Form className="d-flex submit-area">
+                        {/* <Form className="d-flex submit-area">
                             <Form.Control
                                 type="search"
                                 placeholder="Search"
@@ -47,7 +47,7 @@ const Header = () => {
                                 aria-label="Search"
                             />
                             <Button variant="outline-success">Search</Button>
-                        </Form>
+                        </Form> */}
 
                     </Navbar.Collapse>
                 </Container>
