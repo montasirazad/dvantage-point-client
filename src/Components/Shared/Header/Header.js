@@ -7,6 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Header.css';
 import { HashLink } from 'react-router-hash-link';
+import dvpLogo from '../../../images/dvp_logo.png'
 
 
 const Header = () => {
@@ -14,7 +15,10 @@ const Header = () => {
         <>
             <Navbar className='col-sm-12 container-fluid' bg="light" expand="lg" sticky="top" style={{ borderBottom: '1px solid lightgray' }}>
                 <Container fluid>
-                    <Navbar.Brand href="#" className='mx-5 logo-title' style={{ fontSize: '30px', color: '#0d6efd', fontWeight: 'bold' }} >dvantagepoint</Navbar.Brand>
+                    <Navbar.Brand href="#" className='mx-5 logo-title'
+                        >
+                            <img style={{width:'240px' }}  src={dvpLogo} alt="" />
+                        </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
                     <Navbar.Collapse id="basic-navbar-nav">
@@ -26,7 +30,7 @@ const Header = () => {
                         >
                             <Nav.Link href="#action1" className='header mx-3'  >HOME</Nav.Link>
                             <Nav.Link as={HashLink} to='#about' className='header mx-3'>ABOUT</Nav.Link>
-                            <NavDropdown title="PRODUCT AND SERVICES" className='header'  id="basic-nav-dropdown">
+                            <NavDropdown title="PRODUCT AND SERVICES" className='header' id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action3" className='header '>Augmented Capacity Planning and Benchmarking </NavDropdown.Item>
                                 <NavDropdown.Item href="#action4" className='header'>Cloud Engineering </NavDropdown.Item>
                                 {/* <NavDropdown.Divider /> */}
