@@ -104,13 +104,16 @@ const Footer = () => {
                             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
                                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-                                <p><PlaceIcon />  New York, NY 10012, US</p>
+                                <p><PlaceIcon />  7 Epping road, Epping, NSW-2121, Australia</p>
+                                <p><PlaceIcon />  469, Queens Street, Thunderbay Ontario, Canada</p>
+                                <p><PlaceIcon />  35/L7 Gareeb-E-Newaz Avenue, Uttara Dhaka 1230, Bangladesh</p>
                                 <p>
-                                    <EmailIcon />
+                                    <EmailIcon /> 
                                     info@dvantagepoint.com
                                 </p>
-                                <p> <LocalPhoneIcon /> + 01 234 567 88</p>
-                                <p><LocalPhoneIcon /> + 01 234 567 89</p>
+                                <p> <LocalPhoneIcon /> +61422375845</p>
+                                <p><LocalPhoneIcon /> +180 763 19705</p>
+                                <p><LocalPhoneIcon /> +880 13 030 80 685</p>
                             </div>
 
                         </div>
@@ -120,7 +123,7 @@ const Footer = () => {
 
 
 
-                <div className="text-center p-2" style={{ backgroundColor: '#000000', color: 'white' }}> 
+                <div className="text-center p-2" style={{ backgroundColor: '#000000', color: 'white' }}>
                     © {new Date().getFullYear()} dvantagepoint
 
                 </div>
