@@ -26,19 +26,24 @@ const Header = () => {
                             navbarScroll
                             size='lg'
                         >
-                            <Nav.Link href="#action1" className='header mx-3'  >HOME</Nav.Link>
-                            <Nav.Link as={HashLink} to='#about' className='header mx-3'>ABOUT</Nav.Link>
-                            <NavDropdown title="PRODUCT & SERVICES" className='header' id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action3" className='header '>Augmented Capacity Planning & Benchmarking </NavDropdown.Item>
+                            <Nav.Link href="#action1" className='header mx-4'  >HOME</Nav.Link>
+                            <Nav.Link as={HashLink} to='#about' className='header mx-4'>ABOUT</Nav.Link>
+                            <NavDropdown  title="PRODUCT & SERVICES" className='header' id="basic-nav-dropdown">
+                                <NavDropdown.Item href="#action3" className='header text-sm'>Augmented Capacity Planning & Benchmarking </NavDropdown.Item>
                                 <NavDropdown.Item href="#action4" className='header'>Cloud Engineering </NavDropdown.Item>
+                                <NavDropdown.Item href="#action4" className='header'>streIn</NavDropdown.Item>
                                 {/* <NavDropdown.Divider /> */}
                                 <NavDropdown.Item href="#action5" className='header'>fsMon </NavDropdown.Item>
+                                <NavDropdown.Item href="#action8" className='header '>Monitoring</NavDropdown.Item>
                                 <NavDropdown.Item href="#action6" className='header'>PRx-2</NavDropdown.Item>
+                                <NavDropdown.Item href="#action6" className='header'>Relationship among Ds and 9s</NavDropdown.Item>
+                                <NavDropdown.Item href="#action6" className='header'>cScan</NavDropdown.Item>
                                 <NavDropdown.Item href="#action7" className='header'>xRobo</NavDropdown.Item>
-                                <NavDropdown.Item href="#action8" className='header '>next item 1</NavDropdown.Item>
-                                <NavDropdown.Item href="#action9" className='header'>next item 2</NavDropdown.Item>
+                                <NavDropdown.Item href="#action7" className='header'>dFitness</NavDropdown.Item>
+                                
+                                
                             </NavDropdown>
-                            <Nav.Link as={HashLink} to='#blog' className='header mx-3'>BLOG</Nav.Link>
+                            <Nav.Link as={HashLink} to='#blog' className='header mx-4'>BLOG</Nav.Link>
                         </Nav>
 
                     </Navbar.Collapse>

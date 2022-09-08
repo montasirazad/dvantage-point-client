@@ -10,6 +10,7 @@ import xRobo from '../../images/service-image/xRobo/Tile_xRobo.jpg';
 import dFitness from '../../images/service-image/dFitness/Tile_dFitness.jpg';
 import augmentedCapacity from '../../images/service-image/augmented-capacity/augmented-capacity-tile.jpg';
 import cloudEngineering from '../../images/service-image/cloud-engineering/cloud-engineering.jpg';
+import ds9s from '../../images/service-image/ds9s/ds9s.jpg';
 
 
 const servicesData = [
@@ -82,7 +83,7 @@ const servicesData = [
     {
         id: 7,
         name: 'Relationship among Ds and 9s',
-        img: `https://image.shutterstock.com/image-vector/coming-soon-grunge-rubber-stamp-260nw-196970096.jpg`,
+        img: ds9s,
         description: `Uptime or Service continuity is the core target or KPI for any enterprise IT operation in running business critical functions. And depending on time criticality, RTO and RPO are two three-letter acronyms which objectively drives the journey from design to implementation to achieve service continuity during a micro or macro disaster.`,
         url: 'relationship-among-Ds-and-9s'
     },
