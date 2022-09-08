@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Vscan = () => {
+const Cscan = () => {
     return (
         <div>
             <h1>Vscan components</h1>
@@ -8,4 +8,4 @@ const Vscan = () => {
     );
 };
 
-export default Vscan;
+export default Cscan;

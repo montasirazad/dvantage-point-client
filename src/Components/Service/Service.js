@@ -5,19 +5,41 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import './Service.css';
-
+ 
 
 const Service = (props) => {
-    const { name, description, img,url } = props.service
+    const { name, description, img, url } = props.service
     return (
         <div>
-            <Card className='card-body' style={{
+
+            <div className="card bg-primary text-white mx-3 my-3"
+             style={{width: "18rem",height: '480px',border:'1px solid #0c1c36'}}>
+
+                <img src={img} className="card-img-top" alt="..." />
+                <div className="card-body">
+                    <h5 className="card-title">{name}</h5>
+                    <p className="card-text">{description}</p>
+
+                    <Link to={`/learn-more/${url}`}>
+                        <Button variant="dark" style={{ position: 'absolute', bottom: '10px' }}>
+                            Learn More
+                            <FontAwesomeIcon className='mx-1' icon={faArrowAltCircleRight} />
+                        </Button>
+                    </Link>
+
+                    {/* <button className='btn btn-primary' style={{ position: 'absolute', bottom: '10px' }}>
+                        Learn More
+                    </button> */}
+                </div>
+            </div>
+
+            {/* <Card className='card-body' style={{
                 width: '18rem',
                 margin: '15px',
                 boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px", position: 'relative'
 
             }}>
-                <Card.Img className='cardImg' variant="top" style={{ width: '243px', height: '160px' }} src={img} />
+                <Card.Img className='cardImg' variant="top"  src={img} />
 
                 <Card.Body>
 
@@ -35,7 +57,7 @@ const Service = (props) => {
                     </Link>
                 </Card.Body>
 
-            </Card>
+            </Card> */}
         </div>
     );
 };
