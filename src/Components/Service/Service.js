@@ -11,19 +11,21 @@ const Service = (props) => {
     return (
         <div>
 
-            <div className="card bg-primary text-white mx-3 my-3"
+            <div className="card  mx-3 my-3"
                 style={{ width: "18rem", height: '500px', border: '1px solid #0c1c36' }}>
 
-                <img src={img} className="card-img-top" style={{height:'300px'}} alt="..." />
+                <img src={img} className="card-img-top" style={{ height: '300px' }} alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <p className="card-text">{description}</p>
 
                     <Link to={`/learn-more/${url}`}>
-                        <Button variant="dark" style={{ position: 'absolute', bottom: '10px' }}>
-                            Learn More
+                        {/* <Button variant="dark" style={{ position: 'absolute', bottom: '10px' }}>
+                            Learn More bg-primary text-white
                             <FontAwesomeIcon className='mx-1' icon={faArrowAltCircleRight} />
-                        </Button>
+                        </Button> */}
+
+                        <button className="button-85" style={{ position: 'absolute', bottom: '10px' }} >Learn More</button>
                     </Link>
 
 

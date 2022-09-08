@@ -15,7 +15,7 @@ const Slider = () => {
                 {/* <video src={circuitGif} style={{ width: '700px' }}
                     autoPlay muted loop type="video/mp4"></video> */}
                 {/* style={{ border: '1px solid blue', width: '700px', height: '400px' }} */}
-                <div class="embed-responsive embed-responsive-16by9">
+                <div className="embed-responsive embed-responsive-16by9">
                     <iframe className="embed-responsive-item" autoPlay muted loop src={circuitGif}  ></iframe>
                 </div>
             </div>
