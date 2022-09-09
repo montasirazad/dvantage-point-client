@@ -3,6 +3,8 @@ import React from 'react';
 const ContactForm = () => {
     return (
         <div className='my-4 p-4 container-fluid'>
+
+            <h4 className='text-center'>Keep in touch</h4>
             <form className="row g-3">
                 <div className="col-md-6">
                     <label htmlFor="inputEmail4" className="form-label">Your name</label>
@@ -36,12 +38,12 @@ const ContactForm = () => {
                     <label htmlFor="inputCity" className="form-label">City</label>
                     <input type="text" className="form-control" id="inputCity" />
                 </div>
-                 
+
                 <div className="col-md-2">
                     <label htmlFor="inputZip" className="form-label">Zip</label>
                     <input type="text" className="form-control" id="inputZip" />
                 </div>
-                
+
                 <div className="col-12">
                     <button type="submit" className="btn btn-primary">SUBMIT</button>
                 </div>

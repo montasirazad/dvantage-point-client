@@ -132,7 +132,7 @@ const Footer = () => {
 
 
 
-                <div className="text-center p-2 bg-primary" style={{ color: 'white' }}>
+                <div className="text-center p-2 " style={{ color: 'black',backgroundColor:'rgba(21, 93, 247, 0.5)' }}>
                     © {new Date().getFullYear()} dvantagepoint
 
                 </div>

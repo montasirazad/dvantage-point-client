@@ -1,0 +1,72 @@
+#myVideo {
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 60%;
+
+
+}
+
+.content {
+    position: absolute;
+    bottom: 5px;
+    background: rgba(21, 93, 247, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+}
+
+.video-div {
+    position: relative;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .content {
+        position: absolute;
+        bottom: 5px;
+        background: rgba(21, 93, 247, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        height: 100px;
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .content img {
+        width: 50px;
+    }
+}
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .content {
+        position: absolute;
+        bottom: 5px;
+        background: rgba(21, 93, 247, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        height: 300px;
+        padding: 20px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .content {
+        position: absolute;
+        bottom: 5px;
+        background: rgba(21, 93, 247, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        height: 400px;
+        padding: 20px;
+    }
+}
