@@ -44,6 +44,7 @@ const Header = () => {
 
 
                             </NavDropdown>
+                            <Nav.Link as={HashLink} to='#client' className='header mx-4'>Our Clients</Nav.Link>
                             <Nav.Link as={HashLink} to='#blog' className='header mx-4'>BLOG</Nav.Link>
                         </Nav>
 

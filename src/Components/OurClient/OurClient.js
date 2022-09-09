@@ -5,16 +5,21 @@ import dtac from '../../images/client-icon/dtac.png';
 import ericsson from '../../images/client-icon/ericsson.png';
 import iSoftStone from '../../images/client-icon/iSoftStone.png';
 import rayooTech from '../../images/client-icon/rayooTech.png';
+import clientsBanner from '../../images/clientsBanner.jpg'
+
 
 const OurClient = () => {
     return (
-        <div className="container my-4">
+        <div className=" my-4" id='client'>
 
-            <div className='text-center'>
-                <h1>Our Clients</h1>
+            <div className='row '>
+                <img className='banner' src={clientsBanner} alt="" />
             </div>
 
-            <div className="d-flex justify-content-between flex-nowrap client-icon">
+            <div className="d-flex my-5 row
+               justify-content-evenly
+                flex-wrap
+              client-icon">
 
                 <img src={barikTelecom} alt="" />
                 <img src={dtac} alt="" />
