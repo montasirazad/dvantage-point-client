@@ -1,15 +1,20 @@
 import React from 'react';
+import './Header.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import dvpLogo from '../../../images/dvp_logo.png';
-import './Header.css';
+
+
 
 
 const Header = () => {
     return (
+
+
         <>
             <Navbar className='col-sm-12 container-fluid' bg="light" expand="lg" sticky="top" style={{ borderBottom: '1px solid lightgray' }}>
                 <Container fluid>
@@ -29,16 +34,20 @@ const Header = () => {
                             <Nav.Link href="/" className='header mx-4'  >HOME</Nav.Link>
                             <Nav.Link as={HashLink} to='/home#about' className='header mx-4'>ABOUT</Nav.Link>
                             <NavDropdown title="PRODUCT & SERVICES" className='header' id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/learn-more/augmented-capacity-planning-and-benchmarking" className='header text-sm'>Augmented Capacity Planning & Benchmarking </NavDropdown.Item>
-                                <NavDropdown.Item href="/learn-more/cloud-engineering" className='header'>Cloud Engineering </NavDropdown.Item>
-                                <NavDropdown.Item href="/learn-more/streln" className='header'>streIn</NavDropdown.Item>
+
+                                <NavDropdown.Item as={Link} to='/learn-more/augmented-capacity-planning-and-benchmarking' className='header' id="RouterNavLink" >
+                                    Augmented Capacity Planning & Benchmarking
+                                </NavDropdown.Item>
+
+                                <NavDropdown.Item as={Link} to="/learn-more/cloud-engineering" className='header'>Cloud Engineering </NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/learn-more/streln" className='header'>streIn</NavDropdown.Item>
                                 {/* <NavDropdown.Divider /> */}
-                                <NavDropdown.Item href="/learn-more/fsMon" className='header'>fsMon </NavDropdown.Item>
-                                <NavDropdown.Item href="/learn-more/monitoring" className='header '>Monitoring</NavDropdown.Item>
-                                <NavDropdown.Item href="/learn-more/PRx2" className='header'>PRx-2</NavDropdown.Item>
-                                <NavDropdown.Item href="/learn-more/relationship-among-Ds-and-9s" className='header'>Relationship among Ds and 9s</NavDropdown.Item>
-                                <NavDropdown.Item href="/learn-more/cScan" className='header'>cScan</NavDropdown.Item>
-                                <NavDropdown.Item href="/learn-more/xRobo" className='header'>xRobo</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/learn-more/fsMon" className='header'>fsMon </NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/learn-more/monitoring" className='header '>Monitoring</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/learn-more/PRx2" className='header'>PRx-2</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/learn-more/relationship-among-Ds-and-9s" className='header'>Relationship among Ds and 9s</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/learn-more/cScan" className='header'>cScan</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/learn-more/xRobo" className='header'>xRobo</NavDropdown.Item>
 
                                 {/* <NavDropdown.Item href="/learn-more/dFitness" className='header'>dFitness</NavDropdown.Item> */}
 
