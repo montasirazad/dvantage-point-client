@@ -28,7 +28,9 @@ const Prx2 = () => {
                 We do enterprise architecture and engineering making sure quality attributes for your solution including but not limited to Immutability, Cost, Performance, Agility, Security, Granularity, Analytical Ability, Reliability, Elasticity, Portability and Operational Maintainability. We assist in visualising your workloads starting from 10,000 feet to pixel level view so that each of the quality attributes can be inherited and inspected traveling through tollgates starting from design board until it sees production light.
             </p>
 
-            <img src={prx2} alt="" />
+            <div className='text-center'>
+            <img src={prx2} alt="" className='w-75'/>
+            </div>
 
             <h6>
                 dFitness:

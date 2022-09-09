@@ -1,18 +1,16 @@
 import React from 'react';
 import pic1 from '../../../images/service-image/fsMon/fsMon-1.jpg';
 import pic2 from '../../../images/service-image/fsMon/fsMon-2.jpg';
+import '../LearnMoreShared.css';
 
 
 const FsMon = () => {
     return (
         <div >
-            <h1>Fsmon testing compo</h1>
-
-
-
+            
             <div className='text-center'>
                 <img className='img-fluid w-75' src={pic1} alt="" /> <br /> <br />
-                <img className='img-fluid w-50' src={pic2} alt="" />
+               
             </div>
 
 
@@ -44,7 +42,7 @@ const FsMon = () => {
 
                 </p>
 
-                <p>
+                <p>  <img className='shared' style={{ width: "170px", height: "170px", marginRight: "15px" }} src={pic2} alt="" />
                     It provides you great visualizations of your infrastructure utilization
                     (compute, storage, network); wide range of metrics from operating systems,
                     hypervisors or containers; deep insights from data layer covering RDBMS,

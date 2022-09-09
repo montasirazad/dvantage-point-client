@@ -1,21 +1,20 @@
 import React from 'react';
 import ds9sCover from '../../../images/service-image/ds9s/ds9sCover.jpg';
 import graph from '../../../images/service-image/ds9s/graph.jpg';
+import '../LearnMoreShared.css'
 
 const Ds9s = () => {
     return (
         <div className='p-3'>
-            <h1>Contribution of Ds in 9s</h1>
-            <img src={ds9sCover} alt="" />
-            <p>
+            <h1 className='text-center text-primary'>Contribution of Ds in 9s</h1> <br />
+
+            <p>  <img className='shared' src={ds9sCover} alt="" style={{ width: "170px", height: "170px", marginRight: "15px" }} />
                 Uptime or Service continuity is the core target or KPI
                 for any enterprise IT operation in running business critical functions.
                 And depending on time criticality, RTO and RPO are two three-letter
                 acronyms which objectively drives the journey from design to
                 implementation to achieve service continuity during a micro or macro disaster.
-            </p>
 
-            <p>
                 Once the time criticality is defined, the very next things engineering
                 team needs to determine are RTO & RPO which respectively defines maximum
                 acceptable length of time the application can be unavailable & maximum
@@ -56,9 +55,9 @@ const Ds9s = () => {
                 Availability management is to offer IT service availability driven by the acronym RTO & RPO.
             </p>
 
-            <img src={graph} alt="" />
 
-            <p>
+
+            <p> <img className='shared' src={graph} alt="" style={{ width: "170px", height: "170px", marginRight: "15px" }} />
                 Be watchful that both of the acronyms are tightly coupled with
                 cost: the lower value is in the objective, the higher is the cost!
                 Hereby, depending on time criticality of business functions,

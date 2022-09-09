@@ -1,10 +1,11 @@
 import React from 'react';
 import cScan from '../../../images/service-image/cScan/cScan.jpg';
+import '../LearnMoreShared.css';
 
 const Cscan = () => {
     return (
         <div className='p-3'>
-            
+
 
             <p>Atomicity and consistency are two keywords, solely responsible
                 to determine providence in the territory of software development
@@ -20,8 +21,10 @@ const Cscan = () => {
                 of reliability engineering, we must need to maintain a balance in
                 a controlled way between changes and immutability so that development
                 unit still maintains the pace keeping KPIs of operation unit intact.</p>
-            <img src={cScan} alt="" />
-            <p>With growth of the IT organizations, for any devops team,
+
+
+            <p> <img className='shared' src={cScan} alt="" style={{ width: "170px", height: "170px", marginRight: "15px" }} />
+                With growth of the IT organizations, for any devops team,
                 it becomes very hard to dominate the change control process
                 with the growth and diversity in people, process and technologies.
                 However, a solid track recording tool with proven backup and alert

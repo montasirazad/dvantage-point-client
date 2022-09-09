@@ -1,25 +1,25 @@
 import React from 'react';
 import pic1 from '../../../images/service-image/cloud-engineering/cloud-engineering-1.jpg';
 import pic2 from '../../../images/service-image/cloud-engineering/cloud-engineering-2.jpg';
+import '../LearnMoreShared.css';
 
 const CloudEngineering = () => {
     return (
-        <div>
-            <h1> CloudEngineering components</h1>
+        <div className='p-3'>
 
-            <div >
-                <img className='w-50' src={pic1} alt="" />
+
+            <div className='text-center container-fluid' >
+                <img style={{ width: "auto", height: "170px", marginRight: "15px" }} src={pic1} alt="" />
             </div>
 
-            <div>
-                <img className='w-50' src={pic2} alt="" />
-            </div>
+
 
             <p>Starting from on demand IT resource management,
                 growing and shrinking infrastructure capacity to meet customer demand,
                 cloud computing has extended its territory to BIG data, Artificial Intelligence,
                 NLP, Blockchain, Internet of Things, 5G & Edge Network, Augmented Reality, and many more.
             </p>
+
             <p>
                 With these evolved technologies, cloud providers are widening each of
                 the service layers: Infrastructure as a service, Platform as a service
@@ -34,7 +34,8 @@ const CloudEngineering = () => {
                 more than ever before. This is how it is supposed be but what are
                 real cases talking about? Can it be 100% carefree?
             </p>
-            <p>
+
+            <p> <img className='shared' style={{ width: "300px", height: "450px", marginRight: "15px" }} src={pic2} alt="" />
                 The answer is a big “No” and a small “Yes” as there are certain
                 headaches that are being completely taken care by cloud providers
                 and covered in managed services. However, many other cloud services

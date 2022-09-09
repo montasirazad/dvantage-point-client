@@ -8,6 +8,7 @@ import PlaceIcon from '@mui/icons-material/Place';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import React from 'react';
 import './Footer.css';
+import dvpLogo from '../../../images/dvp_logo.png'
 
 
 const Footer = () => {
@@ -55,11 +56,19 @@ const Footer = () => {
                             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
                                 <h6 className="text-uppercase fw-bold mb-4">
-                                    <i className="fas fa-gem me-3 text-secondary"></i>Company name
+                                    <img src={dvpLogo} style={{ width: '180px' }} alt="" />
                                 </h6>
-                                <p>
-                                    Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                    dolor sit amet, consectetur adipisicing elit.
+                                <p className='text-primary'>
+                                    DVANTAGEPOINT is a technology services and
+                                    consulting company operated in Sydney,
+                                    Australia and Dhaka, Bangladesh, coupling
+                                    globally connected IT, Telecom & Fintech
+                                    professionals, mainly from Australia, Canada,
+                                    Germany, Ireland, China & Bangladesh and
+                                    forming a diversified cross functional
+                                    autonomous team (CFAT), focused towards
+                                    delivering evolved products and services to
+                                    clients around the globe.
                                 </p>
                             </div>
 
@@ -104,16 +113,16 @@ const Footer = () => {
                             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
                                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-                                <p><PlaceIcon />  7 Epping road, Epping, NSW-2121, Australia</p>
-                                <p><PlaceIcon />  469, Queens Street, Thunderbay Ontario, Canada</p>
-                                <p><PlaceIcon />  35/L7 Gareeb-E-Newaz Avenue, Uttara Dhaka 1230, Bangladesh</p>
-                                <p>
-                                    <EmailIcon /> 
+                                <p className='text-primary'><PlaceIcon />  7 Epping road, Epping, NSW-2121, Australia</p>
+                                <p className='text-primary'><PlaceIcon />  469, Queens Street, Thunderbay Ontario, Canada</p>
+                                <p className='text-primary'><PlaceIcon />  35/L7 Gareeb-E-Newaz Avenue, Uttara Dhaka 1230, Bangladesh</p>
+                                <p className='text-primary'><EmailIcon className='mx-2' />
                                     info@dvantagepoint.com
                                 </p>
-                                <p> <LocalPhoneIcon /> +61422375845</p>
-                                <p><LocalPhoneIcon /> +180 763 19705</p>
-                                <p><LocalPhoneIcon /> +880 13 030 80 685</p>
+
+                                <p className='text-primary'> <LocalPhoneIcon /> +61422375845</p>
+                                <p className='text-primary'><LocalPhoneIcon /> +180 763 19705</p>
+                                <p className='text-primary'><LocalPhoneIcon /> +880 13 030 80 685</p>
                             </div>
 
                         </div>
@@ -123,7 +132,7 @@ const Footer = () => {
 
 
 
-                <div className="text-center p-2" style={{ backgroundColor: '#000000', color: 'white' }}>
+                <div className="text-center p-2 bg-primary" style={{ color: 'white' }}>
                     © {new Date().getFullYear()} dvantagepoint
 
                 </div>

@@ -17,7 +17,9 @@ const Xrobo = () => {
                 What if business or operational processes, templates and orchestration start feeding excellence to each other and still remain agile!
             </p>
 
-            <img src={xRoboBody} alt="" />
+            <div className='text-center'>
+                <img className='img-fluid w-75' src={xRoboBody} alt="" />
+            </div>
 
             <p>
                 We assist in maintaining atomicity in critical applications through managing templates carefully in our orchestration process. We translate infrastructure into codes in delivery pipeline, keeping them immutable into operation.
@@ -31,7 +33,11 @@ const Xrobo = () => {
             <p>
                 Starting from software unit testing to integration, we make the scope automated and big as much as possible during development phases. Aiming to make the scope of acceptance or non-functional benchmarking agile and smaller during handover to operation team, whether it is system test, function test, performance assessment, penetration test or vulnerability assessment of infrastructure, networks, platforms of codes.
             </p>
-            <img src={xRoboBody2} alt="" />
+
+            <div className='text-center'>
+                <img className='img-fluid w-25' src={xRoboBody2} alt="" />
+            </div>
+
             <p>
                 Through xRobo, we are intending to automate anything in enterprise IT projects. Please contact us at info@dvantagepoint.com for more information or queries.
             </p>

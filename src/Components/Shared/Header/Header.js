@@ -31,7 +31,7 @@ const Header = () => {
                             <NavDropdown title="PRODUCT & SERVICES" className='header' id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/learn-more/augmented-capacity-planning-and-benchmarking" className='header text-sm'>Augmented Capacity Planning & Benchmarking </NavDropdown.Item>
                                 <NavDropdown.Item href="/learn-more/cloud-engineering" className='header'>Cloud Engineering </NavDropdown.Item>
-                                <NavDropdown.Item href="/learn-more/streIn" className='header'>streIn</NavDropdown.Item>
+                                <NavDropdown.Item href="/learn-more/streln" className='header'>streIn</NavDropdown.Item>
                                 {/* <NavDropdown.Divider /> */}
                                 <NavDropdown.Item href="/learn-more/fsMon" className='header'>fsMon </NavDropdown.Item>
                                 <NavDropdown.Item href="/learn-more/monitoring" className='header '>Monitoring</NavDropdown.Item>

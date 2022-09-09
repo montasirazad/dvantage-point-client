@@ -1,13 +1,14 @@
 import React from 'react';
 import monitor1 from '../../../images/service-image/monitoring/monitor1.jpg';
 import monitor2 from '../../../images/service-image/monitoring/monitor2.jpg';
+import '../LearnMoreShared.css';
 
 const Monitoring = () => {
     return (
         <div className='p-3'>
             <h3>Monitoring intimacy in IT clinic!</h3>
-            <img src={monitor1} alt="" />
-            <p>
+
+            <p> <img className='shared' src={monitor1} alt="" style={{ width: "auto", height: "170px", marginRight: "15px" }} />
                 Even though you got the best medic in the room of IT troubleshooter,
                 without proper instrumentations it’s impractical to envisage your best.
                 A friendly watchdog is one of the best choices of a troubleshooter who
@@ -25,16 +26,14 @@ const Monitoring = () => {
                 by digging down to the root and solving propagation of one issue into another.
             </p>
 
-            <img src={monitor2} alt="" />
 
-            <p>
+
+            <p> <img className='shared' src={monitor2} alt="" style={{ width: "auto", height: "170px", marginRight: "15px" }} />
                 IT infrastructure and system monitoring, is no longer just fault
                 detecting tool or performance graphs visualizer. It has become a
                 “super instrument” of your IT clinic adding smart troubleshooting,
                 predictive analytics, safeguard and a compass.
-            </p>
 
-            <p>
                 IT infrastructure and system monitoring, is no longer just fault
                 detecting tool or performance graphs visualizer. It has become a
                 “super instrument” of your IT clinic adding smart troubleshooting,
