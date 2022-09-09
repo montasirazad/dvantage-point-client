@@ -8,8 +8,12 @@ import rayooTech from '../../images/client-icon/rayooTech.png';
 
 const OurClient = () => {
     return (
-        <div className="container text-center">
-            <h1>Our Clients</h1>
+        <div className="container my-4">
+
+            <div className='text-center'>
+                <h1>Our Clients</h1>
+            </div>
+
             <div className="d-flex justify-content-between flex-nowrap client-icon">
 
                 <img src={barikTelecom} alt="" />

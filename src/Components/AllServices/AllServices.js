@@ -45,7 +45,7 @@ const servicesData = [
            scalability and other dimensioning measures for 
            business-critical applications & software enough to stand the heat.
         `,
-        url: 'sterIn'
+        url: 'streln'
     },
     {
         id: 4,

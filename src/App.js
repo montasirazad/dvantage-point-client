@@ -9,6 +9,7 @@ import Ds9s from './Components/LearnMore/Ds9s/Ds9s';
 import FsMon from './Components/LearnMore/FsMon/FsMon';
 import LearnMore from './Components/LearnMore/LearnMore';
 import Monitoring from './Components/LearnMore/Monitoring/Monitoring';
+import Prx2 from './Components/LearnMore/Prx2/Prx2';
 import SterLn from './Components/LearnMore/SterLn/SterLn';
 import Xrobo from './Components/LearnMore/Xrobo/Xrobo';
 import Header from './Components/Shared/Header/Header';
@@ -24,7 +25,7 @@ function App() {
         <Route path='/home' element={<Home />} />
         {/* <Route path='/about' element={<About />} /> */}
         <Route path='/learn-more/:url' element={<LearnMore />} />
-        <Route path='/learn-more/streIn' element={<SterLn />} />
+        <Route path='/learn-more/streln' element={<SterLn />} />
         <Route path='/learn-more/fsMon' element={<FsMon />} />
         <Route path='/learn-more/cloud-engineering' element={<CloudEngineering />} />
         <Route path='/learn-more/xRobo' element={<Xrobo />} />
@@ -33,6 +34,7 @@ function App() {
         <Route path='/learn-more/augmented-capacity-planning-and-benchmarking' element={<AugmentedCapacityPlanning />} />
         <Route path='/learn-more/dFitness' element={<Dfitness />} />
         <Route path='/learn-more/monitoring' element={<Monitoring />} />
+        <Route path='/learn-more/PRx2' element={<Prx2 />} />
 
 
 
