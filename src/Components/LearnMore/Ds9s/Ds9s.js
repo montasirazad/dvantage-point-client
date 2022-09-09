@@ -37,7 +37,7 @@ const Ds9s = () => {
                 management of items listed but not limited to below:
             </p>
 
-            <p>
+          
                 <ul>
                     <li>Availability management</li>
                     <li>Information security management</li>
@@ -49,7 +49,7 @@ const Ds9s = () => {
                 </ul>
 
 
-            </p>
+          
 
             <p>
                 Availability management is to offer IT service availability driven by the acronym RTO & RPO.

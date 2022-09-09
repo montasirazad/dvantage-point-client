@@ -1,3 +1,4 @@
+import React from 'react';
 import EmailIcon from '@mui/icons-material/Email';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -6,10 +7,11 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import PlaceIcon from '@mui/icons-material/Place';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import React from 'react';
 import './Footer.css';
-import dvpLogo from '../../../images/dvp_logo.png'
-
+import dvpLogo from '../../../images/dvp_logo.png';
+import bdFlag from '../../../images/flag-icon/bangladesh.png';
+import canada from '../../../images/flag-icon/canada.png';
+import australia from '../../../images/flag-icon/australia.png';
 
 const Footer = () => {
     return (
@@ -113,16 +115,23 @@ const Footer = () => {
                             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
                                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-                                <p className='text-primary'><PlaceIcon />  7 Epping road, Epping, NSW-2121, Australia</p>
-                                <p className='text-primary'><PlaceIcon />  469, Queens Street, Thunderbay Ontario, Canada</p>
-                                <p className='text-primary'><PlaceIcon />  35/L7 Gareeb-E-Newaz Avenue, Uttara Dhaka 1230, Bangladesh</p>
+
+                                <p className='text-primary'><PlaceIcon />  35/L7 Gareeb-E-Newaz Avenue, Uttara Dhaka 1230, Bangladesh <img style={{ width: '35px' }} src={bdFlag} alt="" /></p>
+                                <p className='text-primary'><LocalPhoneIcon /> +880 13 030 80 685</p>
+
+                                <p className='text-primary'><PlaceIcon />  7 Epping road, Epping, NSW-2121, Australia <img style={{ width: '35px' }} src={australia} alt="" /></p>
+                                <p className='text-primary'> <LocalPhoneIcon /> +61422375845</p>
+                                
+                                <p className='text-primary'><PlaceIcon />  469, Queens Street, Thunderbay Ontario, Canada <img style={{ width: '35px' }} src={canada} alt="" /></p>
+                                <p className='text-primary'><LocalPhoneIcon /> +180 763 19705</p>
+
                                 <p className='text-primary'><EmailIcon className='mx-2' />
                                     info@dvantagepoint.com
                                 </p>
 
-                                <p className='text-primary'> <LocalPhoneIcon /> +61422375845</p>
-                                <p className='text-primary'><LocalPhoneIcon /> +180 763 19705</p>
-                                <p className='text-primary'><LocalPhoneIcon /> +880 13 030 80 685</p>
+                               
+                                
+                               
                             </div>
 
                         </div>
@@ -132,7 +141,7 @@ const Footer = () => {
 
 
 
-                <div className="text-center p-2 " style={{ color: 'black',backgroundColor:'rgba(21, 93, 247, 0.5)' }}>
+                <div className="text-center p-2 bg-primary text-white">
                     © {new Date().getFullYear()} dvantagepoint
 
                 </div>
