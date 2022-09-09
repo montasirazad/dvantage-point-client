@@ -39,7 +39,8 @@ const Header = () => {
                                 <NavDropdown.Item href="/learn-more/relationship-among-Ds-and-9s" className='header'>Relationship among Ds and 9s</NavDropdown.Item>
                                 <NavDropdown.Item href="/learn-more/cScan" className='header'>cScan</NavDropdown.Item>
                                 <NavDropdown.Item href="/learn-more/xRobo" className='header'>xRobo</NavDropdown.Item>
-                                <NavDropdown.Item href="/learn-more/dFitness" className='header'>dFitness</NavDropdown.Item>
+                                
+                                {/* <NavDropdown.Item href="/learn-more/dFitness" className='header'>dFitness</NavDropdown.Item> */}
 
 
                             </NavDropdown>

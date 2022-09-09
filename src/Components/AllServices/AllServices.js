@@ -107,14 +107,14 @@ const servicesData = [
          agile and resilient. `,
         url: 'xRobo'
     },
-    {
-        id: 10,
-        name: 'dFitness',
-        img: dFitness,
-        description: `Adaptable unit & integration testing product, supported with a
-         wide range of protocols and platforms in use by current IT verticals.`,
-        url: 'dFitness'
-    }
+    // {
+    //     id: 10,
+    //     name: 'dFitness',
+    //     img: dFitness,
+    //     description: `Adaptable unit & integration testing product, supported with a
+    //      wide range of protocols and platforms in use by current IT verticals.`,
+    //     url: 'dFitness'
+    // }
 ]
 
 const AllServices = () => {

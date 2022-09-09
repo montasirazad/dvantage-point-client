@@ -32,7 +32,7 @@ function App() {
         <Route path='/learn-more/cScan' element={<Cscan />} />
         <Route path='/learn-more/relationship-among-Ds-and-9s' element={<Ds9s />} />
         <Route path='/learn-more/augmented-capacity-planning-and-benchmarking' element={<AugmentedCapacityPlanning />} />
-        <Route path='/learn-more/dFitness' element={<Dfitness />} />
+        {/* <Route path='/learn-more/dFitness' element={<Dfitness />} /> */}
         <Route path='/learn-more/monitoring' element={<Monitoring />} />
         <Route path='/learn-more/PRx2' element={<Prx2 />} />
 
