@@ -12,9 +12,10 @@ const Home = () => {
         <div>
 
             <Slider />
-            <OurClient />
+
             {/* <AboutIcons /> */}
             <AboutVideo />
+            <OurClient />
             <AllServices />
             <ContactForm />
             <Footer />

@@ -1,10 +1,11 @@
 import React from 'react';
 import './AboutVideo.css';
+import landingVideo from '../../images/landing-video/DVP_Landing.mp4'
 
 const AboutVideo = () => {
     return (
 
-        <div className="row my-5 video-div ">
+        <div id='about' className="row my-5 video-div ">
 
             <div className='col-lg-6 col-sm-12 p-3 text-center text-div'>
                 <p>
@@ -25,14 +26,11 @@ const AboutVideo = () => {
             </div>
 
             <div className='col-lg-6 col-sm-12 my-4'>
-                <iframe
-                    width="560" height="315" src="https://www.youtube.com/embed/tUP5S4YdEJo"
-                    title="YouTube video player"
-                    className='container-fluid'
-                    frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen>
 
-                </iframe>
+                <video src={landingVideo} controls width="560" height="315" className='container-fluid'>
+
+                </video>
+
             </div>
         </div>
 

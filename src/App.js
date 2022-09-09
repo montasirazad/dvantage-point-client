@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import AboutVideo from './Components/AboutVideo/AboutVideo';
 import Home from './Components/Home/Home';
 import AugmentedCapacityPlanning from './Components/LearnMore/AugmentedCapacityPlanning/AugmentedCapacityPlanning';
 import CloudEngineering from './Components/LearnMore/CloudEngineering/CloudEngineering';
@@ -23,7 +24,7 @@ function App() {
 
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
-        {/* <Route path='/about' element={<About />} /> */}
+        {/* <Route path='/about' element={<AboutVideo />} /> */}
         <Route path='/learn-more/:url' element={<LearnMore />} />
         <Route path='/learn-more/streln' element={<SterLn />} />
         <Route path='/learn-more/fsMon' element={<FsMon />} />

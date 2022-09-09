@@ -26,8 +26,8 @@ const Header = () => {
                             navbarScroll
                             size='lg'
                         >
-                            <Nav.Link href="/home" className='header mx-4'  >HOME</Nav.Link>
-                            <Nav.Link as={HashLink} to='#about' className='header mx-4'>ABOUT</Nav.Link>
+                            <Nav.Link href="/" className='header mx-4'  >HOME</Nav.Link>
+                            <Nav.Link as={HashLink} to='/home#about' className='header mx-4'>ABOUT</Nav.Link>
                             <NavDropdown title="PRODUCT & SERVICES" className='header' id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/learn-more/augmented-capacity-planning-and-benchmarking" className='header text-sm'>Augmented Capacity Planning & Benchmarking </NavDropdown.Item>
                                 <NavDropdown.Item href="/learn-more/cloud-engineering" className='header'>Cloud Engineering </NavDropdown.Item>
@@ -39,7 +39,7 @@ const Header = () => {
                                 <NavDropdown.Item href="/learn-more/relationship-among-Ds-and-9s" className='header'>Relationship among Ds and 9s</NavDropdown.Item>
                                 <NavDropdown.Item href="/learn-more/cScan" className='header'>cScan</NavDropdown.Item>
                                 <NavDropdown.Item href="/learn-more/xRobo" className='header'>xRobo</NavDropdown.Item>
-                                
+
                                 {/* <NavDropdown.Item href="/learn-more/dFitness" className='header'>dFitness</NavDropdown.Item> */}
 
 
