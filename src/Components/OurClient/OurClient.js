@@ -13,7 +13,7 @@ const OurClient = () => {
         <div className=" my-4" id='client'>
 
             <div className='row '>
-                <img className='banner' src={clientsBanner} alt="" />
+                <img className='banner img-fluid w-100' src={clientsBanner} alt="" />
             </div>
 
             <div className="d-flex my-5 row
