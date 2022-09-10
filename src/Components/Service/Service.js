@@ -12,9 +12,9 @@ const Service = (props) => {
         <div>
 
             <div className="card  mx-3 my-3"
-                style={{ width: "18rem", height: '500px', border: '1px solid #0c1c36' }}>
+                style={{ width: "20rem", height: '500px', border: '1px solid #0c1c36' }}>
 
-                <img src={img} className="card-img-top" style={{ height: '300px' }} alt="..." />
+                <img src={img} className="card-img-top " style={{ width:'auto',height: '320px' }} alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <p className="card-text">{description}</p>

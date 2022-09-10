@@ -1,5 +1,5 @@
 import React from 'react';
-import prx2 from '../../../images/service-image/prx2/prx2.jpg';
+import prx2 from '../../../images/service-image/prx2/prxtwo2.jpg';
 
 
 const Prx2 = () => {

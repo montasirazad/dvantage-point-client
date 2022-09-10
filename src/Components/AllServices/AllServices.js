@@ -2,7 +2,7 @@ import React from 'react';
 import Service from '../Service/Service';
 import './AllServices.css';
 import strLn from '../../images/service-image/strLn/streIn.jpg';
-import fsMon from '../../images/service-image/fsMon/fsMon_hybrid.jpg';
+import fsMon from '../../images/service-image/fsMon/fsMon.jpg';
 import monitoring from '../../images/service-image/monitoring/monitoring2.jpg';
 import cScan from '../../images/service-image/cScan/Tile_cScan.jpg';
 import prx2 from '../../images/service-image/prx2/Tile_PRx2.jpg';

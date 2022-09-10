@@ -3,11 +3,11 @@ import React from 'react';
 const ContactForm = () => {
     return (
 
-        <div className='d-flex justify-content-center'>
-            <div className='my-4 p-4 container-fluid'>
+        <div className=''>
+            <h4 className='text-center my-3'>Keep in touch</h4>
 
-                <h4 className='text-center'>Keep in touch</h4>
-                <form className=" g-3">
+            <div className='my-4 p-4 container-fluid'>
+                <form className=" g-3 m-0 auto">
 
                     <div className="col-md-6 col-lg-6">
                         <label htmlFor="inputEmail4" className="form-label">Your name</label>
