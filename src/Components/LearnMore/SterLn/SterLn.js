@@ -69,13 +69,14 @@ const SterLn = () => {
                 resulting production alike outcomes which gives accurate mathematics
                 when it comes to performance measurements or capacity planning.
             </p>
-
+            <div>
+                <img className='shared w-75' src={flowChart} alt="" />
+            </div>
             <p>
                 A range of transaction mixes and scenarios are supported as required,
                 we inject your predictive growth analysis into the test for augmented
                 capacity planning and optimal sizing of infrastructures & platforms covering
                 both cloud and on-premise stacks.
-                <img className='shared w-75' src={flowChart} alt="" />
                 We assist you creating the list of entry and exit criteria for the
                 test ensuring practical and minimal compromises. Our adaptable load
                 generators are capable to simulate real world traffic performance as
