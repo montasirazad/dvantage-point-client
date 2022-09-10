@@ -49,7 +49,7 @@ const SterLn = () => {
             <p className='text-center'>Customizable dashboard: 1000 feet view</p>
 
             <div className='text-center'>
-                <img src={pixelView}  className='img-fluid w-50' alt="" />
+                <img src={pixelView} className='img-fluid w-50' alt="" />
             </div>
 
             <p className='text-center'>Pixel level view</p>
@@ -75,7 +75,7 @@ const SterLn = () => {
                 we inject your predictive growth analysis into the test for augmented
                 capacity planning and optimal sizing of infrastructures & platforms covering
                 both cloud and on-premise stacks.
-                <img  className='shared w-75' src={flowChart} alt="" />
+                <img className='shared w-75' src={flowChart} alt="" />
                 We assist you creating the list of entry and exit criteria for the
                 test ensuring practical and minimal compromises. Our adaptable load
                 generators are capable to simulate real world traffic performance as
@@ -94,9 +94,9 @@ const SterLn = () => {
                 Tangible outcomes? Let us push the possibilities to the optimum territory.
                 One example only: we helped our client visualizing bootstrapping and wake-up effects.
             </p>
-            
+
             <div className='text-center'>
-            <img className=' img-fluid w-50' src={pre} alt="" />
+                <img className=' img-fluid w-50' src={pre} alt="" />
             </div>
 
             <p className='text-center'>Pre</p> <br />
@@ -106,8 +106,13 @@ const SterLn = () => {
             </div>
             <p className='text-center'>Post</p> <br />
 
-            <p> <img className='shared' src={blackBox} style={{ width: "170px", height: "170px", marginRight: "15px" }} alt="" />
-                Overall performance and capacity assessment services can be divided into two:
+            <div className='text-center'>
+                <img className='shared' src={blackBox} alt="" />
+            </div>
+            <p>
+                Overall performance and capacity assessment services can be divided into two: </p>
+
+            <ul>
                 <li>
                     Black box assessment
 
@@ -115,7 +120,8 @@ const SterLn = () => {
                 <li>
                     White box assessment
                 </li>
-            </p>
+            </ul>
+
 
 
 

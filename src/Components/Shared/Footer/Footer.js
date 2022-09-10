@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css';
 import EmailIcon from '@mui/icons-material/Email';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -7,7 +8,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import PlaceIcon from '@mui/icons-material/Place';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import './Footer.css';
 import dvpLogo from '../../../images/dvp_logo.png';
 import bdFlag from '../../../images/flag-icon/bangladesh.png';
 import canada from '../../../images/flag-icon/canada.png';
@@ -15,11 +15,11 @@ import australia from '../../../images/flag-icon/australia.png';
 
 const Footer = () => {
     return (
-        <div >
+        <div className='footer-div'>
 
-            <footer className="text-center text-lg-start bg-white text-dark border-top mt-5">
+            <footer className="text-center text-lg-start text-dark border-top mt-5">
 
-                <section className="d-flex justify-content-center  p-4 border-bottom">
+                <section className="d-flex justify-content-center  p-2">
 
                     {/* <div className="me-5 d-none d-lg-block">
                         <span>Get connected with us on social networks:</span>
@@ -132,7 +132,7 @@ const Footer = () => {
                                 <div className='my-2 shadow p-2  bg-body rounded' >
                                     <small>
                                         <p className='text-primary'><PlaceIcon />  7 Epping road, Epping, NSW-2121, Australia
-                                            <img style={{ width: '30px', marginLeft: '5px' }} src={australia} alt="" /> <br /> 
+                                            <img style={{ width: '30px', marginLeft: '5px' }} src={australia} alt="" /> <br />
                                             <LocalPhoneIcon /> +61422375845
                                         </p>
                                     </small>
@@ -144,7 +144,7 @@ const Footer = () => {
                                 <div className='my-2 shadow p-2  bg-body rounded'  >
                                     <small>
                                         <p className='text-primary'><PlaceIcon />  469, Queens Street, Thunderbay Ontario, Canada
-                                            <img style={{ width: '32px', marginLeft: '5px' }} src={canada} alt="" /> <br /> 
+                                            <img style={{ width: '32px', marginLeft: '5px' }} src={canada} alt="" /> <br />
                                             <LocalPhoneIcon /> +180 763 19705
                                         </p>
                                     </small>

@@ -30,9 +30,9 @@ const AugmentedCapacityPlanning = () => {
                     can do if the business gets a hard wall due to capacity choking?
                 </p>
 
-                <div  >
+                <div className='text-center ' >
 
-                <img className='shared' src={pic1} alt="" style={{ width: "170px", height: "170px", marginRight: "15px" }} />
+                    <img className='shared' src={pic1} alt="" />
                 </div>
                 <p>  Performance or response time of each of the microservice
                     or module contributes on overall capacity and for better
@@ -70,13 +70,15 @@ const AugmentedCapacityPlanning = () => {
                 </p>
             </div>
 
+            <div className='text-center '>
+                <img className='shared' src={pic2} alt="" />
+            </div>
 
-            
             <h5>
                 Mathematics is fun!
             </h5>
 
-            <p><img className='shared' style={{ width: "170px", height: "170px", marginRight: "15px" }} src={pic2} alt="pic2" />
+            <p>
                 Elasticity or auto-scaling in cloud infrastructure solves the problem
                 of capacity choking to a great extent. However, cloud may not remain
                 cost effective any more if sizes and types of infrastructure selections
@@ -94,7 +96,7 @@ const AugmentedCapacityPlanning = () => {
             </p>
 
             <p>
-               
+
             </p>
 
             <p>

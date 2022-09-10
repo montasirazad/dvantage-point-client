@@ -8,8 +8,8 @@ const CloudEngineering = () => {
         <div className='p-3'>
 
 
-            <div className='text-center container-fluid' >
-                <img style={{ width: "auto", height: "170px", marginRight: "15px" }} src={pic1} alt="" />
+            <div className='text-center container-fluid  ' >
+                <img style={{width:'400px'}} src={pic1} alt="" />
             </div>
 
 
@@ -35,7 +35,11 @@ const CloudEngineering = () => {
                 real cases talking about? Can it be 100% carefree?
             </p>
 
-            <p> <img className='shared' style={{ width: "300px", height: "450px", marginRight: "15px" }} src={pic2} alt="" />
+            <div className='text-center '>
+                <img style={{width:'400px'}} src={pic2} alt="" />
+            </div>
+
+            <p>
                 The answer is a big “No” and a small “Yes” as there are certain
                 headaches that are being completely taken care by cloud providers
                 and covered in managed services. However, many other cloud services

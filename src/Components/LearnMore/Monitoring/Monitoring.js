@@ -8,7 +8,10 @@ const Monitoring = () => {
         <div className='p-3'>
             <h3>Monitoring intimacy in IT clinic!</h3>
 
-            <p> <img className='shared' src={monitor1} alt="" style={{ width: "auto", height: "170px", marginRight: "15px" }} />
+            <div className='text-center'>
+                <img className='shared' src={monitor1} alt="" />
+            </div>
+            <p>
                 Even though you got the best medic in the room of IT troubleshooter,
                 without proper instrumentations it’s impractical to envisage your best.
                 A friendly watchdog is one of the best choices of a troubleshooter who
@@ -26,9 +29,11 @@ const Monitoring = () => {
                 by digging down to the root and solving propagation of one issue into another.
             </p>
 
+            <div className='text-center'>
+                <img className='shared' src={monitor2} alt="" />
+            </div>
 
-
-            <p> <img className='shared' src={monitor2} alt="" style={{ width: "auto", height: "170px", marginRight: "15px" }} />
+            <p>
                 IT infrastructure and system monitoring, is no longer just fault
                 detecting tool or performance graphs visualizer. It has become a
                 “super instrument” of your IT clinic adding smart troubleshooting,

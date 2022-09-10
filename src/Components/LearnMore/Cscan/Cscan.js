@@ -22,8 +22,12 @@ const Cscan = () => {
                 a controlled way between changes and immutability so that development
                 unit still maintains the pace keeping KPIs of operation unit intact.</p>
 
+            <div className='text-center'>
+                <img className='shared' src={cScan} alt="" />
+            </div>
 
-            <p> <img className='shared' src={cScan} alt="" style={{ width: "170px", height: "170px", marginRight: "15px" }} />
+
+            <p>
                 With growth of the IT organizations, for any devops team,
                 it becomes very hard to dominate the change control process
                 with the growth and diversity in people, process and technologies.

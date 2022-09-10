@@ -7,10 +7,10 @@ import '../LearnMoreShared.css';
 const FsMon = () => {
     return (
         <div >
-            
+
             <div className='text-center'>
                 <img className='img-fluid w-75' src={pic1} alt="" /> <br /> <br />
-               
+
             </div>
 
 
@@ -32,7 +32,7 @@ const FsMon = () => {
                     when it comes to coverage. Starting from performance monitoring,
                     to faults, from security to audit and advanced analytics or intelligence,
                     all under one umbrella. Making surveillance on one screen is the target
-                    for all business-critical software and applications, deployed in public 
+                    for all business-critical software and applications, deployed in public
                     clouds as well as in private data centers.
                 </p>
 
@@ -41,8 +41,10 @@ const FsMon = () => {
                     - DVANTAGEPOINT LIMITED
 
                 </p>
-
-                <p>  <img className='shared' style={{ width: "170px", height: "170px", marginRight: "15px" }} src={pic2} alt="" />
+                <div className='text-center'>
+                    <img className='shared' src={pic2} alt="" />
+                </div>
+                <p>
                     It provides you great visualizations of your infrastructure utilization
                     (compute, storage, network); wide range of metrics from operating systems,
                     hypervisors or containers; deep insights from data layer covering RDBMS,

@@ -8,7 +8,10 @@ const Ds9s = () => {
         <div className='p-3'>
             <h1 className='text-center text-primary'>Contribution of Ds in 9s</h1> <br />
 
-            <p>  <img className='shared' src={ds9sCover} alt="" style={{ width: "170px", height: "170px", marginRight: "15px" }} />
+            <div className='text-center'>
+                <img className='shared' src={ds9sCover} alt="" />
+            </div>
+            <p>
                 Uptime or Service continuity is the core target or KPI
                 for any enterprise IT operation in running business critical functions.
                 And depending on time criticality, RTO and RPO are two three-letter
@@ -37,7 +40,8 @@ const Ds9s = () => {
                 management of items listed but not limited to below:
             </p>
 
-          
+
+            <div  >
                 <ul>
                     <li>Availability management</li>
                     <li>Information security management</li>
@@ -47,17 +51,20 @@ const Ds9s = () => {
                     <li>Knowledge object management</li>
                     <li>Support management</li>
                 </ul>
+            </div>
 
 
-          
+
 
             <p>
                 Availability management is to offer IT service availability driven by the acronym RTO & RPO.
             </p>
 
 
-
-            <p> <img className='shared' src={graph} alt="" style={{ width: "170px", height: "170px", marginRight: "15px" }} />
+            <div className='text-center'>
+                <img className='shared' src={graph} alt="" />
+            </div>
+            <p>
                 Be watchful that both of the acronyms are tightly coupled with
                 cost: the lower value is in the objective, the higher is the cost!
                 Hereby, depending on time criticality of business functions,
