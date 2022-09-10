@@ -3,7 +3,7 @@ import React from 'react';
 const ContactForm = () => {
     return (
 
-        <div>
+        <div className='d-flex justify-content-center'>
             <div className='my-4 p-4 container-fluid'>
 
                 <h4 className='text-center'>Keep in touch</h4>

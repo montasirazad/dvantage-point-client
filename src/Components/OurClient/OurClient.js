@@ -8,6 +8,7 @@ import rayooTech from '../../images/client-icon/rayooTech.png';
 import clientsBanner from '../../images/clientsBanner.jpg';
 import roshanTelecom from '../../images/client-icon/roshanTelecom.png';
 import rahimafroj from '../../images/client-icon/rahimafroj.png';
+import kaaz from '../../images/client-icon/Kaaz.jpg';
 
 
 const OurClient = () => {
@@ -23,13 +24,15 @@ const OurClient = () => {
                 flex-wrap
               client-icon">
 
+                <img src={kaaz} alt="" />
                 <img src={barikTelecom} alt="" />
+                <img src={roshanTelecom} alt="" />
                 <img src={dtac} alt="" />
                 <img src={ericsson} alt="" />
                 <img src={iSoftStone} alt="" />
                 <img src={rayooTech} alt="" />
-                <img src={roshanTelecom} alt="" />
                 <img src={rahimafroj} alt="" />
+                
             </div>
 
         </div>
