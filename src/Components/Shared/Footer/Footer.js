@@ -51,16 +51,16 @@ const Footer = () => {
                 </section>
 
                 <section className="">
-                    <div className="container text-center text-md-start mt-5">
+                    <div className="container text-center text-md-start mt-2">
 
-                        <div className="row mt-3">
+                        <div className="row mt-3 align-items-center">
 
-                            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
 
-                                <h6 className="text-uppercase fw-bold mb-4">
-                                    <img src={dvpLogo} style={{ width: '180px' }} alt="" />
-                                </h6>
-                                <p className='text-primary'>
+
+                                <img src={dvpLogo} style={{ width: '280px' }} alt="" />
+
+                                {/* <p className='text-primary'>
                                     DVANTAGEPOINT is a technology services and
                                     consulting company operated in Sydney,
                                     Australia and Dhaka, Bangladesh, coupling
@@ -71,10 +71,10 @@ const Footer = () => {
                                     autonomous team (CFAT), focused towards
                                     delivering evolved products and services to
                                     clients around the globe.
-                                </p>
+                                </p> */}
                             </div>
 
-                            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            {/* <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
                                 <h6 className="text-uppercase fw-bold mb-4">
                                     Products
@@ -91,9 +91,9 @@ const Footer = () => {
                                 <p>
                                     <a href="#!" className="text-reset">Laravel</a>
                                 </p>
-                            </div>
+                            </div> */}
 
-                            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            {/* <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
                                 <h6 className="text-uppercase fw-bold mb-4">
                                     Useful links
@@ -110,28 +110,54 @@ const Footer = () => {
                                 <p>
                                     <a href="#!" className="text-reset">Help</a>
                                 </p>
-                            </div>
+                            </div> */}
 
-                            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2 row">
 
-                                <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+                                <h6 className="text-uppercase fw-bold mb-2">Contact</h6>
 
-                                <p className='text-primary'><PlaceIcon />  35/L7 Gareeb-E-Newaz Avenue, Uttara Dhaka 1230, Bangladesh <img style={{ width: '35px' }} src={bdFlag} alt="" /></p>
-                                <p className='text-primary'><LocalPhoneIcon /> +880 13 030 80 685</p>
+                                <div className='my-2 shadow p-2  bg-body rounded'  >
+                                    <p className='text-primary'>
+                                        <small>
+                                            <PlaceIcon />  35/L7 Gareeb-E-Newaz Avenue, Uttara Dhaka 1230, Bangladesh
 
-                                <p className='text-primary'><PlaceIcon />  7 Epping road, Epping, NSW-2121, Australia <img style={{ width: '35px' }} src={australia} alt="" /></p>
-                                <p className='text-primary'> <LocalPhoneIcon /> +61422375845</p>
-                                
-                                <p className='text-primary'><PlaceIcon />  469, Queens Street, Thunderbay Ontario, Canada <img style={{ width: '35px' }} src={canada} alt="" /></p>
-                                <p className='text-primary'><LocalPhoneIcon /> +180 763 19705</p>
+                                            <img style={{ width: '30px', marginLeft: '5px' }} src={bdFlag} alt="" /> <br />
+                                            <LocalPhoneIcon /> +880 13 030 80 685
+                                        </small>
+
+                                    </p>
+                                </div>
+
+
+                                <div className='my-2 shadow p-2  bg-body rounded' >
+                                    <small>
+                                        <p className='text-primary'><PlaceIcon />  7 Epping road, Epping, NSW-2121, Australia
+                                            <img style={{ width: '30px', marginLeft: '5px' }} src={australia} alt="" /> <br /> 
+                                            <LocalPhoneIcon /> +61422375845
+                                        </p>
+                                    </small>
+
+                                </div>
+
+
+
+                                <div className='my-2 shadow p-2  bg-body rounded'  >
+                                    <small>
+                                        <p className='text-primary'><PlaceIcon />  469, Queens Street, Thunderbay Ontario, Canada
+                                            <img style={{ width: '32px', marginLeft: '5px' }} src={canada} alt="" /> <br /> 
+                                            <LocalPhoneIcon /> +180 763 19705
+                                        </p>
+                                    </small>
+                                </div>
+
 
                                 <p className='text-primary'><EmailIcon className='mx-2' />
                                     info@dvantagepoint.com
                                 </p>
 
-                               
-                                
-                               
+
+
+
                             </div>
 
                         </div>

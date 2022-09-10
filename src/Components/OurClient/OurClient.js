@@ -5,7 +5,9 @@ import dtac from '../../images/client-icon/dtac.png';
 import ericsson from '../../images/client-icon/ericsson.png';
 import iSoftStone from '../../images/client-icon/iSoftStone.png';
 import rayooTech from '../../images/client-icon/rayooTech.png';
-import clientsBanner from '../../images/clientsBanner.jpg'
+import clientsBanner from '../../images/clientsBanner.jpg';
+import roshanTelecom from '../../images/client-icon/roshanTelecom.png';
+import rahimafroj from '../../images/client-icon/rahimafroj.png';
 
 
 const OurClient = () => {
@@ -26,6 +28,8 @@ const OurClient = () => {
                 <img src={ericsson} alt="" />
                 <img src={iSoftStone} alt="" />
                 <img src={rayooTech} alt="" />
+                <img src={roshanTelecom} alt="" />
+                <img src={rahimafroj} alt="" />
             </div>
 
         </div>
