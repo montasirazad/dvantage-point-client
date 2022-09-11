@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 import bgImage from '../../images/bgEdited.jpeg';
 
 const BgVideo = () => {
-     
+
     return (
         <div id='home-div'>
             <img className='bg-img' src={bgImage} alt="" />
@@ -22,7 +22,7 @@ const BgVideo = () => {
                 />
             </div> */}
 
-            <div className='font-2'>
+            <div className='font'>
 
                 {/* <Typewriter
                     onInit={(typewriter) => {
@@ -42,36 +42,58 @@ const BgVideo = () => {
 
                 {/* <Typewriter
                     onInit={(typewriter) => {
-                        typewriter.typeString(`Lorem ipsum dolor sit, <br/>amet consectetur adipisicing elit.<br/>Ex sed iure neque, delectus voluptatum corporis <br/>adipisicing elit. Nesciunt modi asperiores`)
+                        typewriter.typeString(`Hub of IT Experts from different parts of the globe <br/>`)
                             .callFunction(() => {
-                                console.log('String typed out!');
+                                
                             })
-                            .pauseFor(1000)
-                            .deleteAll()
+                            .pauseFor(500)
+                            .typeString('Optimize IT Workloads meeting cost, scale and security ')
+                            .pauseFor(500)
+                            // .deleteAll(50)
                             .callFunction(() => {
                                 console.log('All strings were deleted');
                             })
                             .start()
-                            
+
                     }}
                 /> */}
-                {/* <Typewriter
-                    options={{
-                        strings: [`Lorem ipsum dolor sit, <br/>
-                        amet consectetur adipisicing elit.<br/>
-                         Ex sed iure neque, delectus voluptatum corporis <br/>
-                         adipisicing elit. Nesciunt modi asperiores `],
-                        autoStart: true,
-                        loop: true,
-                        pauseFor: 1000
-                    }}
-                /> */}
+
+                <div  >
+                    <Typewriter
+                        options={{
+                            strings: [`Hub of IT Experts from different parts of the globe <br/>
+                        Optimize IT Workloads meeting cost, scale and security  <br/>
+                         Meet IT Resiliency at zero downtime  <br/>
+                         Developing reusable software at scale  <br/>
+                         Leverage strengths of cloud/multi-cloud services  <br/>
+                         Vantage excellence with next generation technologies `],
+                            autoStart: true,
+                            loop: true,
+                            pauseFor: 100,
+                            delay: 20,
+                            deleteSpeed: 100,
+
+
+                        }}
+                    />
+                </div>
+
+
             </div>
-<div id='app'>
+            <div id='app'>
 
-</div>
+            </div>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi asperiores quaerat harum saepe numquam.</p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi asperiores quaerat harum saepe numquam.
+
+
+            `Hub of IT Experts from different parts of the globe <br />
+            Optimize IT Workloads meeting cost, scale and security<br />
+            Meet IT Resiliency at zero downtime <br />
+            Developing reusable software at scale<br />
+            Leverage strengths of cloud/multi-cloud services<br />
+            Vantage excellence with next generation technologies`
+
         </div>
     );
 };

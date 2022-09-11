@@ -6,9 +6,10 @@
 }
 
 .font {
-    font-size: 60px;
+    /* font-size: px; */
+    font-weight: 400;
     position: absolute;
-    bottom: 150px;
+    bottom: 50px;
     margin-left: 300px;
     /* background-color: white; */
     color: white;
