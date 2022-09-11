@@ -3,16 +3,16 @@ import './BgVideo.css';
 import bgVideo from '../../images/circuit-mesh.mp4';
 import dvpLogo from '../../images/dvp_logo.png'
 import Typewriter from 'typewriter-effect';
-import bgImage from '../../images/cuircuitBg2.jpg';
+import bgImage from '../../images/bgEdited.jpeg';
 
 const BgVideo = () => {
-
-
+     
     return (
         <div id='home-div'>
             <img className='bg-img' src={bgImage} alt="" />
 
-            <div className='font'>
+
+            {/* <div className='font'>
                 <Typewriter
                     options={{
                         strings: ['dVantagePoint'],
@@ -20,20 +20,58 @@ const BgVideo = () => {
                         loop: true,
                     }}
                 />
-            </div>
+            </div> */}
 
             <div className='font-2'>
-                <Typewriter
+
+                {/* <Typewriter
+                    onInit={(typewriter) => {
+                        typewriter.typeString('Lorem ipsum dolor sit, <br/>amet consectetur adipisicing elit.<br/>Ex sed iure neque, delectus voluptatum corporis <br/>adipisicing elit. Nesciunt modi asperiores')
+                            .callFunction(() => {
+                                console.log('String typed out!');
+                            })
+                            .pauseFor(1000)
+                            .deleteAll()
+                            .start()
+                            .callFunction(() => {
+                                console.log('All strings were deleted');
+                            })
+
+                    }}
+                /> */}
+
+                {/* <Typewriter
+                    onInit={(typewriter) => {
+                        typewriter.typeString(`Lorem ipsum dolor sit, <br/>amet consectetur adipisicing elit.<br/>Ex sed iure neque, delectus voluptatum corporis <br/>adipisicing elit. Nesciunt modi asperiores`)
+                            .callFunction(() => {
+                                console.log('String typed out!');
+                            })
+                            .pauseFor(1000)
+                            .deleteAll()
+                            .callFunction(() => {
+                                console.log('All strings were deleted');
+                            })
+                            .start()
+                            
+                    }}
+                /> */}
+                {/* <Typewriter
                     options={{
-                        strings: ['Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex sed iure neque, delectus voluptatum corporis.'],
+                        strings: [`Lorem ipsum dolor sit, <br/>
+                        amet consectetur adipisicing elit.<br/>
+                         Ex sed iure neque, delectus voluptatum corporis <br/>
+                         adipisicing elit. Nesciunt modi asperiores `],
                         autoStart: true,
                         loop: true,
+                        pauseFor: 1000
                     }}
-                />
+                /> */}
             </div>
+<div id='app'>
 
-            
-            <p></p>
+</div>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi asperiores quaerat harum saepe numquam.</p>
         </div>
     );
 };
