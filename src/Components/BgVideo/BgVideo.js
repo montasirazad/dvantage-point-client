@@ -25,12 +25,14 @@ const BgVideo = () => {
             <div className='font-2'>
                 <Typewriter
                     options={{
-                        strings: ['Lorem ipsum dolor sit amet'],
+                        strings: ['Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex sed iure neque, delectus voluptatum corporis.'],
                         autoStart: true,
                         loop: true,
                     }}
                 />
             </div>
+
+            
             <p></p>
         </div>
     );

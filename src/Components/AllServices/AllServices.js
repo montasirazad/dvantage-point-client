@@ -5,7 +5,7 @@ import strLn from '../../images/service-image/strLn/streIn.jpg';
 import fsMon from '../../images/service-image/fsMon/fsMon.jpg';
 import monitoring from '../../images/service-image/monitoring/monitoring2.jpg';
 import cScan from '../../images/service-image/cScan/Tile_cScan.jpg';
-import prx2 from '../../images/service-image/prx2/Tile_PRx2.jpg';
+import prx2 from '../../images/service-image/prx2/prxtwo2.jpg';
 import xRobo from '../../images/service-image/xRobo/Tile_xRobo.jpg';
 import dFitness from '../../images/service-image/dFitness/Tile_dFitness.jpg';
 import augmentedCapacity from '../../images/service-image/augmented-capacity/augmented-capacity-tile.jpg';

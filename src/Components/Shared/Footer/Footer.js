@@ -17,7 +17,7 @@ const Footer = () => {
     return (
         <div className='footer-div'>
 
-            <footer className="text-center text-lg-start text-dark border-top mt-5">
+            <footer className="text-center text-lg-start text-dark border-top ">
 
                 <section className="d-flex justify-content-center  p-2">
 
@@ -58,20 +58,13 @@ const Footer = () => {
                             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
 
 
-                                <img src={dvpLogo} style={{ width: '280px' }} alt="" />
+                                <img src={dvpLogo} style={{ width: '280px' }} alt="" /> <br />
 
-                                {/* <p className='text-primary'>
-                                    DVANTAGEPOINT is a technology services and
-                                    consulting company operated in Sydney,
-                                    Australia and Dhaka, Bangladesh, coupling
-                                    globally connected IT, Telecom & Fintech
-                                    professionals, mainly from Australia, Canada,
-                                    Germany, Ireland, China & Bangladesh and
-                                    forming a diversified cross functional
-                                    autonomous team (CFAT), focused towards
-                                    delivering evolved products and services to
-                                    clients around the globe.
-                                </p> */}
+                                <h3 >
+                                    info@dvantagepoint.com
+                                </h3>
+
+                               
                             </div>
 
                             {/* <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -151,9 +144,6 @@ const Footer = () => {
                                 </div>
 
 
-                                <p className='text-primary'><EmailIcon className='mx-2' />
-                                    info@dvantagepoint.com
-                                </p>
 
 
 
@@ -171,7 +161,7 @@ const Footer = () => {
                     © {new Date().getFullYear()} dvantagepoint
 
                 </div>
-                {/*bg-color #45637d */}
+                {/*bg-color #45637d  <EmailIcon />*/}
             </footer>
 
         </div>

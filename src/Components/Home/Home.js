@@ -18,7 +18,7 @@ const Home = () => {
             <AboutVideo />
             <OurClient />
             <AllServices />
-            <ContactForm />
+            {/* <ContactForm /> */}
             <Footer />
         </div>
     );

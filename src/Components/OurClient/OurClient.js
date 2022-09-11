@@ -24,15 +24,15 @@ const OurClient = () => {
                 flex-wrap
               client-icon">
 
-                <img src={kaaz} alt="" />
-                <img src={barikTelecom} alt="" />
-                <img src={roshanTelecom} alt="" />
-                <img src={dtac} alt="" />
-                <img src={ericsson} alt="" />
-                <img src={iSoftStone} alt="" />
-                <img src={rayooTech} alt="" />
-                <img src={rahimafroj} alt="" />
-                
+                <img className='clients-image' src={kaaz} alt="" />
+                <img className='clients-image' src={barikTelecom} alt="" />
+                <img className='clients-image' src={roshanTelecom} alt="" />
+                <img className='clients-image' src={dtac} alt="" />
+                <img className='clients-image-ericsson' src={ericsson} alt="" />
+                <img className='clients-image' src={iSoftStone} alt="" />
+                <img className='clients-image-rayooTech' src={rayooTech} alt="" />
+                <img className='clients-image' src={rahimafroj} alt="" />
+
             </div>
 
         </div>
