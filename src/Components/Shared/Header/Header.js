@@ -33,7 +33,7 @@ const Header = () => {
                             navbarScroll
                             size='lg'
                         >
-                            <Nav.Link href="/" className='header mx-4'  >HOME</Nav.Link>
+                            <Nav.Link as={Link} to="/" className='header mx-4'  >HOME</Nav.Link>
                             <Nav.Link as={HashLink} to='/home#about' className='header mx-4'>ABOUT</Nav.Link>
                             <NavDropdown title="PRODUCT & SERVICES" className='header' id="basic-nav-dropdown">
 
