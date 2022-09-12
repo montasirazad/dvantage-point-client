@@ -1,17 +1,13 @@
 import React from 'react';
-import './Footer.css';
-import EmailIcon from '@mui/icons-material/Email';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import PlaceIcon from '@mui/icons-material/Place';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import dvpLogo from '../../../images/dvp_logo.png';
+import australia from '../../../images/flag-icon/australia.png';
 import bdFlag from '../../../images/flag-icon/bangladesh.png';
 import canada from '../../../images/flag-icon/canada.png';
-import australia from '../../../images/flag-icon/australia.png';
+import './Footer.css';
 
 const Footer = () => {
     return (
@@ -21,31 +17,19 @@ const Footer = () => {
 
                 <section className="d-flex justify-content-center  p-2">
 
-                    {/* <div className="me-5 d-none d-lg-block">
-                        <span>Get connected with us on social networks:</span>
-                    </div> */}
 
-                    <div  >
+
+                    <div >
                         <a href="https://www.facebook.com/Dvantagepoint-Limited-106835074561699"
                             target='blank' className="me-4 link-secondary">
 
                             < FacebookIcon sx={{ fontSize: 40 }} color="primary" />
                         </a>
-                        {/* <a href="https://www.instagram.com/" target='blank' className="me-4 link-secondary">
-                            <InstagramIcon sx={{ fontSize: 40, color: "#795548" }} />
-                        </a> */}
-                        {/* <a href="https://twitter.com/tweeter" target='blank' className="me-4 link-secondary">
-                            <TwitterIcon sx={{ fontSize: 40, color: '#00b0ff' }} />
-                        </a> */}
-                        {/* <a href="" className="me-4 link-secondary">
-                            <GoogleIcon sx={{ fontSize: 40, color: "#2962ff" }} />
-                        </a> */}
+
                         <a href="https://www.linkedin.com/company/dvantagepoint" target='blank' className="me-4 link-secondary">
                             <LinkedInIcon sx={{ fontSize: 40 }} color="primary" />
                         </a>
-                        {/* <a href="https://github.com/" target='blank' className="me-4 link-secondary">
-                            <GitHubIcon sx={{ fontSize: 40, color: "#000000" }} />
-                        </a> */}
+
                     </div>
 
                 </section>
@@ -59,10 +43,6 @@ const Footer = () => {
 
 
                                 <img src={dvpLogo} style={{ width: '280px' }} alt="" /> <br />
-
-
-
-
                             </div>
 
 
