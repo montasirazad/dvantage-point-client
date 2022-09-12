@@ -6,7 +6,10 @@ const Cscan = () => {
     return (
         <div className='p-3'>
 
+            <div className='text-center'>
+                <h1 className='text-primary my-4'> Cscan</h1>
 
+            </div>
             <p>Atomicity and consistency are two keywords, solely responsible
                 to determine providence in the territory of software development
                 to smooth enterprise operation. </p>

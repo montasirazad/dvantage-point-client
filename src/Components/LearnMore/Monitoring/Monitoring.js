@@ -6,7 +6,12 @@ import '../LearnMoreShared.css';
 const Monitoring = () => {
     return (
         <div className='p-3'>
-            <h3>Monitoring intimacy in IT clinic!</h3>
+
+            <div className='text-center'>
+                <h1 className='text-primary my-4'> Monitoring intimacy in IT clinic!</h1>
+
+            </div>
+
 
             <div className='text-center'>
                 <img className='shared' src={monitor1} alt="" />

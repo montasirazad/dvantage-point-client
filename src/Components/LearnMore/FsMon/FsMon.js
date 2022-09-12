@@ -9,6 +9,11 @@ const FsMon = () => {
         <div >
 
             <div className='text-center'>
+                <h1 className='text-primary my-4'> FsMon</h1>
+
+            </div>
+
+            <div className='text-center'>
                 <img className='img-fluid w-75' src={pic1} alt="" /> <br /> <br />
 
             </div>

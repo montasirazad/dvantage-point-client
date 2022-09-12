@@ -11,7 +11,10 @@ const SterLn = () => {
     return (
         <div className='p-2'>
 
+            <div className='text-center'>
+                <h1 className='text-primary my-4'> Sterln</h1>
 
+            </div>
             <p>
                 Embracing performance test service using our own
                 developed load generator with “NO” license cost,

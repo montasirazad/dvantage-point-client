@@ -5,8 +5,11 @@ import prx2 from '../../../images/service-image/prx2/prxtwo2.jpg';
 const Prx2 = () => {
     return (
         <div className='p-3'>
-            
 
+            <div className='text-center'>
+                <h1 className='text-primary my-4'> Prx2</h1>
+
+            </div>
             <p>
                 Independent of nature of project “Greenfield” or “Migration”, functional and non-functional assessments are MUST going through tollgates and checkpoints of production readiness . Whether it is a digital service deployment in telecom or financial or e-commerce space, maintaining balance between quality and time to market is always a debate. The list of functional requirements remains big and while you are intended to inherit all required non-functional aspects, investment of people and process become immutable and you start creating heat-map of priorities.
             </p>
@@ -29,7 +32,7 @@ const Prx2 = () => {
             </p>
 
             <div className='text-center'>
-            <img src={prx2} alt="" className='w-75'/>
+                <img src={prx2} alt="" className='w-75' />
             </div>
 
             <h6>

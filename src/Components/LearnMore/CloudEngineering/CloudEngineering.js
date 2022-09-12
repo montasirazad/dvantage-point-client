@@ -6,10 +6,13 @@ import '../LearnMoreShared.css';
 const CloudEngineering = () => {
     return (
         <div className='p-3'>
+            <div className='text-center'>
+                <h1 className='text-primary my-4'> Cloud Engineering</h1>
 
+            </div>
 
             <div className='text-center container-fluid  ' >
-                <img style={{width:'400px'}} src={pic1} alt="" />
+                <img style={{ width: '400px' }} src={pic1} alt="" />
             </div>
 
 
@@ -36,7 +39,7 @@ const CloudEngineering = () => {
             </p>
 
             <div className='text-center '>
-                <img style={{width:'400px'}} src={pic2} alt="" />
+                <img style={{ width: '400px' }} src={pic2} alt="" />
             </div>
 
             <p>

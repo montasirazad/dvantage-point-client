@@ -5,6 +5,11 @@ import xRoboBody2 from '../../../images/service-image/xRobo/xRobo_body2.jpg';
 const Xrobo = () => {
     return (
         <div className='p-3'>
+
+            <div className='text-center'>
+                <h1 className='text-primary my-4'> Xrobo</h1>
+
+            </div>
             <p>
                 Templates, orchestration and automation are aimed to achieve agility, atomicity and immutability in modern and complex IT delivery pipeline. To meet consistent demand of new features from mixed generations of consumer with improved performance and security, IT companies are pushing hard to shorten life-cycle of releases without any compromise to the quality.
             </p>

@@ -21,7 +21,7 @@ const BgVideo = () => {
                         loop: true,
                         pauseFor: 500,
                         delay: 100,
-                        deleteSpeed: 30,
+                        deleteSpeed: 10,
 
 
                     }}
