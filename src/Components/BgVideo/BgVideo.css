@@ -1,8 +1,8 @@
 #home-div {
     background-image: url('../../images/bgEdited.jpeg');
-    /* background-size: 100% 100%; */
+    background-size: 100% 100%;
     height: 450px;
-    width: 100vw;
+    width: 100%;
 
 }
 
@@ -10,102 +10,137 @@
 
     font-size: 45px;
     font-weight: bold;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     position: relative;
     color: white;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    /* From https://css.glass */
-    /* background: rgba(86, 108, 219, 0.2);
-    border-radius: 5px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(86, 108, 219, 0.3);
-    padding-left: 10px;
-    padding-right: 10px; */
-
-    /* bottom: 20px;
-    margin-left: 30%; 
-    /* background-color: white; */
-    /* border: 3px solid red; */
 
 }
 
 
 
-.bg-img {
-    width: 100%;
-    height: 80vh;
 
-}
 
 /* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     #home-div {
         background-image: url('../../images/bgEdited.jpeg');
-        
         height: 450px;
         width: 100vw;
 
-    } */
+    }
+
+    .font {
+        font-size: 15px;
+        font-weight: bold;
+        position: relative;
+        color: white;
+
+        top: 50%;
+        left: 300px;
+        transform: translate(-50%, -50%);
+    }
+}
 
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)  {
+    #home-div {
+        background-image: url('../../images/bgEdited.jpeg');
+        height: 450px;
+        width: 100vw;
+
+    }
+
+    .font {
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        color: white;
+        top: 50%;
+        left: 350px;
+        transform: translate(-50%, -50%);
+    }
+
+}
 
 
-    /* .font {
+/* Medium devices (landscape tablets, 768px and up)  */
+@media only screen and (min-width: 768px) {
+    #home-div {
+        background-image: url('../../images/bgEdited.jpeg');
+        height: 450px;
+        width: 100vw;
+    }
+
+    .font {
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        color: white;
+        top: 50%;
+        left: 50%;
+        padding: 50px;
+        transform: translate(-50%, -50%);
+    }
+
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #home-div {
+        background-image: url('../../images/bgEdited.jpeg');
+        /* background-size: 100% 100%; */
+        height: 450px;
+        width: 100vw;
+    }
+
+    .font {
+        font-size: 45px;
+        font-weight: bold;
+        position: relative;
+        color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+   
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #home-div {
+        background-image: url('../../images/bgEdited.jpeg');
+        height: 450px;
+        width: 100vw;
+
+    }
+
+    .font {
 
         font-size: 45px;
         font-weight: bold;
-        margin-left: 10%;
         position: relative;
         color: white;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
 
-
-
     }
-} */
-
-
-/* Medium devices (landscape tablets, 768px and up)  */
-/* @media only screen and (min-width: 768px) { */
-    /* #home-div {
-        background-image: url('../../images/bgEdited.jpeg');
-        /* background-size: 100% 100%; */
-        /* height: 450px;
-        width: 100vw; * */
+}
 
 
 
-    /* }
+/* background-color: white; */
 
-    .font { */
-
-
-        /* font-size: 45px;
-        font-weight: bold;
-        margin-left: 10%;
-        position: relative;
-        color: white;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); */
-        /* border: 3px solid red;
-        font-size: 15px;
-        font-weight: bold;
-        position: absolute;
-        margin-left: 30%;
-        color: red; */
-
-        /* background-color: white; */
-
-        /* From https://css.glass */
-        /* background: rgba(86, 108, 219, 0.2);
+/* From https://css.glass */
+/* background: rgba(86, 108, 219, 0.2);
         border-radius: 5px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(5px);
@@ -113,40 +148,3 @@
         border: 1px solid rgba(86, 108, 219, 0.3);
         padding-left: 10px;
         padding-right: 10px; */
-
-    
-
-
-
-    /* .bg-img {
-        width: 100%;
-        height: 60vh;
-
-    } */
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) { */
-
-    /* #home-div {
-        background-image: url('../../images/bgEdited.jpeg');
-        height: 450px;
-        width: 100vw;
-
-    } */
-
-    /* .font { */
-
-        /* font-size: 45px;
-        font-weight: bold;
-        margin-left: 20%;
-        position: relative;
-        color: white;
-        top: 50%;
-        left: 10%;
-        transform: translate(-50%, -50%); */
-
-
-
-    /* } */
-

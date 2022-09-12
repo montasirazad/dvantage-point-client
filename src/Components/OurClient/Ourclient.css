@@ -17,7 +17,7 @@
 .clients-image-rayooTech {
     width: 130px;
     height: 35px;
-    margin: 20px;
+    margin-top: 35px;
 }
 
 .clients-image-kaajKi {
@@ -31,4 +31,12 @@
     width: 200px;
     height: 40px;
     margin: 10px;
+}
+
+.clients-image-rahimafroj{
+    width: 130px;
+    height: 50px;
+    margin-top: 35px;
+    margin-right: 10px;
+    margin-left: 15px;
 }

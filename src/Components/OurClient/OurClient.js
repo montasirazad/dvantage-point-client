@@ -22,10 +22,10 @@ const OurClient = () => {
             </div>
 
             <div className="d-flex my-5 row
-               justify-content-center
-                flex-wrap 
+                             justify-content-center
+                             flex-wrap 
                  
-              client-icon">
+                             client-icon">
 
                 <img className='clients-image' src={kaaz} alt="" />
                 <img className='clients-image' src={barikTelecom} alt="" />
@@ -34,7 +34,7 @@ const OurClient = () => {
                 <img className='clients-image-ericsson' src={ericsson} alt="" />
                 <img className='clients-image' src={iSoftStone} alt="" />
                 <img className='clients-image-rayooTech' src={rayooTech} alt="" />
-                <img className='clients-image' src={rahimafroj} alt="" />
+                <img className='clients-image-rahimafroj' src={rahimafroj} alt="" />
                 <img className='clients-image-kaajKi' src={kaajKi} alt="" />
                 <img className='clients-image-necenia' src={nacenia} alt="" />
 

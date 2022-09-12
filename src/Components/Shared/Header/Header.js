@@ -20,7 +20,7 @@ const Header = () => {
         <>
             <Navbar className='col-sm-12 container-fluid' bg="light" expand="lg" sticky="top" style={{ borderBottom: '1px solid lightgray' }}>
                 <Container fluid>
-                    <Navbar.Brand href="#" className='mx-5 logo-title'
+                    <Navbar.Brand as={Link} to="/" className='mx-5 logo-title'
                     >
                         <img style={{ width: '180px' }} src={dvpLogo} alt="" />
                     </Navbar.Brand>
@@ -55,7 +55,7 @@ const Header = () => {
 
 
                             </NavDropdown>
-                            <Nav.Link as={HashLink} to='#client' className='header mx-4'>CLIENTS</Nav.Link>
+                            <Nav.Link as={HashLink} to='/home#client' className='header mx-4'>CLIENTS</Nav.Link>
                             <Nav.Link as={HashLink} to='#blog' className='header mx-4'>BLOGS</Nav.Link>
                         </Nav>
 
