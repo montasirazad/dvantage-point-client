@@ -9,6 +9,8 @@ import clientsBanner from '../../images/clientsBanner.jpg';
 import roshanTelecom from '../../images/client-icon/roshanTelecom.png';
 import rahimafroj from '../../images/client-icon/rahimafroj.png';
 import kaaz from '../../images/client-icon/Kaaz.jpg';
+import kaajKi from '../../images/client-icon/kajkiLogo.png';
+import nacenia from '../../images/client-icon/nascenia.png';
 
 
 const OurClient = () => {
@@ -20,8 +22,9 @@ const OurClient = () => {
             </div>
 
             <div className="d-flex my-5 row
-               justify-content-evenly
-                flex-wrap
+               justify-content-center
+                flex-wrap 
+                 
               client-icon">
 
                 <img className='clients-image' src={kaaz} alt="" />
@@ -32,6 +35,8 @@ const OurClient = () => {
                 <img className='clients-image' src={iSoftStone} alt="" />
                 <img className='clients-image-rayooTech' src={rayooTech} alt="" />
                 <img className='clients-image' src={rahimafroj} alt="" />
+                <img className='clients-image-kaajKi' src={kaajKi} alt="" />
+                <img className='clients-image-necenia' src={nacenia} alt="" />
 
             </div>
 

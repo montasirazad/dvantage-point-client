@@ -9,7 +9,7 @@ const BgVideo = () => {
 
     return (
         <div id='home-div'>
-            <img className='bg-img' src={bgImage} alt="" />
+            {/* <img className='bg-img' src={bgImage} alt="" /> */}
 
 
             {/* <div className='font'>
@@ -24,7 +24,25 @@ const BgVideo = () => {
 
             <div className='font'>
 
-                {/* <Typewriter
+                <div  >
+                    <Typewriter
+                        options={{
+                            strings: [`Hub of IT Experts from different parts of the globe <br/>
+                        Optimize IT Workloads meeting cost, scale and security  <br/>
+                         Meet IT Resiliency at zero downtime  <br/>
+                         Developing reusable software at scale  <br/>
+                         Leverage strengths of cloud/multi-cloud services  <br/>
+                         Vantage excellence with next generation technologies `],
+                            autoStart: true,
+                            loop: true,
+                            pauseFor: 100,
+                            delay: 20,
+                            deleteSpeed: 15,
+
+
+                        }}
+                    />
+                    {/* <Typewriter
                     onInit={(typewriter) => {
                         typewriter.typeString('Lorem ipsum dolor sit, <br/>amet consectetur adipisicing elit.<br/>Ex sed iure neque, delectus voluptatum corporis <br/>adipisicing elit. Nesciunt modi asperiores')
                             .callFunction(() => {
@@ -40,7 +58,7 @@ const BgVideo = () => {
                     }}
                 /> */}
 
-                {/* <Typewriter
+                    {/* <Typewriter
                     onInit={(typewriter) => {
                         typewriter.typeString(`Hub of IT Experts from different parts of the globe <br/>`)
                             .callFunction(() => {
@@ -58,41 +76,14 @@ const BgVideo = () => {
                     }}
                 /> */}
 
-                <div  >
-                    <Typewriter
-                        options={{
-                            strings: [`Hub of IT Experts from different parts of the globe <br/>
-                        Optimize IT Workloads meeting cost, scale and security  <br/>
-                         Meet IT Resiliency at zero downtime  <br/>
-                         Developing reusable software at scale  <br/>
-                         Leverage strengths of cloud/multi-cloud services  <br/>
-                         Vantage excellence with next generation technologies `],
-                            autoStart: true,
-                            loop: true,
-                            pauseFor: 100,
-                            delay: 20,
-                            deleteSpeed: 100,
 
-
-                        }}
-                    />
                 </div>
 
 
             </div>
-            <div id='app'>
-
-            </div>
-
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi asperiores quaerat harum saepe numquam.
 
 
-            `Hub of IT Experts from different parts of the globe <br />
-            Optimize IT Workloads meeting cost, scale and security<br />
-            Meet IT Resiliency at zero downtime <br />
-            Developing reusable software at scale<br />
-            Leverage strengths of cloud/multi-cloud services<br />
-            Vantage excellence with next generation technologies`
+
 
         </div>
     );

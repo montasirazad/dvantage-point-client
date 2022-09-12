@@ -157,8 +157,8 @@ const Footer = () => {
 
 
 
-                <div className="text-center p-2 bg-primary text-white">
-                    © {new Date().getFullYear()} dvantagepoint
+                <div className="text-center p-1 bg-primary text-white footerBg">
+                    © 2022-2023 DVANTAGEPOINT LIMITED
 
                 </div>
                 {/*bg-color #45637d  <EmailIcon />*/}

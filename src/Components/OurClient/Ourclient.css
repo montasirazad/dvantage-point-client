@@ -8,14 +8,27 @@
     height: 150px;
 } */
 
-.clients-image-ericsson{
-    width: 120px;
-    height: 90px;
+.clients-image-ericsson {
+    width: 130px;
+    height: 100px;
     margin: 10px;
 }
 
-.clients-image-rayooTech{
+.clients-image-rayooTech {
     width: 160px;
     height: 50px;
+    margin: 10px;
+}
+
+.clients-image-kaajKi {
+    width: 150px;
+    margin: 10px;
+    /* height: 50px; */
+
+}
+
+.clients-image-necenia {
+    width: 200px;
+    height: 40px;
     margin: 10px;
 }
