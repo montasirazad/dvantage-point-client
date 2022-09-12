@@ -35,10 +35,10 @@ const Header = () => {
                         >
                             <Nav.Link as={Link} to="/" className='header mx-4'  >HOME</Nav.Link>
                             <Nav.Link as={HashLink} to='/home#about' className='header mx-4'>ABOUT</Nav.Link>
-                            <NavDropdown title="OUR SERVICES" className='header' id="basic-nav-dropdown">
+                            <NavDropdown title="SERVICES" className='header' id="basic-nav-dropdown">
 
                                 <NavDropdown.Item as={Link} to='/learn-more/augmented-capacity-planning-and-benchmarking' className='header' id="RouterNavLink" >
-                                    Augmented Capacity Planning & Benchmarking
+                                    Augmented Capacity Planning 
                                 </NavDropdown.Item>
 
                                 <NavDropdown.Item as={Link} to="/learn-more/cloud-engineering" className='header'>Cloud Engineering </NavDropdown.Item>
@@ -55,8 +55,8 @@ const Header = () => {
 
 
                             </NavDropdown>
-                            <Nav.Link as={HashLink} to='#client' className='header mx-4'>Our Clients</Nav.Link>
-                            <Nav.Link as={HashLink} to='#blog' className='header mx-4'>BLOG</Nav.Link>
+                            <Nav.Link as={HashLink} to='#client' className='header mx-4'>CLIENTS</Nav.Link>
+                            <Nav.Link as={HashLink} to='#blog' className='header mx-4'>BLOGS</Nav.Link>
                         </Nav>
 
                     </Navbar.Collapse>

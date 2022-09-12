@@ -1,7 +1,7 @@
 .clients-image {
-    width: 130px;
+    width: 120px;
     height: 60px;
-    margin: 10px;
+    margin: 20px;
 }
 
 /* .banner{
@@ -9,19 +9,19 @@
 } */
 
 .clients-image-ericsson {
-    width: 130px;
-    height: 100px;
+    width: 110px;
+    height: 70px;
     margin: 10px;
 }
 
 .clients-image-rayooTech {
-    width: 160px;
-    height: 50px;
-    margin: 10px;
+    width: 130px;
+    height: 35px;
+    margin: 20px;
 }
 
 .clients-image-kaajKi {
-    width: 150px;
+    width: 110px;
     margin: 10px;
     /* height: 50px; */
 

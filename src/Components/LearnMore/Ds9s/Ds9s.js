@@ -1,5 +1,5 @@
 import React from 'react';
-import ds9sCover from '../../../images/service-image/ds9s/ds9sCover.jpg';
+import ds9sCover from '../../../images/service-image/ds9s/ds9s.jpg';
 import graph from '../../../images/service-image/ds9s/graph.jpg';
 import '../LearnMoreShared.css'
 

@@ -35,9 +35,9 @@ const BgVideo = () => {
                                 'Vantage excellence with next generation technologies'],
                             autoStart: true,
                             loop: true,
-                            pauseFor: 100,
+                            pauseFor: 500,
                             delay: 100,
-                            deleteSpeed: 80,
+                            deleteSpeed: 100,
 
 
                         }}
