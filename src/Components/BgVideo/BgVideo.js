@@ -27,17 +27,17 @@ const BgVideo = () => {
                 <div  >
                     <Typewriter
                         options={{
-                            strings: [`Hub of IT Experts from different parts of the globe <br/>
-                        Optimize IT Workloads meeting cost, scale and security  <br/>
-                         Meet IT Resiliency at zero downtime  <br/>
-                         Developing reusable software at scale  <br/>
-                         Leverage strengths of cloud/multi-cloud services  <br/>
-                         Vantage excellence with next generation technologies `],
+                            strings: ['Hub of IT Experts from different parts of the globe',
+                                'Optimize IT Workloads meeting cost, scale and security ',
+                                'Meet IT Resiliency at zero downtime',
+                                'Developing reusable software at scale',
+                                'Leverage strengths of cloud/multi-cloud services',
+                                'Vantage excellence with next generation technologies'],
                             autoStart: true,
                             loop: true,
                             pauseFor: 100,
-                            delay: 20,
-                            deleteSpeed: 15,
+                            delay: 100,
+                            deleteSpeed: 80,
 
 
                         }}
@@ -78,7 +78,14 @@ const BgVideo = () => {
 
 
                 </div>
-
+                {/* <p>
+                    `Hub of IT Experts from different parts of the globe <br />
+                    Optimize IT Workloads meeting cost, scale and security  <br />
+                    Meet IT Resiliency at zero downtime  <br />
+                    Developing reusable software at scale  <br />
+                    Leverage strengths of cloud/multi-cloud services  <br />
+                    Vantage excellence with next generation technologies `
+                </p> */}
 
             </div>
 
