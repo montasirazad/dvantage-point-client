@@ -28,7 +28,7 @@ const AugmentedCapacityPlanning = () => {
                 <div className='col-xs-8 col-sm-8 col-lg-8 ' style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
 
                     <p >
-                        <span className='text-primary display-4'><strong>In</strong></span> solution design and infrastructure dimensioning
+                        <span className='text-primary display-4'><strong>I</strong></span>n solution design and infrastructure dimensioning
                         process of IT deployments, capacity planning and
                         benchmarking is always a critical tollgate of the
                         project for a fast growing vertical. And depending
