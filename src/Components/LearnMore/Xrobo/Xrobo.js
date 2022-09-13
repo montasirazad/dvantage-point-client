@@ -42,7 +42,7 @@ const Xrobo = () => {
                 <img className='img-fluid col-lg-8 w-25'
                     style={{
                         boxShadow: 'rgba(3, 102, 214, 0.3) 0px 0px 0px 3px',
-                        borderRadius: '8px',padding:'5px'
+                        borderRadius: '8px', padding: '5px'
                     }}
                     src={xRoboBody2} alt="" />
             </div>
@@ -72,7 +72,10 @@ const Xrobo = () => {
 
 
 
+            <div className="text-center p-1 my-5 ">
+                <p><small>© 2022-2023 DVANTAGEPOINT LIMITED</small></p>
 
+            </div>
 
 
 

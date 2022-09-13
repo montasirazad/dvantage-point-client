@@ -128,7 +128,11 @@ const AugmentedCapacityPlanning = () => {
 
                 </div>
             </div>
+            
+            <div className="text-center p-1 my-5 ">
+                <p><small>© 2022-2023 DVANTAGEPOINT LIMITED</small></p>
 
+            </div>
         </div>
     );
 };

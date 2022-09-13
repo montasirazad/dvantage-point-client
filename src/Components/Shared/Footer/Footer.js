@@ -99,7 +99,7 @@ const Footer = () => {
 
 
 
-                <div className="text-center p-1 bg-primary text-white footerBg">
+                <div className="text-center p-1 text-white footerBg">
                     © 2022-2023 DVANTAGEPOINT LIMITED
 
                 </div>

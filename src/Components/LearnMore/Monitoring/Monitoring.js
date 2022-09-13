@@ -44,7 +44,7 @@ const Monitoring = () => {
 
 
             <div className='text-center'>
-                <img className='img-fluid col-lg-8 w-50 ' style={{ border:'3px solid #62b2f2',borderRadius:'50px' }}
+                <img className='img-fluid col-lg-8 w-50 ' style={{ border: '3px solid #62b2f2', borderRadius: '50px' }}
                     src={monitor2} alt="" />
             </div>
 
@@ -103,7 +103,10 @@ const Monitoring = () => {
                 <div className='col-xs-2 col-sm-2 col-lg-2'></div>
             </div>
 
+            <div className="text-center p-1 my-5 ">
+                <p><small>© 2022-2023 DVANTAGEPOINT LIMITED</small></p>
 
+            </div>
         </div>
     );
 };
