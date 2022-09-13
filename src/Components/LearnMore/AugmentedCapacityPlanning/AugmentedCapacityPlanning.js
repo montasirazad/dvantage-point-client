@@ -120,7 +120,7 @@ const AugmentedCapacityPlanning = () => {
 
                     <p>
                         Hope it helps and we keep attention to these attributes through our services
-                        streIn and PRx2. For more details, please contact us at sales@dvantagepoint.com.
+                        streIn and PRx2. For more details, please contact us at <span className='text-primary'>sales@dvantagepoint.com</span>
                     </p>
                 </div>
 

@@ -170,7 +170,7 @@ const Ds9s = () => {
                     <p>
                         We offer assessment and technical consultancy service with our PRx2 team of diversified experts,
                         aimed to push reliability engineering and to bring excellence into operations. For details, please
-                        contact sales@dvantagepoint.com.
+                        contact <span className='text-primary'> sales@dvantagepoint.com</span>
                     </p>
                 </div>
                 <div className='col-xs-2 col-sm-2 col-lg-2'></div>

@@ -184,7 +184,12 @@ const SterLn = () => {
                     </p>
                     <p>
                         Both agile and waterfall approaches are supported as long as you
-                        need us to reach common objectives. ✉ info@dvantagepoint.com
+                        need us to reach common objectives.
+
+                    </p>
+
+                    <p>
+                        <span className='text-primary'>✉ info@dvantagepoint.com</span>
                     </p>
                 </div>
                 <div className='col-xs-2 col-sm-2 col-lg-2'></div>

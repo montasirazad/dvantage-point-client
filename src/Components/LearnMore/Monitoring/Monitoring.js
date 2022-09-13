@@ -97,7 +97,7 @@ const Monitoring = () => {
                     <p>
                         Sourcing above thoughts, we offer a full stack monitoring system “fsMon”
                         and intending to be that intimate part of your IT clinic. For details or
-                        specifications, please contact sales@dvantagepoint.com.
+                        specifications, please contact <span className='text-primary'>sales@dvantagepoint.com</span>
                     </p>
                 </div>
                 <div className='col-xs-2 col-sm-2 col-lg-2'></div>
