@@ -8,17 +8,17 @@ import aboutUsBanner from '../../images/about-us/about-us-banner.jpg'
 const AboutVideo = () => {
     return (
 
-        <div id='about' className="row  video-div ">
+        <div id='about' className="row ">
             <img src={aboutUsBanner} className='img-fluid' alt="" />
             {/* <h4 className='text-center'>About us</h4> */}
 
 
             <div className='row'>
-                <div className='col-lg-6 col-md-6 col-sm-12 p-3 text-center text-div'>
+                <div className='col-lg-6 col-sm-12'>
                     <Slider />
                 </div>
 
-                <div className='col-lg-6 col-sm-12 my-4'>
+                <div className='col-lg-6 col-sm-12'>
 
                     <video src={landingVideo} controls width="560" height="315" className='container-fluid'>
 

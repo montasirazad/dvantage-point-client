@@ -12,7 +12,12 @@ const Xrobo = () => {
             </div>
 
             <div className='text-center'>
-                <img className='img-fluid col-lg-8 w-50' style={{ boxShadow: 'rgba(3, 102, 214, 0.3) 0px 0px 0px 3px' }} src={xRoboBody} alt="" />
+                <img className='img-fluid col-lg-8 w-50'
+                    style={{
+                        boxShadow: 'rgba(3, 102, 214, 0.3) 0px 0px 0px 3px',
+                        borderRadius: '8px'
+                    }}
+                    src={xRoboBody} alt="" />
             </div>
 
             <div className='row my-5'>
@@ -34,7 +39,12 @@ const Xrobo = () => {
             </div>
 
             <div className='text-center'>
-                <img className='img-fluid col-lg-8 w-25' src={xRoboBody2} alt="" />
+                <img className='img-fluid col-lg-8 w-25'
+                    style={{
+                        boxShadow: 'rgba(3, 102, 214, 0.3) 0px 0px 0px 3px',
+                        borderRadius: '8px',padding:'5px'
+                    }}
+                    src={xRoboBody2} alt="" />
             </div>
 
             <div className='row my-5'>

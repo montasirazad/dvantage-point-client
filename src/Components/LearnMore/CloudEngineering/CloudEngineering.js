@@ -47,7 +47,10 @@ const CloudEngineering = () => {
 
 
             <div className='text-center '>
-                <img style={{   boxShadow: 'rgba(3, 102, 214, 0.3) 0px 0px 0px 3px' }}
+                <img style={{
+                    boxShadow: 'rgba(3, 102, 214, 0.3) 0px 0px 0px 3px',
+                    borderRadius: '8px'
+                }}
                     className='img-fluid col-lg-8 w-50'
                     src={pic2} alt="" />
             </div>
