@@ -56,7 +56,7 @@ const Header = () => {
 
                             </NavDropdown>
                             <Nav.Link as={HashLink} to='/home#client' className='header mx-4'>CLIENTS</Nav.Link>
-                            <Nav.Link as={HashLink} to='#blog' className='header mx-4'>BLOGS</Nav.Link>
+                            {/* <Nav.Link as={HashLink} to='#blog' className='header mx-4'>BLOGS</Nav.Link> */}
                         </Nav>
 
                     </Navbar.Collapse>

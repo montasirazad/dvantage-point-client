@@ -1,14 +1,14 @@
 import React from 'react';
 import './Slider.css';
-import aboutUs1 from '../../../images/newSliderPic/AboutUs1.jpg';
-import aboutUs2 from '../../../images/newSliderPic/AboutUs2.jpg';
-import aboutUs3 from '../../../images/newSliderPic/AboutUs3.jpg';
-import aboutUs4 from '../../../images/newSliderPic/AboutUs4.jpg';
-import aboutUs5 from '../../../images/newSliderPic/AboutUs5.jpg';
+import aboutUs1 from '../../../images/aboutUsSliderImage/AboutUs1.jpg';
+import aboutUs2 from '../../../images/aboutUsSliderImage/AboutUs2.jpg';
+import aboutUs3 from '../../../images/aboutUsSliderImage/AboutUs3.jpg';
+import aboutUs4 from '../../../images/aboutUsSliderImage/AboutUs4.jpg';
+import aboutUs5 from '../../../images/aboutUsSliderImage/AboutUs5.jpg';
 
 const Slider = () => {
     return (
-        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls" className="carousel slide mx-3" data-bs-ride="carousel">
 
             <div className="carousel-inner">
 

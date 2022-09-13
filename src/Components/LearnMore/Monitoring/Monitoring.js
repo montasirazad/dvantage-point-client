@@ -44,7 +44,7 @@ const Monitoring = () => {
 
 
             <div className='text-center'>
-                <img className='img-fluid col-lg-8 w-50 ' style={{ boxShadow: 'rgba(3, 102, 214, 0.3) 0px 0px 0px 3px' }}
+                <img className='img-fluid col-lg-8 w-50 ' style={{ border:'3px solid #62b2f2',borderRadius:'50px' }}
                     src={monitor2} alt="" />
             </div>
 

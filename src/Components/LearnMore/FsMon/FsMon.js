@@ -1,6 +1,6 @@
 import React from 'react';
 import pic1 from '../../../images/service-image/fsMon/fsMon-1.jpg';
-import pic2 from '../../../images/service-image/fsMon/fsMon-2.jpg';
+import pic2 from '../../../images/service-image/fsMon/fsMon_Body.jpg';
 import '../LearnMoreShared.css';
 
 

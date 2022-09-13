@@ -8,19 +8,24 @@ import aboutUsBanner from '../../images/about-us/about-us-banner.jpg'
 const AboutVideo = () => {
     return (
 
-        <div id='about' className="row ">
-            <img src={aboutUsBanner} className='img-fluid' alt="" />
+        <div id='about' className="row my-5">
+            <img src={aboutUsBanner} className='banner img-fluid w-100' style={{height:'170px'}} alt="" />
             {/* <h4 className='text-center'>About us</h4> */}
 
 
-            <div className='row'>
+            <div className='row my-4' >
                 <div className='col-lg-6 col-sm-12'>
                     <Slider />
                 </div>
 
-                <div className='col-lg-6 col-sm-12'>
+                <div className='col-lg-6 
+                                col-sm-12 
+                                d-flex 
+                                align-items-center
+                                justify-content-center
+                                my-3' >
 
-                    <video src={landingVideo} controls width="560" height="315" className='container-fluid'>
+                    <video src={landingVideo} controls width="580" height="300" className='container-fluid'>
 
                     </video>
 

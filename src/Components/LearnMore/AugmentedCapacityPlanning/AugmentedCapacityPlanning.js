@@ -1,6 +1,6 @@
 import React from 'react';
 import pic1 from '../../../images/service-image/augmented-capacity/augmented-capacity-1.jpg'
-import pic2 from '../../../images/service-image/augmented-capacity/augmented-capacity-2.jpg'
+import pic2 from '../../../images/service-image/augmented-capacity/MathematicsIsFun.jpg'
 import '../LearnMoreShared.css'
 
 const AugmentedCapacityPlanning = () => {
@@ -86,7 +86,7 @@ const AugmentedCapacityPlanning = () => {
             </div>
 
             <div className='text-center '>
-                <img className='shared' src={pic2} alt="" />
+                <img className='img-fluid col-lg-8 w-50 ' src={pic2} alt="" />
             </div>
 
             <h5 className='text-center my-5'>
