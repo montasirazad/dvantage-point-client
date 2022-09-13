@@ -9,7 +9,7 @@ const Ds9s = () => {
             <h1 className='text-center text-primary'>Contribution of Ds in 9s</h1> <br />
 
             <div className='text-center'>
-                <img className='col-lg-8' style={{ boxShadow: 'rgba(3, 102, 214, 0.3) 0px 0px 0px 3px' }} src={ds9sCover} alt="" />
+                <img className='col-lg-8 w-50 img-fluid' style={{ boxShadow: 'rgba(3, 102, 214, 0.3) 0px 0px 0px 3px' }} src={ds9sCover} alt="" />
             </div>
 
             <div className='row my-5'>
@@ -71,7 +71,7 @@ const Ds9s = () => {
 
 
             <div className='text-center'>
-                <img className='w-25' src={graph} alt="" />
+                <img className='col-lg-8 img-fluid w-50' src={graph} alt="" />
             </div>
 
             <div className='row my-5'>

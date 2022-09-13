@@ -23,9 +23,9 @@ const FsMon = () => {
 
                 <div className='col-xs-2 col-sm-2 col-lg-2'></div>
 
-                <div className='col-xs-8 col-sm-8 col-lg-8' style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
+                <div className='col-xs-8 col-sm-8 col-lg-8 my-5' style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
                     <p  >
-                    <span className='text-primary display-4'><strong>O</strong></span>bjectively, siloed surveillance of distributed workloads
+                        <span className='text-primary display-4'><strong>O</strong></span>bjectively, siloed surveillance of distributed workloads
                         in a hybrid eco-system of private datacenter and public
                         clouds does not work much, while you are targeting to visualize the photons.
                     </p>
@@ -43,18 +43,21 @@ const FsMon = () => {
                         clouds as well as in private data centers.
                     </p>
 
-                    <p>
-                        Let’s connect intelligence and sharp eyes to experience the optimum!
-                        - DVANTAGEPOINT LIMITED
+                    <p className='text-primary'>
+                        <strong>
+                            Let’s connect intelligence and sharp eyes to experience the optimum!
+                            - DVANTAGEPOINT LIMITED
+                        </strong>
 
                     </p>
                 </div>
+
                 <div className='col-xs-2 col-sm-2 col-lg-2'></div>
 
 
 
                 <div className='text-center'>
-                    <img className='shared' src={pic2} alt="" />
+                    <img className='img-fluid col-lg-8 w-50' src={pic2} alt="" />
                 </div>
 
                 <div className='row my-5'>

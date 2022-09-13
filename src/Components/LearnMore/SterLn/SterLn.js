@@ -20,7 +20,7 @@ const SterLn = () => {
                 <div className='col-xs-2 col-sm-2 col-lg-2'></div>
                 <div className='col-xs-8 col-sm-8 col-lg-8' style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
                     <p>
-                    <span className='text-primary display-4'><strong> E</strong></span>mbracing performance test service using our own
+                        <span className='text-primary display-4'><strong> E</strong></span>mbracing performance test service using our own
                         developed load generator with “NO” license cost,
                         catering diverse range of applications and software
                         with wide range of protocols in use. Aim covers mainly
@@ -94,7 +94,7 @@ const SterLn = () => {
 
 
             <div className='text-center'>
-                <img className=' w-50' src={flowChart} alt="" />
+                <img className='img-fluid w-50' src={flowChart} alt="" />
             </div>
 
 

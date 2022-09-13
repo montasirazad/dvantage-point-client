@@ -14,14 +14,14 @@ const Monitoring = () => {
 
 
             <div className='text-center'>
-                <img className='shared' src={monitor1} alt="" />
+                <img className='img-fluid col-lg-8 w-50 ' src={monitor1} alt="" />
             </div>
 
             <div className='row my-5'>
                 <div className='col-xs-2 col-sm-2 col-lg-2'></div>
                 <div className='col-xs-8 col-sm-8 col-lg-8' style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
                     <p>
-                    <span className='text-primary display-4'><strong>E</strong></span>ven though you got the best medic in the room of IT troubleshooter,
+                        <span className='text-primary display-4'><strong>E</strong></span>ven though you got the best medic in the room of IT troubleshooter,
                         without proper instrumentations it’s impractical to envisage your best.
                         A friendly watchdog is one of the best choices of a troubleshooter who
                         is aiming for uninterrupted IT operations. It’s innate to protect your
@@ -44,7 +44,7 @@ const Monitoring = () => {
 
 
             <div className='text-center'>
-                <img className='shared' src={monitor2} alt="" />
+                <img className='img-fluid col-lg-8 w-50 ' src={monitor2} alt="" />
             </div>
 
 

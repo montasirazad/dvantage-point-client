@@ -36,12 +36,12 @@ const Cscan = () => {
 
 
             <div className='text-center'>
-                <img className='shared' src={cScan} alt="" />
+                <img className='col-lg-8 w-50 img-fluid' src={cScan} alt="" />
             </div>
 
             <div className='row my-5'>
                 <div className='col-xs-2 col-sm-2 col-lg-2'></div>
-                <div className='col-xs-8 col-sm-8 col-lg-8'>
+                <div className='col-xs-8 col-sm-8 col-lg-8' style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
                     <p>
                         With growth of the IT organizations, for any devops team,
                         it becomes very hard to dominate the change control process

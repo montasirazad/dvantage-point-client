@@ -12,7 +12,7 @@ const CloudEngineering = () => {
             </div>
 
             <div className='text-center container-fluid  ' >
-                <img style={{ width: '860px' }} src={pic1} alt="" />
+                <img style={{ width: '860px' }} className='img-fluid' src={pic1} alt="" />
             </div>
 
             <div className='row my-5'>
@@ -47,7 +47,9 @@ const CloudEngineering = () => {
 
 
             <div className='text-center '>
-                <img style={{ width: '500px' ,boxShadow: 'rgba(3, 102, 214, 0.3) 0px 0px 0px 3px' }} src={pic2} alt="" />
+                <img style={{   boxShadow: 'rgba(3, 102, 214, 0.3) 0px 0px 0px 3px' }}
+                    className='img-fluid col-lg-8 w-50'
+                    src={pic2} alt="" />
             </div>
 
             <div className='row my-5'>
