@@ -8,7 +8,7 @@ const BgVideo = () => {
     return (
         <div id='home-div'>
 
-            <div className=' font'>
+            <div className=' font img-fluid p-4'>
                 <Typewriter
                     options={{
                         strings: ['Hub of IT Experts from different parts of the globe',
@@ -19,7 +19,7 @@ const BgVideo = () => {
                             'Vantage excellence with next generation technologies'],
                         autoStart: true,
                         loop: true,
-                        pauseFor: 500,
+                        pauseFor: 1500,
                         delay: 100,
                         deleteSpeed: 10,
 
