@@ -50,6 +50,7 @@ const Header = () => {
                                 <NavDropdown.Item as={Link} to="/learn-more/relationship-among-Ds-and-9s" className='header'>Relationship among Ds and 9s</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/learn-more/cScan" className='header'>cScan</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/learn-more/xRobo" className='header'>xRobo</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/learn-more/asg" className='header'>Asg</NavDropdown.Item>
 
                                 {/* <NavDropdown.Item href="/learn-more/dFitness" className='header'>dFitness</NavDropdown.Item> */}
 

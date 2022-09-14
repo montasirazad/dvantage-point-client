@@ -7,7 +7,7 @@ import monitoring from '../../images/service-image/monitoring/monitoring2.jpg';
 import cScan from '../../images/service-image/cScan/Tile_cScan.jpg';
 import prx2 from '../../images/service-image/prx2/prxtwo2.jpg';
 import xRobo from '../../images/service-image/xRobo/Tile_xRobo.jpg';
-import dFitness from '../../images/service-image/dFitness/Tile_dFitness.jpg';
+import asg from '../../images/service-image/asg/ASG.jpg';
 import augmentedCapacity from '../../images/service-image/augmented-capacity/augmented-capacity-tile.jpg';
 import cloudEngineering from '../../images/service-image/cloud-engineering/cloud-engineering.jpg';
 import ds9s from '../../images/service-image/ds9s/ds9s.jpg';
@@ -107,14 +107,16 @@ const servicesData = [
          agile and resilient. `,
         url: 'xRobo'
     },
-    // {
-    //     id: 10,
-    //     name: 'dFitness',
-    //     img: dFitness,
-    //     description: `Adaptable unit & integration testing product, supported with a
-    //      wide range of protocols and platforms in use by current IT verticals.`,
-    //     url: 'dFitness'
-    // }
+    {
+        id: 10,
+        name: 'Asg',
+        img: asg,
+        description: `Typically, a multi-vendor large and complex
+         IT system requires remote access to manage and support underlying
+          infrastructure and software.  However, in most of the deployment,
+           customers can no longer see the work as it is being done.`,
+        url: 'asg'
+    }
 ]
 
 const AllServices = () => {

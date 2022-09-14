@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import AboutVideo from './Components/AboutVideo/AboutVideo';
 import Home from './Components/Home/Home';
+import Asg from './Components/LearnMore/Asg/Asg';
 import AugmentedCapacityPlanning from './Components/LearnMore/AugmentedCapacityPlanning/AugmentedCapacityPlanning';
 import CloudEngineering from './Components/LearnMore/CloudEngineering/CloudEngineering';
 import Cscan from './Components/LearnMore/Cscan/Cscan';
@@ -36,6 +37,7 @@ function App() {
         {/* <Route path='/learn-more/dFitness' element={<Dfitness />} /> */}
         <Route path='/learn-more/monitoring' element={<Monitoring />} />
         <Route path='/learn-more/PRx2' element={<Prx2 />} />
+        <Route path='/learn-more/asg' element={<Asg />} />
 
 
 
