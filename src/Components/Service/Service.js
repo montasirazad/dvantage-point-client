@@ -1,7 +1,4 @@
-import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons/faArrowAltCircleRight';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import './Service.css';
 

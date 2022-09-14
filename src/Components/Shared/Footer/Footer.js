@@ -8,6 +8,7 @@ import australia from '../../../images/flag-icon/australia.png';
 import bdFlag from '../../../images/flag-icon/bangladesh.png';
 import canada from '../../../images/flag-icon/canada.png';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -49,7 +50,10 @@ const Footer = () => {
 
                             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2 row">
 
-                                <h6 className="text-primary fw-bold mb-2">info@dvantagepoint.com</h6>
+                                <p className='text-center text-primary'>Click here to send E-mail</p>
+                                <Link to='/dvantage-point/send-email'>
+                                    <button className='button-85'>info@dvantagepoint.com</button>
+                                </Link>
 
                                 <div className='my-2 shadow p-2  bg-body rounded'  >
                                     <p className='text-primary'>
