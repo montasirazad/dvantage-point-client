@@ -11,15 +11,15 @@ import asg from '../../images/service-image/asg/ASG.jpg';
 import augmentedCapacity from '../../images/service-image/augmented-capacity/augmented-capacity-tile.jpg';
 import cloudEngineering from '../../images/service-image/cloud-engineering/cloud-engineering.jpg';
 import ds9s from '../../images/service-image/ds9s/ds9s.jpg';
-import asds from '../../images/service-image/Asds/SDAS_Tile1.jpg';
+import sdas from '../../images/service-image/sdas/SDAS_Tile1.jpg';
 import omp from '../../images/service-image/Omp/OMP_Tile.jpg';
 
 
 const servicesData = [
     {
         id: 1,
-        name: 'Applications and software development at scale (ASDS)',
-        img: asds,
+        name: 'software development at scale (SDAS)',
+        img: sdas,
         description: `Applications and software development at scale,
          deployment, management or customization, each of these are expanding 
          their territory every moment.`,
