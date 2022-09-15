@@ -6,7 +6,7 @@ import '../LearnMoreShared.css';
 
 const FsMon = () => {
     return (
-        <div >
+        <div className='p-3'>
 
             <div className='text-center'>
                 <h1 className='text-primary my-4'> FsMon</h1>

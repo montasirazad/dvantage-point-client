@@ -109,7 +109,7 @@ const servicesData = [
     },
     {
         id: 10,
-        name: 'Asg',
+        name: 'ASG',
         img: asg,
         description: `Typically, a multi-vendor large and complex
          IT system requires remote access to manage and support underlying

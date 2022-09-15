@@ -50,10 +50,12 @@ const Footer = () => {
 
                             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2 row">
 
-                                <p className='text-center text-primary'>Click here to send E-mail</p>
-                                <Link to='/dvantage-point/send-email'>
-                                    <button className='button-85'>info@dvantagepoint.com</button>
-                                </Link>
+                                <div className='text-center'>
+                                    <p className='text-primary'>Click here to send E-mail</p>
+                                    <Link to='/dvantage-point/send-email'>
+                                        <button className='button-85'>info@dvantagepoint.com</button>
+                                    </Link>
+                                </div>
 
                                 <div className='my-2 shadow p-2  bg-body rounded'  >
                                     <p className='text-primary'>
