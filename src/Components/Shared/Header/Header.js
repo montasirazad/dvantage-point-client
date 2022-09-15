@@ -42,7 +42,7 @@ const Header = () => {
                                 </NavDropdown.Item>
 
                                 <NavDropdown.Item as={Link} to="/learn-more/cloud-engineering" className='header'>Cloud Engineering </NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to="/learn-more/streln" className='header'>streIn</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/learn-more/streln" className='header'>Streln</NavDropdown.Item>
                                 {/* <NavDropdown.Divider /> */}
                                 <NavDropdown.Item as={Link} to="/learn-more/fsMon" className='header'>fsMon </NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/learn-more/monitoring" className='header '>Monitoring</NavDropdown.Item>

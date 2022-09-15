@@ -1,6 +1,7 @@
 import React from 'react';
 import xRoboBody from '../../../images/service-image/xRobo/xRobo_body.jpg';
 import xRoboBody2 from '../../../images/service-image/xRobo/xRobo_body2.jpg';
+import xRobo_cover from '../../../images/service-image/xRobo/xRobo_cover.jpg';
 
 const Xrobo = () => {
     return (
@@ -12,12 +13,12 @@ const Xrobo = () => {
             </div>
 
             <div className='text-center'>
-                <img className='img-fluid col-lg-8 w-50'
+                <img className='img-fluid col-lg-8'
                     style={{
                         boxShadow: 'rgba(3, 102, 214, 0.3) 0px 0px 0px 3px',
                         borderRadius: '8px'
                     }}
-                    src={xRoboBody} alt="" />
+                    src={xRobo_cover} alt="" />
             </div>
 
             <div className='row my-5'>
@@ -39,6 +40,15 @@ const Xrobo = () => {
             </div>
 
             <div className='text-center'>
+                <img className='img-fluid col-lg-8 w-50'
+                    style={{
+                        boxShadow: 'rgba(3, 102, 214, 0.3) 0px 0px 0px 3px',
+                        borderRadius: '8px'
+                    }}
+                    src={xRoboBody} alt="" />
+            </div>
+
+            <div className='text-center my-4'>
                 <img className='img-fluid col-lg-8 w-25'
                     style={{
                         boxShadow: 'rgba(3, 102, 214, 0.3) 0px 0px 0px 3px',
@@ -46,6 +56,8 @@ const Xrobo = () => {
                     }}
                     src={xRoboBody2} alt="" />
             </div>
+
+
 
             <div className='row my-5'>
                 <div className='col-xs-2 col-sm-2 col-lg-2'></div>
@@ -65,7 +77,7 @@ const Xrobo = () => {
 
                     <p>
                         Through xRobo, we are intending to automate anything in enterprise IT projects.
-                         Please contact us at <span className='text-primary'>info@dvantagepoint.com</span> for more information or queries.
+                        Please contact us at <span className='text-primary'>info@dvantagepoint.com</span> for more information or queries.
                     </p>
                 </div>
                 <div className='col-xs-2 col-sm-2 col-lg-2'></div>

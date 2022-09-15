@@ -12,7 +12,7 @@ const SterLn = () => {
         <div className='p-2'>
 
             <div className='text-center'>
-                <h1 className='text-primary my-4'> Sterln</h1>
+                <h1 className='text-primary my-4'> Streln</h1>
 
             </div>
 

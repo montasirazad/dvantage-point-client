@@ -36,7 +36,7 @@ const servicesData = [
     },
     {
         id: 3,
-        name: 'streIn',
+        name: 'StreIn',
         img: strLn,
         description: `Inclusive performance test,
          augmented capacity assessment and planning
