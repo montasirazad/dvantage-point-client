@@ -9,7 +9,9 @@ import Ds9s from './Components/LearnMore/Ds9s/Ds9s';
 import FsMon from './Components/LearnMore/FsMon/FsMon';
 import LearnMore from './Components/LearnMore/LearnMore';
 import Monitoring from './Components/LearnMore/Monitoring/Monitoring';
+import Omp from './Components/LearnMore/Omp/Omp';
 import Prx2 from './Components/LearnMore/Prx2/Prx2';
+import Sdas from './Components/LearnMore/Sdas/Sdas';
 import SterLn from './Components/LearnMore/SterLn/SterLn';
 import Xrobo from './Components/LearnMore/Xrobo/Xrobo';
 import SendEmail from './Components/SendEmail/SendEmail';
@@ -35,6 +37,8 @@ function App() {
         <Route path='/learn-more/monitoring' element={<Monitoring />} />
         <Route path='/learn-more/PRx2' element={<Prx2 />} />
         <Route path='/learn-more/asg' element={<Asg />} />
+        <Route path='/learn-more/sdas' element={<Sdas />} />
+        <Route path='/learn-more/omp' element={<Omp />} />
         <Route path='/dvantage-point/send-email' element={<SendEmail />} />
 
 

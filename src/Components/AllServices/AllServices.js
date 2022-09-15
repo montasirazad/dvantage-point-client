@@ -11,11 +11,30 @@ import asg from '../../images/service-image/asg/ASG.jpg';
 import augmentedCapacity from '../../images/service-image/augmented-capacity/augmented-capacity-tile.jpg';
 import cloudEngineering from '../../images/service-image/cloud-engineering/cloud-engineering.jpg';
 import ds9s from '../../images/service-image/ds9s/ds9s.jpg';
+import asds from '../../images/service-image/Asds/SDAS_Tile1.jpg';
+import omp from '../../images/service-image/Omp/OMP_Tile.jpg';
 
 
 const servicesData = [
     {
         id: 1,
+        name: 'Applications and software development at scale (ASDS)',
+        img: asds,
+        description: `Applications and software development at scale,
+         deployment, management or customization, each of these are expanding 
+         their territory every moment.`,
+        url: 'sdas'
+    },
+    {
+        id: 2,
+        name: 'Open Mediation Platform (OMP)',
+        img: omp,
+        description: `Data is the new currency: A currency that allows you to
+         purchase innovation and growth alongside creating point of views for decision makers.`,
+        url: 'omp'
+    },
+    {
+        id: 3,
         name: 'Augmented Capacity Planning and Benchmarking',
         img: augmentedCapacity,
         description: `In solution design and infrastructure dimensioning
@@ -24,7 +43,7 @@ const servicesData = [
         url: 'augmented-capacity-planning-and-benchmarking'
     },
     {
-        id: 2,
+        id: 4,
         name: 'Cloud Engineering',
         img: cloudEngineering,
         description: `Starting from on demand IT resource management, 
@@ -35,7 +54,7 @@ const servicesData = [
         url: 'cloud-engineering'
     },
     {
-        id: 3,
+        id: 5,
         name: 'StreIn',
         img: strLn,
         description: `Inclusive performance test,
@@ -48,7 +67,7 @@ const servicesData = [
         url: 'streln'
     },
     {
-        id: 4,
+        id: 6,
         name: 'fsMon',
         img: fsMon,
         description: `Full stack monitoring system,
@@ -61,7 +80,7 @@ const servicesData = [
         url: 'fsMon'
     },
     {
-        id: 5,
+        id: 7,
         name: 'Monitoring is your intimate doctor',
         img: monitoring,
         description: `Even though you got the best medic in the room of IT
@@ -71,7 +90,7 @@ const servicesData = [
         , url: 'monitoring'
     },
     {
-        id: 6,
+        id: 8,
         name: 'PRx2',
         img: prx2,
         description: `Production Readiness Planning and Review,
@@ -81,14 +100,14 @@ const servicesData = [
         url: 'PRx2'
     },
     {
-        id: 7,
+        id: 9,
         name: 'Relationship among Ds and 9s',
         img: ds9s,
         description: `Uptime or Service continuity is the core target or KPI for any enterprise IT operation in running business critical functions. And depending on time criticality, RTO and RPO are two three-letter acronyms which objectively drives the journey from design to implementation to achieve service continuity during a micro or macro disaster.`,
         url: 'relationship-among-Ds-and-9s'
     },
     {
-        id: 8,
+        id: 10,
         name: 'cScan',
         img: cScan,
         description: `Automated triggered vulnerability 
@@ -98,7 +117,7 @@ const servicesData = [
         url: 'cScan'
     },
     {
-        id: 9,
+        id: 11,
         name: 'xRobo',
         img: xRobo,
         description: `Automating orchestrations, functional
@@ -108,7 +127,7 @@ const servicesData = [
         url: 'xRobo'
     },
     {
-        id: 10,
+        id: 12,
         name: 'ASG',
         img: asg,
         description: `Typically, a multi-vendor large and complex
