@@ -51,8 +51,8 @@ const Omp = () => {
                         (images, audio/video) and streaming event including the ones never remain at rest. Then
                         transform all these towards uniformity, opening up APIs for your reporting engine or business intelligence.
                     </p>
-                    <div className='text-center'>
-                        <img className='img-fluid col-lg-8 ' src={ompBody} alt="" />
+                    <div className='text-center py-4'>
+                        <img className='img-fluid ' src={ompBody} alt="" />
                     </div>
                     <p>Enabling you to perform machine learning or deep learning to connect deep insights, research
                         and produce new vision on top of that. There is no alter of producing new knowledge and adding
