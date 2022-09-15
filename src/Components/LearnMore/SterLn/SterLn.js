@@ -4,7 +4,8 @@ import pixelView from '../../../images/service-image/strLn/pixelView.jpg';
 import flowChart from '../../../images/service-image/strLn/flowChart.jpg';
 import pre from '../../../images/service-image/strLn/pre.jpg';
 import post from '../../../images/service-image/strLn/post.jpg';
-import blackBox from '../../../images/service-image/strLn/blackBox.jpg';
+import blackBox from '../../../images/service-image/strLn/blackBoxBody.jpg';
+import streInCover from '../../../images/service-image/strLn/streIn_cover.jpg';
 import '../LearnMoreShared.css';
 
 const SterLn = () => {
@@ -15,7 +16,10 @@ const SterLn = () => {
                 <h1 className='text-primary my-4'> Streln</h1>
 
             </div>
+            <div className='text-center'>
+                <img className='img-fluid col-lg-8' src={streInCover} alt="" />  
 
+            </div>
             <div className='row my-5'>
                 <div className='col-xs-2 col-sm-2 col-lg-2'></div>
                 <div className='col-xs-8 col-sm-8 col-lg-8' style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
@@ -55,13 +59,13 @@ const SterLn = () => {
 
 
             <div className='text-center'>
-                <img src={dashBoard} alt="" className='img-fluid w-75' />
+                <img src={dashBoard} alt="" className='img-fluid col-lg-8' />
             </div>
 
             <p className='text-center'>Customizable dashboard: 1000 feet view</p>
 
             <div className='text-center'>
-                <img src={pixelView} className='img-fluid w-50' alt="" />
+                <img src={pixelView} className='img-fluid col-lg-8' alt="" />
             </div>
 
             <p className='text-center'>Pixel level view</p>
@@ -94,7 +98,7 @@ const SterLn = () => {
 
 
             <div className='text-center'>
-                <img className='img-fluid w-50' src={flowChart} alt="" />
+                <img className='img-fluid col-lg-8' src={flowChart} alt="" />
             </div>
 
 
@@ -136,18 +140,18 @@ const SterLn = () => {
 
 
             <div className='text-center '>
-                <img className=' img-fluid w-50' src={pre} alt="" />
+                <img className=' img-fluid col-lg-8' src={pre} alt="" />
             </div>
 
             <p className='text-center'>Pre</p> <br />
 
             <div className='text-center'>
-                <img src={post} alt="" className='img-fluid w-50' />
+                <img src={post} alt="" className='img-fluid col-lg-8' />
             </div>
             <p className='text-center'>Post</p> <br />
 
             <div className='text-center'>
-                <img className='shared' src={blackBox} alt="" />
+                <img className='img-fluid' src={blackBox} alt="" />
             </div>
 
             <div className='row my-5'>
