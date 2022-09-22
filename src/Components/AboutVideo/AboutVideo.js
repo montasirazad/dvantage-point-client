@@ -15,29 +15,44 @@ const AboutVideo = () => {
 
 
 
-            <div className=' my-4' >
+            <div className='my-4' >
+                <div className="row">
+                    <div className='col-xs-1 col-sm-1 col-lg-1'></div>
+                    <div className='col-xs-10 
+                                    col-sm-10
+                                    col-lg-10 
+                                    p-2
+                                    border 
+                                    border-1
+                                    rounded
+                                    border-primary'>
+                        <Slider />
 
-                <div className='col-lg-12  col-sm-12'>
-                    <Slider />
 
-
+                    </div>
+                    <div className='col-xs-1 col-sm-1 col-lg-1'></div>
                 </div>
 
-                <div className='col-lg-12
-                                col-md-12 
-                                col-sm-12 
-                                my-3
-                                ratio ratio-21x9' >
+                <div className="row mt-3" >
+                    <div className='col-xs-1 col-sm-1 col-lg-1'></div>
+                    <div className='col-xs-10 
+                                col-sm-10 
+                                col-lg-10
+                                p-2
+                                border
+                                border-1 
+                                rounded 
+                                border-primary' >
 
-                    <video src={landingVideo}
-                        controls
-                        controlsList="nodownload"
-                        // width="580"
-                        // height="300"
-                        className='container-fluid'>
+                        <video src={landingVideo}
+                            controls
+                            controlsList="nodownload"
+                            className='container-fluid '>
 
-                    </video>
+                        </video>
 
+                    </div>
+                    <div className='col-xs-1 col-sm-1 col-lg-1'></div>
                 </div>
             </div>
 
