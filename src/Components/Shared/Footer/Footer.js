@@ -43,7 +43,7 @@ const Footer = () => {
                             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
 
 
-                                <img src={dvpLogo} style={{ width: '280px' }} alt="" /> <br />
+                                <img src={dvpLogo} style={{ width: '300px' }} alt="" /> <br />
                             </div>
 
 
