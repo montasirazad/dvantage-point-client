@@ -8,7 +8,7 @@ import aboutUs5 from '../../../images/aboutUsSliderImage/AboutUs5.jpg';
 
 const Slider = () => {
     return (
-        <div id="carouselExampleControls" className="carousel slide mx-3" data-bs-ride="carousel">
+        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
 
             <div className="carousel-inner">
 
