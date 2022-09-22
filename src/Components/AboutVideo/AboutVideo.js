@@ -8,7 +8,7 @@ import aboutUsBanner from '../../images/about-us/about-us-banner.jpg'
 const AboutVideo = () => {
     return (
 
-        <div id='about' className="row my-5">
+        <div id='about' className="row">
             <img src={aboutUsBanner} className='banner img-fluid w-100' style={{height:'170px'}} alt="" />
             {/* <h4 className='text-center'>About us</h4> */}
 
