@@ -8,7 +8,7 @@ import aboutUsBanner from '../../images/about-us/about-us-banner.jpg'
 const AboutVideo = () => {
     return (
 
-        <div className="row">
+        <div className="row" id='about'>
             <div>
                 <img src={aboutUsBanner} className='banner my-4 img-fluid w-100' alt="" />
             </div>
