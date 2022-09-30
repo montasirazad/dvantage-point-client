@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 import dvpLogo from '../../../images/dvp_logo.png';
-
+import EmailIcon from '@mui/icons-material/Email';
 
 
 
@@ -58,7 +58,14 @@ const Header = () => {
 
                             </NavDropdown>
                             <Nav.Link as={HashLink} to='/home#client' className='header mx-4'>CLIENTS</Nav.Link>
-                            {/* <Nav.Link as={HashLink} to='#blog' className='header mx-4'>BLOGS</Nav.Link> */}
+
+                            <p className='text-primary my-1'> <EmailIcon className='' /> contact@dvantagepoint.com</p>
+
+                            {/* <Nav.Link className=' mx-4'>
+                                <EmailIcon className='' /> 
+                                contact@dvantagepoint.com
+                            </Nav.Link> */}
+
                         </Nav>
 
                     </Navbar.Collapse>
