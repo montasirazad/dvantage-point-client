@@ -16,7 +16,9 @@ const BgVideo = () => {
                             'Meet IT Resiliency at zero downtime',
                             'Developing reusable software at scale',
                             'Leverage strengths of cloud/multi-cloud services',
-                            'Vantage excellence with next generation technologies'],
+                            'Vantage excellence with next generation technologies',
+                            'Transform Data as a currency to purchase innovation and growth'
+                        ],
                         autoStart: true,
                         loop: true,
                         pauseFor: 1000,

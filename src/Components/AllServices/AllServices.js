@@ -18,7 +18,7 @@ import omp from '../../images/service-image/Omp/OMP_Tile.jpg';
 const servicesData = [
     {
         id: 1,
-        name: 'software development at scale (SDAS)',
+        name: 'Software development at scale (SDAS)',
         img: sdas,
         description: `Applications and software development at scale,
          deployment, management or customization, each of these are expanding 
@@ -55,7 +55,7 @@ const servicesData = [
     },
     {
         id: 5,
-        name: 'StreIn',
+        name: 'Strein',
         img: strLn,
         description: `Inclusive performance test,
          augmented capacity assessment and planning
