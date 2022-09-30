@@ -1,14 +1,13 @@
 import React from 'react';
+import EmailIcon from '@mui/icons-material/Email';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import PlaceIcon from '@mui/icons-material/Place';
-import dvpLogo from '../../../images/dvp_logo.png';
 import australia from '../../../images/flag-icon/australia.png';
 import bdFlag from '../../../images/flag-icon/bangladesh.png';
 import canada from '../../../images/flag-icon/canada.png';
 import './Footer.css';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -38,7 +37,7 @@ const Footer = () => {
 
                         <div className="row mt-3">
                             <div className='text-center'>
-                                <p className='text-primary'>contact@dvantagepoint.com</p>
+                                <p className='text-primary'><EmailIcon />contact@dvantagepoint.com</p>
 
                             </div>
 
@@ -104,7 +103,7 @@ const Footer = () => {
                                 <div className='my-4 shadow p-3 bg-body rounded' style={{ width: '330px' }} >
                                     <p className='text-primary'>
                                         <small>
-                                            <PlaceIcon /> 35/L7 Gareeb-E-Newaz Avenue, Uttara 
+                                            <PlaceIcon /> 35/L7 Gareeb-E-Newaz Avenue, Uttara
                                             Dhaka 1230
 
                                         </small>

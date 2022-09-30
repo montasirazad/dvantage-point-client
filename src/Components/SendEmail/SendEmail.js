@@ -19,7 +19,8 @@ const SendEmail = () => {
                 console.log(error.text);
             });
 
-     };//mailto:contact@dvantagepoint.com
+     };
+     //mailto:contact@dvantagepoint.com
 
 
     return (
