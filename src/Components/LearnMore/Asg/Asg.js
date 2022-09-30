@@ -35,7 +35,7 @@ const Asg = () => {
 
                     </p>
                     <p>
-                        For more detail on ASG functionalities, we remain open at <span className='text-primary'>info@dvantagepoint.com</span>
+                        For more detail on ASG functionalities, we remain open at <span className='text-primary'>contact@dvantagepoint.com</span>
                     </p>
                 </div>
                 <div className='col-xs-2 col-sm-2 col-lg-2'></div>

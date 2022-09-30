@@ -105,7 +105,7 @@ const FsMon = () => {
                         </p>
 
                         <p>
-                            For detail information or query, please contact:  <span className='text-primary'>✉ info@dvantagepoint.com</span>
+                            For detail information or query, please contact:  <span className='text-primary'>✉ contact@dvantagepoint.com</span>
                         </p>
                     </div>
                     <div className='col-xs-2 col-sm-2 col-lg-2'></div>

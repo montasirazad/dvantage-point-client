@@ -77,7 +77,7 @@ const Xrobo = () => {
 
                     <p>
                         Through xRobo, we are intending to automate anything in enterprise IT projects.
-                        Please contact us at <span className='text-primary'>info@dvantagepoint.com</span> for more information or queries.
+                        Please contact us at <span className='text-primary'>contact@dvantagepoint.com</span> for more information or queries.
                     </p>
                 </div>
                 <div className='col-xs-2 col-sm-2 col-lg-2'></div>

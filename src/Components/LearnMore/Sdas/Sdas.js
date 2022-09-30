@@ -58,7 +58,7 @@ const Sdas = () => {
                         of infrastructure and network orchestrations, advanced analytics,
                         capacity management, Operations & maintenance or hosting, all can
                         be covered as one spot service. It's up to you on how much you
-                        want to leave to us to take care. <span className='text-primary'>info@dvantagepoint.com</span>
+                        want to leave to us to take care. <span className='text-primary'>contact@dvantagepoint.com</span>
 
 
                     </p>

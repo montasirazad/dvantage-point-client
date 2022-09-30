@@ -59,7 +59,7 @@ const Cscan = () => {
                         aimed to meet the agility with good track record of maintaining quality.</p>
 
                     <p>
-                        For further details, please contact us at <span className='text-primary'>info@dvantagepoint.com</span> 
+                        For further details, please contact us at <span className='text-primary'>contact@dvantagepoint.com</span> 
 
                     </p>
                 </div>

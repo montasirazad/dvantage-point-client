@@ -18,8 +18,6 @@ const Footer = () => {
 
                 <section className="d-flex justify-content-center  p-2">
 
-
-
                     <div >
                         <a href="https://www.facebook.com/Dvantagepoint-Limited-106835074561699"
                             target='blank' className="me-4 link-secondary">
@@ -38,61 +36,91 @@ const Footer = () => {
                 <section className="">
                     <div className="container text-center text-md-start mt-2">
 
-                        <div className="row mt-3 align-items-center">
+                        <div className="row mt-3">
+                            <div className='text-center'>
+                                <p className='text-primary'>contact@dvantagepoint.com</p>
 
-                            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
-
-
-                                <img src={dvpLogo} style={{ width: '300px' }} alt="" /> <br />
                             </div>
 
+                            <div className="d-flex 
+                                            justify-content-around 
+                                            align-items-center
+                                            flex-wrap">
 
 
-                            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2 row">
 
-                                <div className='text-center'>
-                                    <p className='text-primary'>Click here to send E-mail</p>
-                                    <Link to='/dvantage-point/send-email'>
-                                        <button className='button-85'>info@dvantagepoint.com</button>
-                                    </Link>
-                                </div>
+                                <div className='my-4
+                                                shadow p-4 
+                                                bg-body rounded
+                                                 '
+                                    style={{ width: '330px' }} >
 
-                                <div className='my-2 shadow p-2  bg-body rounded'  >
                                     <p className='text-primary'>
                                         <small>
-                                            <PlaceIcon />  35/L7 Gareeb-E-Newaz Avenue, Uttara Dhaka 1230, Bangladesh
-
-                                            <img style={{ width: '30px', marginLeft: '5px' }} src={bdFlag} alt="" /> <br />
-                                            <LocalPhoneIcon /> +880 13 030 80 685
+                                            <PlaceIcon />  7 Epping road, Epping, NSW-2121,
                                         </small>
+                                    </p>
 
+                                    <p className='text-primary'>
+                                        <small>
+                                            <img style={{ width: '30px', marginLeft: '5px' }} className='mx-2' src={australia} alt="" />
+                                            Australia
+                                        </small>
+                                    </p>
+
+                                    <p className='text-primary'>
+                                        <small>
+                                            <LocalPhoneIcon /> +61422375845
+                                        </small>
                                     </p>
                                 </div>
 
 
-                                <div className='my-2 shadow p-2  bg-body rounded' >
-                                    <small>
-                                        <p className='text-primary'><PlaceIcon />  7 Epping road, Epping, NSW-2121, Australia
-                                            <img style={{ width: '30px', marginLeft: '5px' }} src={australia} alt="" /> <br />
-                                            <LocalPhoneIcon /> +61422375845
-                                        </p>
-                                    </small>
+                                <div className='my-4 shadow p-4   bg-body rounded' style={{ width: '330px' }} >
 
-                                </div>
+                                    <p className='text-primary'>
+                                        <small>
+                                            <PlaceIcon />  469, Queens Street,Thunderbay,Ontario
+                                        </small>
+                                    </p>
+
+                                    <p className='text-primary'>
+                                        <small>
+                                            <img style={{ width: '32px', marginLeft: '5px' }} className='mx-2' src={canada} alt="" />  Canada
+                                        </small>
 
 
+                                    </p>
 
-                                <div className='my-2 shadow p-2  bg-body rounded'  >
-                                    <small>
-                                        <p className='text-primary'><PlaceIcon />  469, Queens Street, Thunderbay Ontario, Canada
-                                            <img style={{ width: '32px', marginLeft: '5px' }} src={canada} alt="" /> <br />
+                                    <p className='text-primary'>
+                                        <small>
                                             <LocalPhoneIcon /> +180 763 19705
-                                        </p>
-                                    </small>
+                                        </small>
+                                    </p>
+
                                 </div>
 
 
+                                <div className='my-4 shadow p-3 bg-body rounded' style={{ width: '330px' }} >
+                                    <p className='text-primary'>
+                                        <small>
+                                            <PlaceIcon /> 35/L7 Gareeb-E-Newaz Avenue, Uttara 
+                                            Dhaka 1230
 
+                                        </small>
+
+                                    </p>
+
+                                    <p className='text-primary'>
+                                        <small>
+                                            <img style={{ width: '30px', marginLeft: '5px' }} src={bdFlag} alt="" />  Bangladesh
+                                        </small>
+                                    </p>
+
+                                    <p className='text-primary'>
+                                        <LocalPhoneIcon /> +880 13 030 80 685
+                                    </p>
+                                </div>
 
 
 

@@ -58,7 +58,7 @@ const Omp = () => {
                         and produce new vision on top of that. There is no alter of producing new knowledge and adding
                         new dimensions in your product lines through innovation. </p>
                     <p>
-                        For more information and specs, please contact us at <span className='text-primary'> info@dvantagepoint.com</span>
+                        For more information and specs, please contact us at <span className='text-primary'> contact@dvantagepoint.com</span>
 
                     </p>
                 </div>

@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import prx2 from '../../../images/service-image/prx2/prxtwo2.jpg';
-
+import LaunchIcon from '@mui/icons-material/Launch';
 
 const Prx2 = () => {
     return (
@@ -72,7 +73,11 @@ const Prx2 = () => {
                         CI-CD pipeline for faster and reliable releases before it goes
                         to production. Let us be merged in your delivery pipeline adding
                         automation, postmortem and regression of tests and making sure
-                        continuous improvement of quality in your releases […..]
+                        continuous improvement of quality in your releases.  <br />
+                        <small>
+                            <Link to='/learn-more/xRobo' style={{ textDecoration: 'none' }}>Learn More<LaunchIcon /></Link>
+                        </small>
+
                     </p>
 
                     <h6>
@@ -87,7 +92,11 @@ const Prx2 = () => {
                         platforms or websites. Inspection and assistance to figure out resiliency
                         of system under load is not the only focus, besides it’s an intelligent
                         assistant to the micro-services and APIs, produces focus heat map, streamlining
-                        the priorities while you are targeted towards perfection. . […..]
+                        the priorities while you are targeted towards perfection. <br />
+                        <small>
+                            <Link to='/learn-more/streln' style={{ textDecoration: 'none' }}>Learn More<LaunchIcon /></Link>
+                        </small>
+
                     </p>
 
                     <h6>
@@ -102,11 +111,14 @@ const Prx2 = () => {
                         testing your system or in case you are getting the real peripherals
                         available too late to park your development efforts. It can perfectly
                         sit in between your CI-CD pipeline and assisting to gain 100% confidence
-                        to roll out your releases to the market […..]
+                        to roll out your releases to the market. <br />
+                        <small>
+                            <Link to='/learn-more/streln' style={{ textDecoration: 'none' }}>Learn More<LaunchIcon /></Link>
+                        </small>
                     </p>
 
                     <p>
-                        For more information, please contact us at <span className='text-primary'>info@dvantagepoint.com</span>
+                        For more information, please contact us at <span className='text-primary'>contact@dvantagepoint.com</span>
                     </p>
                 </div>
                 <div className='col-xs-2 col-sm-2 col-lg-2'></div>
