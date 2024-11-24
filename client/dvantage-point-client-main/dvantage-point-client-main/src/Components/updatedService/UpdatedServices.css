@@ -1,0 +1,64 @@
+.updated-service-main {
+  width: 90%;
+  height: auto;
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.updated-service-card {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid blue; */
+}
+.updated-service-card img {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  cursor: pointer;
+}
+
+.modal-container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  padding: 10px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.modal-container button {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+.modalImg {
+  width: 80%;
+}
+
+@media screen and (max-width: 995px) {
+  .updated-service-main {
+    width: 100%;
+    padding: 50px;
+    grid-template-columns: repeat(1, 100%);
+
+    gap: 30px;
+  }
+
+  .modalImg {
+    width: 90%;
+  }
+}

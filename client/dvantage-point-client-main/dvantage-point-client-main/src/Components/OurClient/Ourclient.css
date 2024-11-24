@@ -1,0 +1,42 @@
+.clients-image {
+    width: 120px;
+    height: 60px;
+    margin: 20px;
+}
+
+/* .banner{
+    height: 150px;
+} */
+
+.clients-image-ericsson {
+    width: 110px;
+    height: 70px;
+    margin: 10px;
+}
+
+.clients-image-rayooTech {
+    width: 130px;
+    height: 35px;
+    margin-top: 35px;
+}
+
+.clients-image-kaajKi {
+    width: 110px;
+    margin: 10px;
+    /* height: 50px; */
+
+}
+
+.clients-image-necenia {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+}
+
+.clients-image-rahimafroj{
+    width: 130px;
+    height: 50px;
+    margin-top: 35px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
