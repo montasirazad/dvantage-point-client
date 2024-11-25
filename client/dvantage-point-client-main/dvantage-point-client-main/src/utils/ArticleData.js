@@ -35,6 +35,66 @@ const articleData = [
     `,
     url: "article/leveraging-advanced-automation-tools",
   },
+  {
+    id: 6,
+    name: "Leveraging Blockchain for Strengthening E-KYC and Combatting Synthetic Identities",
+    img: "https://media.licdn.com/dms/image/v2/D5612AQFlyNNNYZDxXw/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1721199713327?e=2147483647&v=beta&t=kq0syFEWrrgCgdzjvPo_1zAZgpSa212qi_dLFBbbqMA",
+    description: `Leveraging blockchain technology to combat synthetically generated malicious identities and strengthen E-KYC data security can be approached through several key strategies. 
+    `,
+    url: "article/leveraging-blockchain-technology",
+  },
+  {
+    id: 7,
+    name: "Composable Banking as a Service: Revolutionizing Modern Banking with Scalable Integration",
+    img: "https://media.licdn.com/dms/image/v2/D5612AQGkr6UvVn6t5g/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1716440330413?e=2147483647&v=beta&t=5qNDW5KgdOYFkKWQeB1uIiNNr3-8tSHbdUSxmWKaKxs",
+    description: `In an era where technology is reshaping every industry, banking is no exception. The traditional banking....`,
+    url: "article/composable-banking",
+  },
+  {
+    id: 8,
+    name: "When designing an orchestrated IT system",
+    img: "https://media.licdn.com/dms/image/v2/D5622AQGIg0FV5Ss-mw/feedshare-shrink_800/feedshare-shrink_800/0/1710673452890?e=2147483647&v=beta&t=Mcyllpmix64Ek7V4kK4iu6zXdKmSthlOGo4gsnqQvFM",
+    description: `When designing an orchestrated IT system, several key parameters must be...`,
+    url: "article/when-designing-an-orchestrated-it-system",
+  },
+  {
+    id: 9,
+    name: "Key aspects of information security tailored to the contemporary IT environment",
+    img: "https://media.licdn.com/dms/image/v2/D5622AQHkkSJrqHF4sw/feedshare-shrink_800/feedshare-shrink_800/0/1710093469935?e=2147483647&v=beta&t=IbpP0o0Jn8NBpn834lW6fVGNvRj0Bz-oRJM5kFcCj7A",
+    description:
+      "Cloud Security: Specific to protecting data, applications, and infrastructures involved in cloud computing, addressing....",
+    url: "article/key-aspects-of-information-security",
+  },
+  {
+    id: 10,
+    name: "Service Delivery Maturity Model",
+    img: "https://media.licdn.com/dms/image/v2/D5622AQFyLH6txVj9BQ/feedshare-shrink_800/feedshare-shrink_800/0/1706954074594?e=2147483647&v=beta&t=9yG2uIbBS1K_6g9mXvY2ZaKF4efLd0Nt5urPqoqGGhI",
+    description:
+      "Make sure your account management and excellence management have tightly coupled collaboration process to fulfill business needs and vantage success together with customer. It’s always about a win-win deal!",
+    url: "article/service-delivery-maturity-model",
+  },
+  {
+    id: 11,
+    name: "CISO",
+    img: "https://media.licdn.com/dms/image/v2/D5622AQFE4NKQc5wrUg/feedshare-shrink_800/feedshare-shrink_800/0/1706806462766?e=2147483647&v=beta&t=kmZHq7Fd9-TiBHEujq08Ta2IODYafdUZNmEZhxWzJaU",
+    description:
+      "CISOs, are you ready to take your organization's IT security to the next level?",
+    url: "article/ciso",
+  },
+  {
+    id: 12,
+    name: "As organizations grow",
+    img: "https://media.licdn.com/dms/image/v2/D4D22AQH_0nRxpBw-Tg/feedshare-shrink_800/feedshare-shrink_800/0/1708523230655?e=2147483647&v=beta&t=Y27hIF47nvXbaKAmq7co50R9YiaJFbRLr4lLK7AOwhM",
+    description:
+      "As organizations grow, so do their PCI DSS responsibilities and scope ......",
+    url: "article/as-organizations-grow",
+  },{
+    id:13,
+    name:'hybrid operating model',
+    img:'https://media.licdn.com/dms/image/v2/D4D22AQEWav762inF1Q/feedshare-shrink_800/feedshare-shrink_800/0/1707833095101?e=2147483647&v=beta&t=JkM851IWk7oQkD6obTFVVcg2f1a8OuE9l3h_yJokiWU',
+    description:'Are you planing for hybrid operating model for your technology operations with engagement of offshore augmented resources?'
+, url: "article/hybrid-operating-model",
+  }
 ];
 
 export default articleData;
