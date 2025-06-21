@@ -11,7 +11,7 @@ const UnifiedKnowledgeCenterSolution = () => {
       <div className="text-center">
         <img
           style={{ width: "60%", height: "30%", margin: "50px" }}
-          src="https://media.licdn.com/dms/image/v2/D5612AQFopyXU2q5TNw/article-cover_image-shrink_720_1280/B56ZVchIuSGsAM-/0/1741013960934?e=2147483647&v=beta&t=KSvG2cPAEBgzPE5l5o7DeGGdMlDZAJJDFyxREFPqVT4"
+          src="https://media.licdn.com/dms/image/v2/D5612AQGE1-qZclAJLg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1722226160541?e=2147483647&v=beta&t=KKnrVGg806z9stJMcg0OtF97Nj9I5ikP89ty65N04lM"
           alt=""
         />
       </div>

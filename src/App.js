@@ -1,6 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import AISearchAndGenerativeEngineOptimization from "./Components/ArticleComponents/AISearchAndGenerativeEngineOptimization";
 import AsOrganizationsGrow from "./Components/ArticleComponents/AsOrganizationsGrow";
+import AutonomyOfTheEvolvingAI from "./Components/ArticleComponents/AutonomyOfTheEvolvingAI";
 import BurpAI from "./Components/ArticleComponents/BurpAI";
 import ChampionOfInnovation from "./Components/ArticleComponents/ChampionOfInnovation";
 import Ciso from "./Components/ArticleComponents/Ciso";
@@ -19,6 +21,7 @@ import RewireHybridWorkspace from "./Components/ArticleComponents/RewireHybridWo
 import ServiceDeliveryMaturityModel from "./Components/ArticleComponents/ServiceDeliveryMaturityModel";
 import ServiceResilience from "./Components/ArticleComponents/ServiceResilience";
 import SIEM from "./Components/ArticleComponents/SIEM";
+import UnderstandingAIAgents from "./Components/ArticleComponents/UnderstandingAIAgents";
 import UnifiedKnowledgeCenterSolution from "./Components/ArticleComponents/UnifiedKnowledgeCenterSolution";
 import WINA from "./Components/ArticleComponents/WINA";
 import Home from "./Components/Home/Home";
@@ -145,6 +148,19 @@ function App() {
         <Route
           path="article/Fortifying-AI-Doughnut-of-Defense-one-cannot-secure-what-remains-unseen"
           element={<FortifyingAI />}
+        />
+        <Route
+          path="article/Understanding-AI-Agents-Architecting-the-Future-of-Autonomous-Systems"
+          element={<UnderstandingAIAgents />}
+        />
+
+        <Route
+          path="article/Autonomy-of-the-Evolving-AI-Agent-Ecosystem"
+          element={<AutonomyOfTheEvolvingAI />}
+        />
+        <Route
+          path="article/AI-Search-and-Generative-Engine-Optimization-(GEO)-A-Paradigm-Shift-in-Digital-Visibility"
+          element={<AISearchAndGenerativeEngineOptimization />}
         />
         <Route path="/dvantage-point/send-email" element={<SendEmail />} />
       </Routes>

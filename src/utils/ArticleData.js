@@ -160,6 +160,25 @@ const articleData = [
       "As Artificial Intelligence (AI) rapidly integrates into the core of our digital operations, a critical question emerges: how robust are the protective layers surrounding this central intelligence?",
     url: "article/Fortifying-AI-Doughnut-of-Defense-one-cannot-secure-what-remains-unseen",
   },
+  {
+    id: 22,
+    name: "Understanding AI Agents: Architecting the Future of Autonomous Systems",
+    img: "https://media.licdn.com/dms/image/v2/D5612AQGYysMxT_666w/article-cover_image-shrink_720_1280/B56Zdu8ACcGoAQ-/0/1749912915309?e=2147483647&v=beta&t=MBaHny8s10QK_G_UqqRMNrdoduKDvpbYlcxTN7RsYM0",
+    description: `To grasp the essence of an AI agent, it's crucial to first understand what it is not. A simple, one-shot prompt to an AI model—such as asking a Large Language Model (LLM) to "write an essay on topic X from start to finish"—does not constitute an AI agent.`,
+    url: "article/Understanding-AI-Agents-Architecting-the-Future-of-Autonomous-Systems",
+  },
+  {
+    id: 23,
+    name: "Autonomy of the Evolving AI Agent Ecosystem!",
+    img: "https://media.licdn.com/dms/image/v2/D5612AQH-svOhe6h3Mw/article-cover_image-shrink_720_1280/B56ZeSOj6cH8AI-/0/1750504986275?e=2147483647&v=beta&t=JNa4ENYoqLt5LL3y5LDgxcgdYMMlok0qBOdICS2Qnkk",
+    description: `The artificial intelligence paradigm is experiencing a profound shift, moving beyond assistive tools to sophisticated, autonomous agents capable of complex reasoning, proactive action, and seamless integration across diverse workflows.`,
+    url: "article/Autonomy-of-the-Evolving-AI-Agent-Ecosystem",
+  },{
+    id: 24,
+    name: "AI Search and Generative Engine Optimization (GEO): A Paradigm Shift in Digital Visibility",
+    img: "https://media.licdn.com/dms/image/v2/D5612AQGq8RvUQUgNkA/article-cover_image-shrink_720_1280/B56ZeEbVkWGQAQ-/0/1750273455611?e=2147483647&v=beta&t=ejQ3Enc4cTjg0fdUzQxWv0QDhT3cCSNKSx9FBu46ffs",
+    description: `The Evolution of Search: From Keywords to Conversations, contexts and Intents!`,
+    url: "article/AI-Search-and-Generative-Engine-Optimization-(GEO)-A-Paradigm-Shift-in-Digital-Visibility",
+  },
 ];
-
 export default articleData;
