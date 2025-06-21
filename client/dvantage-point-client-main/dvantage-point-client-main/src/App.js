@@ -157,6 +157,4 @@ export default App;
 
 // DVANTAGEPOINT LIMITED
 // MD HAFIZULLAH
-// Flat 6A, House 340, West Pirerbag
-// Mirpur, Dhaka, 1216
 // Bangladesh
