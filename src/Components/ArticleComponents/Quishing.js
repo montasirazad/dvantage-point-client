@@ -4,8 +4,8 @@ const Quishing = () => {
       <div className="text-center">
         <h1 className="text-primary my-4">
           {" "}
-          SIEM at the Helm: Transforming Cybersecurity Through Intelligent
-          Threat Management
+          Quishing- QR version of phishing attack: The Sneaky New Kid on the
+          Block!
         </h1>
       </div>
       <div className="text-center">
@@ -23,11 +23,6 @@ const Quishing = () => {
           className="col-xs-8 col-sm-8 col-lg-8 "
           style={{ textAlign: "justify", textJustify: "inter-word" }}
         >
-          <h4>
-            Quishing- QR version of phishing attack: The Sneaky New Kid on the
-            Block!
-          </h4>
-
           <p>
             QR codes are truly ubiquitous, appearing on menus, advertisements,
             payment terminals, and even in your hotel room. They're incredibly

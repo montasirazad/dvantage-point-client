@@ -11,7 +11,7 @@ const FortifyingAI = () => {
       <div className="text-center">
         <img
           style={{ width: "60%", height: "30%", margin: "50px" }}
-          src="https://media.licdn.com/dms/image/v2/D5612AQFVAj-HfdOcbQ/article-cover_image-shrink_720_1280/B56ZdlbwOcH8AI-/0/1749753467160?e=2147483647&v=beta&t=Jcst_D_Nf4rKiu4JBG2PkICvWISZ1XX_VTAUoioF0T8"
+          src="https://media.licdn.com/dms/image/v2/D5612AQHZw69oP6kmcg/article-cover_image-shrink_720_1280/B56Zdpf54cG0AI-/0/1749821667554?e=2147483647&v=beta&t=4wOktOWG7meMVfcw88fBM-LecJPIrPKD7_k_U5_2PQY"
           alt=""
         />
       </div>
