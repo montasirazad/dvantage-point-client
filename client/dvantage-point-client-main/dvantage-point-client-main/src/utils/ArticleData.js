@@ -88,13 +88,78 @@ const articleData = [
     description:
       "As organizations grow, so do their PCI DSS responsibilities and scope ......",
     url: "article/as-organizations-grow",
-  },{
-    id:13,
-    name:'hybrid operating model',
-    img:'https://media.licdn.com/dms/image/v2/D4D22AQEWav762inF1Q/feedshare-shrink_800/feedshare-shrink_800/0/1707833095101?e=2147483647&v=beta&t=JkM851IWk7oQkD6obTFVVcg2f1a8OuE9l3h_yJokiWU',
-    description:'Are you planing for hybrid operating model for your technology operations with engagement of offshore augmented resources?'
-, url: "article/hybrid-operating-model",
-  }
+  },
+  {
+    id: 13,
+    name: "hybrid operating model",
+    img: "https://media.licdn.com/dms/image/v2/D4D22AQEWav762inF1Q/feedshare-shrink_800/feedshare-shrink_800/0/1707833095101?e=2147483647&v=beta&t=JkM851IWk7oQkD6obTFVVcg2f1a8OuE9l3h_yJokiWU",
+    description:
+      "Are you planing for hybrid operating model for your technology operations with engagement of offshore augmented resources?",
+    url: "article/hybrid-operating-model",
+  },
+  {
+    id: 14,
+    name: "Unified Knowledge Center Solution: A Nucleus in knowledge driven culture!",
+    img: "https://media.licdn.com/dms/image/v2/D5612AQFopyXU2q5TNw/article-cover_image-shrink_720_1280/B56ZVchIuSGsAM-/0/1741013960934?e=2147483647&v=beta&t=KSvG2cPAEBgzPE5l5o7DeGGdMlDZAJJDFyxREFPqVT4",
+    description:
+      "In today’s rapidly evolving business landscape, leveraging knowledge assets is critical for both operational efficiency and employee engagement.",
+    url: "article/unified-Knowledge-center-solution",
+  },
+  {
+    id: 15,
+    name: `Rewire hybrid workspace with "Digital Colleagues"`,
+    img: "https://media.licdn.com/dms/image/v2/D4D12AQGZiDfYe98kdA/article-cover_image-shrink_720_1280/B4DZZtxvOCH4AI-/0/1745598486183?e=2147483647&v=beta&t=U168N0X1Y3QI1Qhz-sxD2ZKEJ5jvJX5lymwiBZ7Mng4",
+    description: `We are entering a new reality where AI can reason and solve problems in remarkable ways, acting as  "Intelligence on tap"`,
+    url: "article/Rewire-hybrid-workspace-with-Digital-Colleagues",
+  },
+  {
+    id: 16,
+    name: `Champion of innovation and the guardian of the Enterprise: A Strategic Guide for CISOs`,
+    img: "https://media.licdn.com/dms/image/v2/D5612AQGwKyCPrsRkuQ/article-cover_image-shrink_720_1280/B56Za0yTRcGUAI-/0/1746789813426?e=2147483647&v=beta&t=meBuvol85ckeOkchFm8ZDMHi7DRC5IVpSYPwhJoAayo",
+    description:
+      "Generative AI (GenAI) is transforming business at a breakneck pace, offering breakthroughs in efficiency and innovation.",
+    url: "article/Champion-of-innovation-and-the-guardian-of-the-Enterprise",
+  },
+  {
+    id: 17,
+    name: "WINA: Making LLMs Smarter, Faster, and Greener",
+    img: "https://media.licdn.com/dms/image/v2/D5612AQEDmCZjZvKYvw/article-cover_image-shrink_720_1280/B56ZdBHgsYHoAU-/0/1749144183918?e=2147483647&v=beta&t=4lFQGrUNtTlOzJdrajtGeWYH17a0P84QHbFVMrrh4Rk",
+    description: `"Unlocking the LLM Revolution: How WINA is Making AI Smarter, Faster, and Greener" discusses the critical need for efficient Large Language Model (LLM) inference and introduces WINA (Weight Informed Neuron Activation) as a significant advancement in this area.`,
+    url: "article/WINA-Making-LLMs-Smarter-Faster-and-Greener",
+  },
+  {
+    id: 18,
+    name: "SIEM at the Helm: Transforming Cybersecurity Through Intelligent Threat Management",
+    img: "https://media.licdn.com/dms/image/v2/D5612AQH7Nocj4JybwA/article-cover_image-shrink_720_1280/B56ZZR7rivGUAI-/0/1745131326686?e=2147483647&v=beta&t=WGOXEV3CfnZ19T9_hyZOdfoG5Syf4axwzNvOY84tGSM",
+
+    description:
+      "Security Information and Event Management (SIEM) solutions have emerged as the cornerstone of modern security operations, providing the critical capability to detect, analyze, and respond to security threats effectively and efficiently",
+    url: "article/SIEM-at-the-Helm",
+  },
+  {
+    id: 19,
+    name: "Quishing- QR version of phishing attack: The Sneaky New Kid on the Block!",
+    img: "https://media.licdn.com/dms/image/v2/D5612AQHSEEm_RzSILQ/article-cover_image-shrink_720_1280/B56ZdaoyCPHEAM-/0/1749572335862?e=2147483647&v=beta&t=BOdD9AC4xG63rK7nxDiCp87Hg8-UNKvZd3Fw7Tuugts",
+    description:
+      "QR codes are truly ubiquitous, appearing on menus, advertisements, payment terminals, and even in your hotel room.",
+    url: "article/Quishing-QR-version-of-phishing-attack-The-Sneaky-New-Kid-on-the-Block",
+  },
+  {
+    id: 20,
+    name: "BurpAI, an AI-Elevated Penetration Testing",
+    img: "https://media.licdn.com/dms/image/v2/D5612AQFVAj-HfdOcbQ/article-cover_image-shrink_720_1280/B56ZdlbwOcH8AI-/0/1749753467160?e=2147483647&v=beta&t=Jcst_D_Nf4rKiu4JBG2PkICvWISZ1XX_VTAUoioF0T8",
+    description:
+      "This article delves into the practical application of AI in web application penetration testing, specifically focusing on the new Burp AI features integrated within Burp Suite Professional.",
+    url: "article/BurpAI-an-AI-Elevated-Penetration-Testing",
+  },
+  {
+    id: 21,
+    name: `Fortifying AI- 'Doughnut of Defense': one cannot secure what remains unseen`,
+    img: "https://media.licdn.com/dms/image/v2/D5612AQHZw69oP6kmcg/article-cover_image-shrink_720_1280/B56Zdpf54cG0AI-/0/1749821667554?e=2147483647&v=beta&t=4wOktOWG7meMVfcw88fBM-LecJPIrPKD7_k_U5_2PQY",
+    description:
+      "As Artificial Intelligence (AI) rapidly integrates into the core of our digital operations, a critical question emerges: how robust are the protective layers surrounding this central intelligence?",
+    url: "article/Fortifying-AI-Doughnut-of-Defense-one-cannot-secure-what-remains-unseen",
+  },
 ];
 
 export default articleData;

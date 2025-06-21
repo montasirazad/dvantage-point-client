@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./Service.css";
 
@@ -20,12 +19,7 @@ const Service = (props) => {
           <h5 className="card-title">{name}</h5>
           <p className="card-text">{description}</p>
 
-          <Link to={`/${url}`}>
-            {/* <Button variant="dark" style={{ position: 'absolute', bottom: '10px' }}>
-                            Learn More bg-primary text-white
-                            <FontAwesomeIcon className='mx-1' icon={faArrowAltCircleRight} />
-                        </Button> */}
-
+          <Link to={`/${url}`} target="_top">
             <button
               className="button-85"
               style={{ position: "absolute", bottom: "10px" }}

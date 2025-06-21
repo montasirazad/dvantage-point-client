@@ -1,10 +1,12 @@
-import { useEffect } from "react";
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import AsOrganizationsGrow from "./Components/ArticleComponents/AsOrganizationsGrow";
+import BurpAI from "./Components/ArticleComponents/BurpAI";
+import ChampionOfInnovation from "./Components/ArticleComponents/ChampionOfInnovation";
 import Ciso from "./Components/ArticleComponents/Ciso";
 import ComposableBanking from "./Components/ArticleComponents/ComposableBanking";
 import CorePrincipleForGmt from "./Components/ArticleComponents/CorePrincipleForGmt";
+import FortifyingAI from "./Components/ArticleComponents/FortifyingAI";
 import HybridOperatingModel from "./Components/ArticleComponents/HybridOperatingModel";
 import KeyAspectsOfInformation from "./Components/ArticleComponents/KeyAspectsOfInformation";
 import LeveragingAdvancedAutomation from "./Components/ArticleComponents/LeveragingAdvancedAutomation";
@@ -12,8 +14,13 @@ import LeveragingBlockchain from "./Components/ArticleComponents/LeveragingBlock
 import NavigatingTheGotoMarket from "./Components/ArticleComponents/NavigatingTheGotoMarket";
 import NextGenerationData from "./Components/ArticleComponents/NextGenerationData";
 import OrchestratedItSystem from "./Components/ArticleComponents/OrchestratedItSystem";
+import Quishing from "./Components/ArticleComponents/Quishing";
+import RewireHybridWorkspace from "./Components/ArticleComponents/RewireHybridWorkspace";
 import ServiceDeliveryMaturityModel from "./Components/ArticleComponents/ServiceDeliveryMaturityModel";
 import ServiceResilience from "./Components/ArticleComponents/ServiceResilience";
+import SIEM from "./Components/ArticleComponents/SIEM";
+import UnifiedKnowledgeCenterSolution from "./Components/ArticleComponents/UnifiedKnowledgeCenterSolution";
+import WINA from "./Components/ArticleComponents/WINA";
 import Home from "./Components/Home/Home";
 import Asg from "./Components/LearnMore/Asg/Asg";
 import AugmentedCapacityPlanning from "./Components/LearnMore/AugmentedCapacityPlanning/AugmentedCapacityPlanning";
@@ -32,14 +39,6 @@ import SendEmail from "./Components/SendEmail/SendEmail";
 import Header from "./Components/Shared/Header/Header";
 
 function App() {
-  const { pathname } = useLocation();
-
-  // Automatically scrolls to top whenever pathname changes
-  useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-    console.log(pathname);
-  }, [pathname]);
-
   return (
     <div>
       <Header />
@@ -117,9 +116,35 @@ function App() {
           path="article/hybrid-operating-model"
           element={<HybridOperatingModel />}
         />
+        <Route path="article/ciso" element={<Ciso />} />
         <Route
-          path="article/ciso"
-          element={<Ciso />}
+          path="article/unified-Knowledge-center-solution"
+          element={<UnifiedKnowledgeCenterSolution />}
+        />
+        <Route
+          path="article/Rewire-hybrid-workspace-with-Digital-Colleagues"
+          element={<RewireHybridWorkspace />}
+        />
+        <Route
+          path="article/Champion-of-innovation-and-the-guardian-of-the-Enterprise"
+          element={<ChampionOfInnovation />}
+        />
+        <Route
+          path="article/WINA-Making-LLMs-Smarter-Faster-and-Greener"
+          element={<WINA />}
+        />
+        <Route path="article/SIEM-at-the-Helm" element={<SIEM />} />
+        <Route
+          path="article/Quishing-QR-version-of-phishing-attack-The-Sneaky-New-Kid-on-the-Block"
+          element={<Quishing />}
+        />
+        <Route
+          path="article/BurpAI-an-AI-Elevated-Penetration-Testing"
+          element={<BurpAI />}
+        />
+        <Route
+          path="article/Fortifying-AI-Doughnut-of-Defense-one-cannot-secure-what-remains-unseen"
+          element={<FortifyingAI />}
         />
         <Route path="/dvantage-point/send-email" element={<SendEmail />} />
       </Routes>
@@ -129,7 +154,6 @@ function App() {
 }
 
 export default App;
-
 
 // DVANTAGEPOINT LIMITED
 // MD HAFIZULLAH

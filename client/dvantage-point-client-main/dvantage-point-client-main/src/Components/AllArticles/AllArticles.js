@@ -1,4 +1,3 @@
-import React from "react";
 import articleData from "../../utils/ArticleData";
 import Service from "../Service/Service";
 import "./AllArticles.css";
