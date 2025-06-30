@@ -8,11 +8,15 @@ import ChampionOfInnovation from "./Components/ArticleComponents/ChampionOfInnov
 import Ciso from "./Components/ArticleComponents/Ciso";
 import ComposableBanking from "./Components/ArticleComponents/ComposableBanking";
 import CorePrincipleForGmt from "./Components/ArticleComponents/CorePrincipleForGmt";
+import DeepContributionOfDsIn9s from "./Components/ArticleComponents/DeepContributionOfDsIn9s";
 import FortifyingAI from "./Components/ArticleComponents/FortifyingAI";
+import HarmonyOSNEXT from "./Components/ArticleComponents/HarmonyOSNEXT";
 import HybridOperatingModel from "./Components/ArticleComponents/HybridOperatingModel";
 import KeyAspectsOfInformation from "./Components/ArticleComponents/KeyAspectsOfInformation";
 import LeveragingAdvancedAutomation from "./Components/ArticleComponents/LeveragingAdvancedAutomation";
 import LeveragingBlockchain from "./Components/ArticleComponents/LeveragingBlockchain";
+import LLMsAsOperatingSystems from "./Components/ArticleComponents/LLMsAsOperatingSystems";
+import MarvelThatAugmentsHuman from "./Components/ArticleComponents/MarvelThatAugmentsHuman";
 import NavigatingTheGotoMarket from "./Components/ArticleComponents/NavigatingTheGotoMarket";
 import NextGenerationData from "./Components/ArticleComponents/NextGenerationData";
 import OrchestratedItSystem from "./Components/ArticleComponents/OrchestratedItSystem";
@@ -21,6 +25,8 @@ import RewireHybridWorkspace from "./Components/ArticleComponents/RewireHybridWo
 import ServiceDeliveryMaturityModel from "./Components/ArticleComponents/ServiceDeliveryMaturityModel";
 import ServiceResilience from "./Components/ArticleComponents/ServiceResilience";
 import SIEM from "./Components/ArticleComponents/SIEM";
+import Software3 from "./Components/ArticleComponents/Software3";
+import TheAgriculturalRevolution from "./Components/ArticleComponents/TheAgriculturalRevolution";
 import UnderstandingAIAgents from "./Components/ArticleComponents/UnderstandingAIAgents";
 import UnifiedKnowledgeCenterSolution from "./Components/ArticleComponents/UnifiedKnowledgeCenterSolution";
 import WINA from "./Components/ArticleComponents/WINA";
@@ -161,6 +167,30 @@ function App() {
         <Route
           path="article/AI-Search-and-Generative-Engine-Optimization-(GEO)-A-Paradigm-Shift-in-Digital-Visibility"
           element={<AISearchAndGenerativeEngineOptimization />}
+        />
+        <Route
+          path="article/LLMs-as-Operating-Systems-The-Intelligent-Future-is-Here"
+          element={<LLMsAsOperatingSystems />}
+        />
+        <Route
+          path="article/Software-English-is-the-new-programming-Language"
+          element={<Software3 />}
+        />
+        <Route
+          path="article/Deep-Contribution-of-Ds-in-9s-Uptime"
+          element={<DeepContributionOfDsIn9s />}
+        />
+        <Route
+          path="article/Marvel-that-augments-human-potentials-and-creates-new-opportunities"
+          element={<MarvelThatAugmentsHuman />}
+        />
+        <Route
+          path="article/HarmonyOS-NEXT-Built-for-Internet-of-Everything"
+          element={<HarmonyOSNEXT />}
+        />
+        <Route
+          path="article/The-Agricultural-Revolution-Integration-with-Technologies-and-A-Connected-Future"
+          element={<TheAgriculturalRevolution />}
         />
         <Route path="/dvantage-point/send-email" element={<SendEmail />} />
       </Routes>
