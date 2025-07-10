@@ -202,22 +202,16 @@ const articleData = [
     description: `Uptime or Service continuity is the core target or KPI for any enterprise IT operation in running business critical functions. And depending on time criticality, RTO and RPO are two three-letter acronyms which objectively drives the journey from design to implementation to achieve service continuity during a micro or macro disaster.`,
     url: "article/Deep-Contribution-of-Ds-in-9s-Uptime",
   },
+
   {
     id: 28,
-    name: `Deep Contribution of Ds in 9s (Uptime)`,
-    img: "https://media.licdn.com/dms/image/v2/D4D12AQG9QHC2w5te-w/article-cover_image-shrink_720_1280/B4DZerVa7.HkAI-/0/1750926218570?e=2147483647&v=beta&t=aKkQ6p6cIn5mXyFz0hObO-B8sQcPVlDqBGoNdMEml80",
-    description: `Uptime or Service continuity is the core target or KPI for any enterprise IT operation in running business critical functions. And depending on time criticality, RTO and RPO are two three-letter acronyms which objectively drives the journey from design to implementation to achieve service continuity during a micro or macro disaster.`,
-    url: "article/Deep-Contribution-of-Ds-in-9s-Uptime",
-  },
-  {
-    id: 29,
     name: `Marvel that augments human potentials and creates new opportunities.`,
     img: "https://media.licdn.com/dms/image/v2/D5612AQFhi--RBxJo3A/article-cover_image-shrink_720_1280/B56Zes6phqGoAM-/0/1750952746794?e=2147483647&v=beta&t=Tf-05GxwsA50gD48S6SyTAuXiTthggGsKDxi8c9bXGc",
     description: `The narrative surrounding AI and employment often evokes fear of job displacement. However, a more precise understanding reveals that it's not AI itself, but rather individuals proficient in AI, who will gain a significant competitive edge.`,
     url: "article/Marvel-that-augments-human-potentials-and-creates-new-opportunities",
   },
   {
-    id: 30,
+    id: 29,
     name: `HarmonyOS NEXT: Built for "Internet of Everything."`,
     img: "https://media.licdn.com/dms/image/v2/D5612AQFYJHb6mx1gWg/article-cover_image-shrink_720_1280/B56ZeuEgaHH8AI-/0/1750972111550?e=2147483647&v=beta&t=VuOV3E5dP0E8rOcHL2jxsMey0v0sK6ND6oaSOmud7kQ",
     description: `
@@ -225,7 +219,7 @@ The global technology landscape is witnessing a tectonic shift, and its epicente
     url: "article/HarmonyOS-NEXT-Built-for-Internet-of-Everything",
   },
   {
-    id: 31,
+    id: 30,
     name: `The Agricultural Revolution: Integration with Technologies and A Connected Future`,
     img: "https://media.licdn.com/dms/image/v2/D5612AQE1pGW2s__87w/article-cover_image-shrink_720_1280/B56ZexPn6fGQAI-/0/1751025358915?e=2147483647&v=beta&t=vK8miuJykPo6n8rvSwZp6xkbNNZ1yZuDRLSQSEUZcMw",
     description: `The agricultural landscape is experiencing an unprecedented transformation, fueled by a multi-trillion-dollar capital inflow and the re-engagement of millions of young people.`,
