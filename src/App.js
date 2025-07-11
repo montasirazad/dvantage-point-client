@@ -3,6 +3,7 @@ import "./App.css";
 import AISearchAndGenerativeEngineOptimization from "./Components/ArticleComponents/AISearchAndGenerativeEngineOptimization";
 import AsOrganizationsGrow from "./Components/ArticleComponents/AsOrganizationsGrow";
 import AutonomyOfTheEvolvingAI from "./Components/ArticleComponents/AutonomyOfTheEvolvingAI";
+import AwsAPivotalEnabler from "./Components/ArticleComponents/AwsAPivotalEnabler";
 import BurpAI from "./Components/ArticleComponents/BurpAI";
 import ChampionOfInnovation from "./Components/ArticleComponents/ChampionOfInnovation";
 import Ciso from "./Components/ArticleComponents/Ciso";
@@ -10,6 +11,8 @@ import ComposableBanking from "./Components/ArticleComponents/ComposableBanking"
 import CorePrincipleForGmt from "./Components/ArticleComponents/CorePrincipleForGmt";
 import DeepContributionOfDsIn9s from "./Components/ArticleComponents/DeepContributionOfDsIn9s";
 import FortifyingAI from "./Components/ArticleComponents/FortifyingAI";
+import FusionEnergyTheHolyGrail from "./Components/ArticleComponents/FusionEnergyTheHolyGrail";
+import FutureReadyTalents from "./Components/ArticleComponents/FutureReadyTalents";
 import HarmonyOSNEXT from "./Components/ArticleComponents/HarmonyOSNEXT";
 import HybridOperatingModel from "./Components/ArticleComponents/HybridOperatingModel";
 import KeyAspectsOfInformation from "./Components/ArticleComponents/KeyAspectsOfInformation";
@@ -17,6 +20,7 @@ import LeveragingAdvancedAutomation from "./Components/ArticleComponents/Leverag
 import LeveragingBlockchain from "./Components/ArticleComponents/LeveragingBlockchain";
 import LLMsAsOperatingSystems from "./Components/ArticleComponents/LLMsAsOperatingSystems";
 import MarvelThatAugmentsHuman from "./Components/ArticleComponents/MarvelThatAugmentsHuman";
+import MedicineSoftware from "./Components/ArticleComponents/MedicineSoftware";
 import NavigatingTheGotoMarket from "./Components/ArticleComponents/NavigatingTheGotoMarket";
 import NextGenerationData from "./Components/ArticleComponents/NextGenerationData";
 import OrchestratedItSystem from "./Components/ArticleComponents/OrchestratedItSystem";
@@ -191,6 +195,22 @@ function App() {
         <Route
           path="article/The-Agricultural-Revolution-Integration-with-Technologies-and-A-Connected-Future"
           element={<TheAgriculturalRevolution />}
+        />
+        <Route
+          path="article/AWS-A-pivotal-enabler-in-Telecom-Landscape"
+          element={<AwsAPivotalEnabler />}
+        />
+        <Route
+          path="article/Fusion-Energy-The-Holy-Grail-of-Clean-Power-for-AI"
+          element={<FusionEnergyTheHolyGrail />}
+        />
+        <Route
+          path="article/Medicine--Software-A-Digital-Therapeutics-and-cognitive-impairment"
+          element={<MedicineSoftware />}
+        />
+        <Route
+          path="article/Future-Ready-Talents-and-Intelligent-Tutoring"
+          element={<FutureReadyTalents />}
         />
         <Route path="/dvantage-point/send-email" element={<SendEmail />} />
       </Routes>

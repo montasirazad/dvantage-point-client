@@ -1,5 +1,86 @@
 const articleData = [
   {
+    id: 34,
+    name: "Future-Ready Talents and Intelligent Tutoring.",
+    img: "https://media.licdn.com/dms/image/v2/D5612AQHfAgcbrMcAPA/article-cover_image-shrink_720_1280/B56Zf0S8FcGUAU-/0/1752150304031?e=2147483647&v=beta&t=hTq9P3_5DT5hIpGLLyt9y-C4oXbeBWoU9p6hnhMW5tE",
+    description: `From the defeat of a world champion Go player by AlphaGo in 2016 to the ubiquitous presence of GPT Tools, the trajectory of AI's influence is undeniable. This transformation is not merely a technological shift; it is a fundamental catalyst for rethinking education, redefining human capabilities, and accelerating the curve of innovation.`,
+    url: "article/Future-Ready-Talents-and-Intelligent-Tutoring",
+  },
+  {
+    id: 33,
+    name: "Medicine + Software: A Digital Therapeutics and cognitive impairment.",
+    img: "https://media.licdn.com/dms/image/v2/D5612AQHk4AuseAOp1w/article-cover_image-shrink_720_1280/B56Ze20q0gHQAQ-/0/1751118955723?e=2147483647&v=beta&t=Qwt--Jj7Yemv_4rVcYknZp8eckGNe6m1rBasMYTXhSc",
+    description: `The healthcare landscape is undergoing a profound transformation, driven by the emergence of digital therapeutics (DTx).`,
+    url: "article/Medicine--Software-A-Digital-Therapeutics-and-cognitive-impairment",
+  },
+  {
+    id: 32,
+    name: "Fusion Energy: The Holy Grail of Clean Power for AI",
+    img: "https://media.licdn.com/dms/image/v2/D5612AQG7WzkkPbWCYQ/article-cover_image-shrink_720_1280/B56Ze6qUkEH8AI-/0/1751183349415?e=2147483647&v=beta&t=J3pcn7GsYkrd-QIjbz0vM4nGdNSONK4_-jdzd2gcEv0",
+    description: `The exponential growth of Artificial Intelligence (AI) is ushering in a new era of innovation, but it comes with an insatiable appetite for power.`,
+    url: "article/Fusion-Energy-The-Holy-Grail-of-Clean-Power-for-AI",
+  },
+  {
+    id: 30,
+    name: `The Agricultural Revolution: Integration with Technologies and A Connected Future`,
+    img: "https://media.licdn.com/dms/image/v2/D5612AQE1pGW2s__87w/article-cover_image-shrink_720_1280/B56ZexPn6fGQAI-/0/1751025358915?e=2147483647&v=beta&t=vK8miuJykPo6n8rvSwZp6xkbNNZ1yZuDRLSQSEUZcMw",
+    description: `The agricultural landscape is experiencing an unprecedented transformation, fueled by a multi-trillion-dollar capital inflow and the re-engagement of millions of young people.`,
+    url: "article/The-Agricultural-Revolution-Integration-with-Technologies-and-A-Connected-Future",
+  },
+  {
+    id: 29,
+    name: `HarmonyOS NEXT: Built for "Internet of Everything."`,
+    img: "https://media.licdn.com/dms/image/v2/D5612AQFYJHb6mx1gWg/article-cover_image-shrink_720_1280/B56ZeuEgaHH8AI-/0/1750972111550?e=2147483647&v=beta&t=VuOV3E5dP0E8rOcHL2jxsMey0v0sK6ND6oaSOmud7kQ",
+    description: `
+The global technology landscape is witnessing a tectonic shift, and its epicenter is Huawei's Developer Conference (HDC 2025). The launch of HarmonyOS NEXT is not a mere version update; it is a profound declaration of technological sovereignty and the birth of a true third global operating system.`,
+    url: "article/HarmonyOS-NEXT-Built-for-Internet-of-Everything",
+  },
+  {
+    id: 24,
+    name: "AI Search and Generative Engine Optimization (GEO): A Paradigm Shift in Digital Visibility",
+    img: "https://media.licdn.com/dms/image/v2/D5612AQGq8RvUQUgNkA/article-cover_image-shrink_720_1280/B56ZeEbVkWGQAQ-/0/1750273455611?e=2147483647&v=beta&t=ejQ3Enc4cTjg0fdUzQxWv0QDhT3cCSNKSx9FBu46ffs",
+    description: `The Evolution of Search: From Keywords to Conversations, contexts and Intents!`,
+    url: "article/AI-Search-and-Generative-Engine-Optimization-(GEO)-A-Paradigm-Shift-in-Digital-Visibility",
+  },
+  {
+    id: 25,
+    name: "LLMs as Operating Systems: The Intelligent Future is Here",
+    img: "https://media.licdn.com/dms/image/v2/D5612AQHodWyhsWcPFQ/article-cover_image-shrink_720_1280/B56ZeeTLf6HoAM-/0/1750707524363?e=2147483647&v=beta&t=kIWeXSl-SsZZ1q7c5mBnxEinvUiq383zsK6im35Wh0k",
+    description: `LLMs as Operating Systems or AIOS represent a fundamental shift in computing, in an era where software is inherently intelligent.`,
+    url: "article/LLMs-as-Operating-Systems-The-Intelligent-Future-is-Here",
+  },
+  {
+    id: 26,
+    name: `Software 3.0: "English" is the new programming Language!`,
+    img: "https://media.licdn.com/dms/image/v2/D5612AQEyqvXZyL4-Uw/article-cover_image-shrink_720_1280/B56ZeofUufG0AI-/0/1750878477819?e=2147483647&v=beta&t=npfJE-EErgRw7T0uphTWpxygBAJRTsVJLaZspHZ06WE",
+    description: `The world of software is experiencing its biggest shake-up in decades. We're moving into a new age powered by Artificial Intelligence, and it's changing everything. The most exciting part? You don't need to be a traditional coder to build with it. The new programming language is simply English.`,
+    url: "article/Software-English-is-the-new-programming-Language",
+  },
+  {
+    id: 27,
+    name: `Deep Contribution of Ds in 9s (Uptime)`,
+    img: "https://media.licdn.com/dms/image/v2/D4D12AQG9QHC2w5te-w/article-cover_image-shrink_720_1280/B4DZerVa7.HkAI-/0/1750926218570?e=2147483647&v=beta&t=aKkQ6p6cIn5mXyFz0hObO-B8sQcPVlDqBGoNdMEml80",
+    description: `Uptime or Service continuity is the core target or KPI for any enterprise IT operation in running business critical functions. And depending on time criticality, RTO and RPO are two three-letter acronyms which objectively drives the journey from design to implementation to achieve service continuity during a micro or macro disaster.`,
+    url: "article/Deep-Contribution-of-Ds-in-9s-Uptime",
+  },
+
+  {
+    id: 28,
+    name: `Marvel that augments human potentials and creates new opportunities.`,
+    img: "https://media.licdn.com/dms/image/v2/D5612AQFhi--RBxJo3A/article-cover_image-shrink_720_1280/B56Zes6phqGoAM-/0/1750952746794?e=2147483647&v=beta&t=Tf-05GxwsA50gD48S6SyTAuXiTthggGsKDxi8c9bXGc",
+    description: `The narrative surrounding AI and employment often evokes fear of job displacement. However, a more precise understanding reveals that it's not AI itself, but rather individuals proficient in AI, who will gain a significant competitive edge.`,
+    url: "article/Marvel-that-augments-human-potentials-and-creates-new-opportunities",
+  },
+
+  {
+    id: 31,
+    name: "AWS: A pivotal enabler in Telecom Landscape.",
+    img: "https://media.licdn.com/dms/image/v2/D5612AQHjdJxCjxRuhA/article-cover_image-shrink_720_1280/B56Ze4DGnWHoAI-/0/1751139520691?e=2147483647&v=beta&t=hrodzYYr2BLd5HxLwxYaDpnI25Ghcr_a37jkpBKUgfE",
+    description: `The collaboration between AWS and leading telecom operators and partners highlights a concerted effort to drive innovation, improve efficiency, and unlock new revenue streams. This transformation is not merely about migrating workloads to the cloud; it's about fundamentally rethinking how telecom services are designed, delivered, and consumed.`,
+    url: "article/AWS-A-pivotal-enabler-in-Telecom-Landscape",
+  },
+
+  {
     id: 1,
     name: "Core Principles for GTM Strategy and Tech Partner selection",
     img: "https://media.licdn.com/dms/image/v2/D5612AQG146V4SGRxtA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1732267377102?e=2147483647&v=beta&t=5c2_7_BXVteGsL43gWWqeB1527_SMu1L34pk5bWRMo0",
@@ -173,57 +254,6 @@ const articleData = [
     img: "https://media.licdn.com/dms/image/v2/D5612AQH-svOhe6h3Mw/article-cover_image-shrink_720_1280/B56ZeSOj6cH8AI-/0/1750504986275?e=2147483647&v=beta&t=JNa4ENYoqLt5LL3y5LDgxcgdYMMlok0qBOdICS2Qnkk",
     description: `The artificial intelligence paradigm is experiencing a profound shift, moving beyond assistive tools to sophisticated, autonomous agents capable of complex reasoning, proactive action, and seamless integration across diverse workflows.`,
     url: "article/Autonomy-of-the-Evolving-AI-Agent-Ecosystem",
-  },
-  {
-    id: 24,
-    name: "AI Search and Generative Engine Optimization (GEO): A Paradigm Shift in Digital Visibility",
-    img: "https://media.licdn.com/dms/image/v2/D5612AQGq8RvUQUgNkA/article-cover_image-shrink_720_1280/B56ZeEbVkWGQAQ-/0/1750273455611?e=2147483647&v=beta&t=ejQ3Enc4cTjg0fdUzQxWv0QDhT3cCSNKSx9FBu46ffs",
-    description: `The Evolution of Search: From Keywords to Conversations, contexts and Intents!`,
-    url: "article/AI-Search-and-Generative-Engine-Optimization-(GEO)-A-Paradigm-Shift-in-Digital-Visibility",
-  },
-  {
-    id: 25,
-    name: "LLMs as Operating Systems: The Intelligent Future is Here",
-    img: "https://media.licdn.com/dms/image/v2/D5612AQHodWyhsWcPFQ/article-cover_image-shrink_720_1280/B56ZeeTLf6HoAM-/0/1750707524363?e=2147483647&v=beta&t=kIWeXSl-SsZZ1q7c5mBnxEinvUiq383zsK6im35Wh0k",
-    description: `LLMs as Operating Systems or AIOS represent a fundamental shift in computing, in an era where software is inherently intelligent.`,
-    url: "article/LLMs-as-Operating-Systems-The-Intelligent-Future-is-Here",
-  },
-  {
-    id: 26,
-    name: `Software 3.0: "English" is the new programming Language!`,
-    img: "https://media.licdn.com/dms/image/v2/D5612AQEyqvXZyL4-Uw/article-cover_image-shrink_720_1280/B56ZeofUufG0AI-/0/1750878477819?e=2147483647&v=beta&t=npfJE-EErgRw7T0uphTWpxygBAJRTsVJLaZspHZ06WE",
-    description: `The world of software is experiencing its biggest shake-up in decades. We're moving into a new age powered by Artificial Intelligence, and it's changing everything. The most exciting part? You don't need to be a traditional coder to build with it. The new programming language is simply English.`,
-    url: "article/Software-English-is-the-new-programming-Language",
-  },
-  {
-    id: 27,
-    name: `Deep Contribution of Ds in 9s (Uptime)`,
-    img: "https://media.licdn.com/dms/image/v2/D4D12AQG9QHC2w5te-w/article-cover_image-shrink_720_1280/B4DZerVa7.HkAI-/0/1750926218570?e=2147483647&v=beta&t=aKkQ6p6cIn5mXyFz0hObO-B8sQcPVlDqBGoNdMEml80",
-    description: `Uptime or Service continuity is the core target or KPI for any enterprise IT operation in running business critical functions. And depending on time criticality, RTO and RPO are two three-letter acronyms which objectively drives the journey from design to implementation to achieve service continuity during a micro or macro disaster.`,
-    url: "article/Deep-Contribution-of-Ds-in-9s-Uptime",
-  },
-
-  {
-    id: 28,
-    name: `Marvel that augments human potentials and creates new opportunities.`,
-    img: "https://media.licdn.com/dms/image/v2/D5612AQFhi--RBxJo3A/article-cover_image-shrink_720_1280/B56Zes6phqGoAM-/0/1750952746794?e=2147483647&v=beta&t=Tf-05GxwsA50gD48S6SyTAuXiTthggGsKDxi8c9bXGc",
-    description: `The narrative surrounding AI and employment often evokes fear of job displacement. However, a more precise understanding reveals that it's not AI itself, but rather individuals proficient in AI, who will gain a significant competitive edge.`,
-    url: "article/Marvel-that-augments-human-potentials-and-creates-new-opportunities",
-  },
-  {
-    id: 29,
-    name: `HarmonyOS NEXT: Built for "Internet of Everything."`,
-    img: "https://media.licdn.com/dms/image/v2/D5612AQFYJHb6mx1gWg/article-cover_image-shrink_720_1280/B56ZeuEgaHH8AI-/0/1750972111550?e=2147483647&v=beta&t=VuOV3E5dP0E8rOcHL2jxsMey0v0sK6ND6oaSOmud7kQ",
-    description: `
-The global technology landscape is witnessing a tectonic shift, and its epicenter is Huawei's Developer Conference (HDC 2025). The launch of HarmonyOS NEXT is not a mere version update; it is a profound declaration of technological sovereignty and the birth of a true third global operating system.`,
-    url: "article/HarmonyOS-NEXT-Built-for-Internet-of-Everything",
-  },
-  {
-    id: 30,
-    name: `The Agricultural Revolution: Integration with Technologies and A Connected Future`,
-    img: "https://media.licdn.com/dms/image/v2/D5612AQE1pGW2s__87w/article-cover_image-shrink_720_1280/B56ZexPn6fGQAI-/0/1751025358915?e=2147483647&v=beta&t=vK8miuJykPo6n8rvSwZp6xkbNNZ1yZuDRLSQSEUZcMw",
-    description: `The agricultural landscape is experiencing an unprecedented transformation, fueled by a multi-trillion-dollar capital inflow and the re-engagement of millions of young people.`,
-    url: "article/The-Agricultural-Revolution-Integration-with-Technologies-and-A-Connected-Future",
   },
 ];
 export default articleData;
